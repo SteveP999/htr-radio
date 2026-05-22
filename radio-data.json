@@ -1013,7 +1013,89 @@
       "glow": "rgba(255,110,199,0.4)",
       "art": "images/stations/neon-nights.png",
       "type": "genre",
-      "tracks": []
+      "tracks": [
+        {
+          "id": "twonights",
+          "title": "Two Nights",
+          "artist": "PULSE7",
+          "album": "Endless Echo",
+          "cover": "https://raw.githubusercontent.com/SteveP999/pulse7/main/images/covers/pulse7-two-nights-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/2wioc1edj01haev6ifjkl/Two-Nights-PULSE7.mp3?rlkey=dwogp86reax5amxrh30bphoay&raw=1",
+          "artistId": "pulse7"
+        },
+        {
+          "id": "sin_regresar",
+          "title": "Sin Regresar",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-sin-regresar-no-going-back-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/4dqf8e3lbstvxzvjn5wt9/Sin-Regresar-No-Going-Back-Mastered-MP3-Re-do.mp3?rlkey=j5923sohwcu4dvbtgsdxj4w82&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "no_rules_tonight",
+          "title": "No Rules Tonight",
+          "artist": "Night Shift",
+          "album": "No Rules Tonight",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/images/covers/night-shift-no-rules-tonight-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/y095y6udugo5czzvwjk9a/night-shift-no-rules-tonight-mp3.mp3?rlkey=jf20t7501lnj4e3ywn1do39ko&raw=1",
+          "artistId": "night-shift"
+        },
+        {
+          "id": "no_control",
+          "title": "No Control",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-no-control-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xl6id8cftbsvrqpsueehx/No-Control-Mastered-MP3.mp3?rlkey=4vxmg9u10jckquwf5xkloccq0&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "housefire",
+          "title": "Housefire",
+          "artist": "Night Shift",
+          "album": "No Rules Tonight",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/images/covers/night-shift-housefire-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/begi3v87qfg2qdotlfw9c/night-shift-housefire-mp3.mp3?rlkey=u9p4rmbuzqcmtfy3moa821co3&raw=1",
+          "artistId": "night-shift"
+        },
+        {
+          "id": "turn_me_up",
+          "title": "Turn Me Up",
+          "artist": "Night Shift",
+          "album": "No Rules Tonight",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/images/covers/night-shift-turn-me-up-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/ncplflnsdo9cp4o5ldgn3/night-shift-turn-me-up-mp3.mp3?rlkey=1w1zljwrr2y901ti1unhppdnw&raw=1",
+          "artistId": "night-shift"
+        },
+        {
+          "id": "wedontmiss",
+          "title": "We Don't Miss",
+          "artist": "PULSE7",
+          "album": "Endless Echo",
+          "cover": "https://raw.githubusercontent.com/SteveP999/pulse7/main/images/covers/pulse7-we-dont-miss-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/ebabtss62r3ykf9p2f7s2/We-Don-t-Miss-Mastered-MP3.mp3?rlkey=b0vf9u40fw7guqel1c1ztu460&raw=1",
+          "artistId": "pulse7"
+        },
+        {
+          "id": "midnight_line",
+          "title": "Midnight Line",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-midnight-line-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/tqb3ft2xifve6ovysxuaw/Midight-Line-Mastered-MP3.mp3?rlkey=2z4vel6o30i858b9akegrfd35&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "no_te_vas",
+          "title": "No Te Vas",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-no-te-vas-you-dont-leave-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/1etgax05sxjqo2m55h78v/No-Te-Vas-You-Don-t-Leave-Mastered-MP3.mp3?rlkey=0e3ue4n3vhpl9uppv3nzh8v33&raw=1",
+          "artistId": "rio-valencia"
+        }
+      ]
     },
     {
       "id": "horizon",
@@ -1274,7 +1356,116 @@
       "glow": "rgba(212,168,80,0.4)",
       "art": "images/stations/retro-gold.png",
       "type": "genre",
-      "tracks": []
+      "tracks": [
+        {
+          "id": "brightons-yesterday-s-girl",
+          "title": "Yesterday's Girl",
+          "artist": "Brightons",
+          "album": "The Last Good Summer",
+          "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-yesterdays-girl-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/q5y6ly4jo82f5f0a6wmpx/brightons-yesterdays-girl-mp3.mp3?rlkey=4zf0wqtnhfxass2xr1mcrjlnx&raw=1",
+          "artistId": "brightons"
+        },
+        {
+          "id": "just_watch_me_walk_away",
+          "title": "Just Watch Me Walk Away",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-just-watch-me-walk-away-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/gt5fe1l7mrp49u5jszvbi/vincent-cole-just-watch-me-walk-away-mp3-v4.mp3?rlkey=zooi7gl31kvkj0g3qts950ouw&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "last_call_for_beautiful",
+          "title": "Last Call for Beautiful",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-last-call-for-beautiful-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/obev4v5cr4av6isho61k2/vincent-cole-last-call-for-beautiful-mp3.wav?rlkey=c67exv0ec4y1ska8eew8fagn3&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "brightons-nicole-in-the-rain",
+          "title": "Nicole in the Rain",
+          "artist": "Brightons",
+          "album": "The Last Good Summer",
+          "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-nicole-in-the-rain-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/t9suftfr0k83z2punwruh/brightons-nicole-in-the-rain-mp3-v1.mp3?rlkey=zb7lv17xgx1a4t3nf0d03aic3&raw=1",
+          "artistId": "brightons"
+        },
+        {
+          "id": "if_tonight_would_never_end",
+          "title": "If Tonight Would Never End",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-if-tonight-would-never-end-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/24kj8kf367r8q0xgeji62/vincent-cole-if-tonight-would-never-end-mp3.mp3?rlkey=hhbv46uxi693qxiwdhb7bhxjz&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "slow_on_my_lips",
+          "title": "Slow on My Lips",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-slow-on-my-lips-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/lq899f1r95gdgqlhpbdq6/vincent-cole-slow-on-my-lips-mp3-v1.mp3?rlkey=ek8p2mx0x1w3ayxqkie0bix9c&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "montana_skies",
+          "title": "Montana Skies",
+          "artist": "Taylor Martin",
+          "album": "Northbound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Taylor-Martin/main/images/covers/taylor-martin-montana-skies-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/umy4fkkkabucsufshifry/Sky-v10.mp3?rlkey=oal277gilvw2mkava6sm7xy07&raw=1",
+          "artistId": "taylor-martin"
+        },
+        {
+          "id": "the_last_song",
+          "title": "The Last Song",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-the-last-song-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/mzrz0htmnr3rpkof2sadg/vincent-cole-the-last-song-mp3-v1.mp3?rlkey=vhgd3bjde2k1qli8lkmk07iq3&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "too_late_to_behave",
+          "title": "Too Late To Behave",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-too-late-to-behave-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/wvym3juow40a76gor19hu/vincent-cole-too-late-to-behave-mp3.mp3?rlkey=2gu6hybeu8y49mwdqoea71yhv&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "trouble_in_a_black_dress",
+          "title": "Trouble in a Black Dress",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-trouble-in-a-black-dress-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/tq3gnmf9kxy2ny7ruxsyq/vincent-cole-trouble-in-a-black-dress-mp3.mp3?rlkey=9injlc1hrfrs17bv2nen79ied&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "brightons-boardwalk-heartbeat",
+          "title": "Boardwalk Heartbeat",
+          "artist": "Brightons",
+          "album": "The Last Good Summer",
+          "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-boardwalk-heartbeat-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/3cyjio37a6jsqnsdnasd7/brightons-boardwalk-heartbeat-mp3.mp3?rlkey=s4vrobpup2n0zuft32fxtx62z&raw=1",
+          "artistId": "brightons"
+        },
+        {
+          "id": "brightons-names-in-the-sand",
+          "title": "Names in the Sand",
+          "artist": "Brightons",
+          "album": "The Last Good Summer",
+          "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-names-in-the-sand-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/1gu88hwu1p25lpzrwgzr8/brightons-names-in-the-sand-mp3.mp3?rlkey=q2t914k2narvcuc0ut5jdejw5&raw=1",
+          "artistId": "brightons"
+        }
+      ]
     },
     {
       "id": "lucas-harlow",
