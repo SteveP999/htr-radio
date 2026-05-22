@@ -1970,7 +1970,278 @@
       "glow": "rgba(160,120,74,0.4)",
       "art": "images/stations/back-porch.png",
       "type": "curated",
-      "tracks": []
+      "tracks": [
+        {
+          "id": "all_my_life",
+          "title": "All My Life",
+          "artist": "Sawyer Price",
+          "album": "Unrushed",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-all-my-life-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/2bme49g8ftejf9e3recpn/Sawyer-Price-All-My-Life-Mastered-MP3.mp3?rlkey=k1ob4d11k6j9lw7axx42mwaz7&raw=1",
+          "artistId": "sawyer-price"
+        },
+        {
+          "id": "five_hours_eight_minutes",
+          "title": "5 Hours 8 Minutes",
+          "artist": "Hello Texas",
+          "album": "That Texas Sound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-5-hours-8-minutes-cover.jpg",
+          "audio": "https://www.dropbox.com/scl/fi/pddstqkzmdos6qh2eb4s1/5-Hours-8-Minutes-Acoustic-MP3.mp3?rlkey=mmu4xr3bjpcuiobnr2zzh86tr&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "its_not_the_end_of_the_world",
+          "title": "It's Not the End of the World",
+          "artist": "Sawyer Price",
+          "album": "Unrushed",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-its-not-the-end-of-the-world-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9dmyy1dgdahz0br6pkz0x/It-s-Not-the-End-of-the-World-Mastered-MP3.mp3?rlkey=zyg5ujza84d2udn1wfrbpwoe8&raw=1",
+          "artistId": "sawyer-price"
+        },
+        {
+          "id": "slow_like_sunday",
+          "title": "Slow Like Sunday",
+          "artist": "Sawyer Price",
+          "album": "Unrushed",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-slow-like-sunday-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/bitpjaaarrwfnd0vmunzw/Slow-Like-Sunday-v01-Mastered-mp3.mp3?rlkey=exmyeq79diwehdpa9ki8r4qx2&raw=1",
+          "artistId": "sawyer-price"
+        },
+        {
+          "id": "twonights",
+          "title": "Two Nights",
+          "artist": "PULSE7",
+          "album": "Endless Echo",
+          "cover": "https://raw.githubusercontent.com/SteveP999/pulse7/main/images/covers/pulse7-two-nights-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/2wioc1edj01haev6ifjkl/Two-Nights-PULSE7.mp3?rlkey=dwogp86reax5amxrh30bphoay&raw=1",
+          "artistId": "pulse7"
+        },
+        {
+          "id": "sin_regresar",
+          "title": "Sin Regresar",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-sin-regresar-no-going-back-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/4dqf8e3lbstvxzvjn5wt9/Sin-Regresar-No-Going-Back-Mastered-MP3-Re-do.mp3?rlkey=j5923sohwcu4dvbtgsdxj4w82&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "brightons-yesterday-s-girl",
+          "title": "Yesterday's Girl",
+          "artist": "Brightons",
+          "album": "The Last Good Summer",
+          "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-yesterdays-girl-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/q5y6ly4jo82f5f0a6wmpx/brightons-yesterdays-girl-mp3.mp3?rlkey=4zf0wqtnhfxass2xr1mcrjlnx&raw=1",
+          "artistId": "brightons"
+        },
+        {
+          "id": "just_watch_me_walk_away",
+          "title": "Just Watch Me Walk Away",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-just-watch-me-walk-away-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/gt5fe1l7mrp49u5jszvbi/vincent-cole-just-watch-me-walk-away-mp3-v4.mp3?rlkey=zooi7gl31kvkj0g3qts950ouw&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "last_call_for_beautiful",
+          "title": "Last Call for Beautiful",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-last-call-for-beautiful-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/obev4v5cr4av6isho61k2/vincent-cole-last-call-for-beautiful-mp3.wav?rlkey=c67exv0ec4y1ska8eew8fagn3&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "brightons-nicole-in-the-rain",
+          "title": "Nicole in the Rain",
+          "artist": "Brightons",
+          "album": "The Last Good Summer",
+          "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-nicole-in-the-rain-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/t9suftfr0k83z2punwruh/brightons-nicole-in-the-rain-mp3-v1.mp3?rlkey=zb7lv17xgx1a4t3nf0d03aic3&raw=1",
+          "artistId": "brightons"
+        },
+        {
+          "id": "text_from_god",
+          "title": "Text from God",
+          "artist": "Avery Ivey",
+          "album": "A Soft Place to Fall...",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-text-from-god-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/rbq49kx031ncycvcr12hh/Avery-Ivey-Text-from-God-Master-v14.mp3?rlkey=je3m4idfyavkobyfqdr3jkfsp&raw=1",
+          "artistId": "avery-ivey"
+        },
+        {
+          "id": "skyline-theory-stay-in-the-sound",
+          "title": "Stay in the Sound",
+          "artist": "Skyline Theory",
+          "album": "Fade and Fire",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Skyline-Theory/main/images/covers/skyline-theory-stay-in-the-sound-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/h537vb9szh61ccgenh1g7/Stay-in-the-Sound-Mastered-MP3.mp3?rlkey=enc1qe7jdkkoxnva2a26hx7ni&raw=1",
+          "artistId": "skyline-theory"
+        },
+        {
+          "id": "wildflower_sptf",
+          "title": "Wildflower",
+          "artist": "Avery Ivey",
+          "album": "A Soft Place to Fall...",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-wildflower-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/4cv8cbapu5lsqirgy4qen/Avery-Ivey-Wildflower-Mastered-MP3.mp3?rlkey=wskilk8augraewdddd7p9hhby&raw=1",
+          "artistId": "avery-ivey"
+        },
+        {
+          "id": "fade_out",
+          "title": "Fade Out",
+          "artist": "Hello Texas",
+          "album": "That Texas Sound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-fade-out-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/hplti274nd8jvrfc5su1i/Fade-Out-MASTERED-MP3.mp3?rlkey=sy6wkqhe15gtjp7b1tl87i8ni&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "burning_bridges",
+          "title": "Burning Bridges",
+          "artist": "Ivey Wilder",
+          "album": "...For Hard Truths",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-for-hard-truths/avery-ivey-burning-bridges-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/4lyfkgq3xq9pzez6gbom5/Avery-Ivey-Burning-Bridges-Released-MP3.mp3?rlkey=5dvzni5l5ypl9erfwh7kg7jp2&raw=1",
+          "artistId": "ivey-wilder"
+        },
+        {
+          "id": "lookin_okay_rock",
+          "title": "Lookin' Okay",
+          "artist": "Ivey Wilder",
+          "album": "...For Hard Truths",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-for-hard-truths/avery-ivey-lookin-okay-cover(rock).png",
+          "audio": "https://www.dropbox.com/scl/fi/p3txf5h16ftq7lzk9fk53/Lookin-Okay-Hard-Truths-Mastered-MP3.mp3?rlkey=gc910quszxn9zl8t6m9mjk126&raw=1",
+          "artistId": "ivey-wilder"
+        },
+        {
+          "id": "people_pleaser",
+          "title": "People Pleaser (Rest in Peace)",
+          "artist": "Ivey Wilder",
+          "album": "...For Hard Truths",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-for-hard-truths/avery-ivey-people-pleaser-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/ypd63gky426s8qcb4rj9v/Avery-Ivey-People-Pleaser-v18.mp3?rlkey=hxhnjfxtg70vn4ftof38gjo2k&raw=1",
+          "artistId": "ivey-wilder"
+        },
+        {
+          "id": "nightstrike-the-storm-never-sleeps",
+          "title": "The Storm Never Sleeps",
+          "artist": "NightStrike",
+          "album": "High Voltage",
+          "cover": "https://raw.githubusercontent.com/SteveP999/NightStrike/main/images/covers/nightstrike-the-storm-never-sleeps-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xzj3myi8pt4ulsd2dvfrl/nightstrike-the-storm-never-sleeps-mp3.mp3?rlkey=e4vl08mxg5mb2m3m2yt4zvq3c&raw=1",
+          "artistId": "nightstrike"
+        },
+        {
+          "id": "dont_need_permission",
+          "title": "Don't Need Permission",
+          "artist": "Vanta",
+          "album": "Signal",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-dont-need-permission-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/7autvxh8dd3aaktvz3vm1/Vanta-Don-t-Need-Permission-Mastered-MP3.mp3?rlkey=505p9f0jnfsg3wau3tpzscbat&raw=1",
+          "artistId": "vanta"
+        },
+        {
+          "id": "almost_loved_you",
+          "title": "Almost Loved You",
+          "artist": "Avery Ivey",
+          "album": "Wildflower Soundtrack",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-almost-loved-you-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/wgb0lxd9kr2gnr3po9dsw/Avery-Ivey-06-Almost-Loved-You-Mastered-MP3.mp3?rlkey=zrebaj4ocg6afabw5zqlkplks&raw=1",
+          "artistId": "avery-ivey"
+        },
+        {
+          "id": "tonight_it_belongs_to_me",
+          "title": "Tonight It Belongs to Me",
+          "artist": "Avery Ivey",
+          "album": "Wildflower Soundtrack",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-tonight-it-belongs-to-me-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9botip4crmlf4fve5pvru/Tonight-It-Belongs-To-Me-Mixed-MP3.mp3?rlkey=ienj7okdxns7dp6qhaksxzwpf&raw=1",
+          "artistId": "avery-ivey"
+        },
+        {
+          "id": "two_cups",
+          "title": "Two Cups",
+          "artist": "Avery Ivey",
+          "album": "A Soft Place to Fall...",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-two-cups-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/b160abr2kgvhn0ngswohf/Avery-Ivey-Two-Cups-Released-MP3.mp3?rlkey=tvq4lcxyf91sqac05jtsebm65&raw=1",
+          "artistId": "avery-ivey"
+        },
+        {
+          "id": "dancing_through_my_dreams",
+          "title": "Dancing Through My Dreams",
+          "artist": "Hello Texas",
+          "album": "Day To Day (The Lost Tapes)",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-dancing-through-my-dreams-lost-sessions-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/w2hsbin8zy5qy6zutfvph/Dancing-Through-My-Dreams-Lost-Session.wav?rlkey=7ugf8qa4kjwx5upjy6z7gc7cl&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "happily_ever_after",
+          "title": "Happily Ever After",
+          "artist": "Hello Texas",
+          "album": "That Texas Sound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-happily-ever-after-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/hupjoesyytssakywiqkjv/Happily-Ever-After-Mastered-MP3.mp3?rlkey=kp0csfv81xn0wqxidyfg7qn4v&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "same_damn_band",
+          "title": "Same Damn Band",
+          "artist": "Hello Texas",
+          "album": "That Texas Sound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-same-damn-band-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/emu7122b7nqxd9hz9v5c6/Same-Damn-Band-1.mp3?rlkey=7c9by9hu7rzss5b542nfq2dc9&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "that_texas_sound",
+          "title": "That Texas Sound",
+          "artist": "Hello Texas",
+          "album": "That Texas Sound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-that-texas-sound-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/3sc72tdzvu913t0se9567/Hello-Texas-That-Texas-Sound-Released-MP3.mp3?rlkey=b9sybqjdutyplwqmat72bnn82&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "always_the_almost_rock",
+          "title": "Always the Almost",
+          "artist": "Ivey Wilder",
+          "album": "...For Hard Truths",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-for-hard-truths/avery-ivey-always-the-almost-cover(rock).png",
+          "audio": "https://www.dropbox.com/scl/fi/8dgpx8wyodqbhow7rvg01/Avery-Ivey-Always-the-Almost-Alt-Rock-Released-MP3.mp3?rlkey=q76rs20bk1kcwbnvie6e7r1ox&raw=1",
+          "artistId": "ivey-wilder"
+        },
+        {
+          "id": "hard_truths_fht",
+          "title": "Hard Truths",
+          "artist": "Ivey Wilder",
+          "album": "...For Hard Truths",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-for-hard-truths/avery-ivey-for-hard-truths-SONG-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/5tt2njgq6or9aofycjblt/Avery-Ivey-Hard-Truths-Mastered-MP3.mp3?rlkey=3r783tswtp7eltlziljd0ged9&raw=1",
+          "artistId": "ivey-wilder"
+        },
+        {
+          "id": "lookin_okay_country",
+          "title": "Lookin' Okay",
+          "artist": "Avery Ivey",
+          "album": "A Soft Place to Fall...",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-lookin-okay-cover(country).png",
+          "audio": "https://www.dropbox.com/scl/fi/frtp29pivlcuyje8qjbyc/Lookin-OK-Soft-Place-to-Fall-Version-Mastered-MP3.mp3?rlkey=9m0ajdo031flid3qc217bj9s4&raw=1",
+          "artistId": "avery-ivey"
+        },
+        {
+          "id": "the_long_way_down_fht",
+          "title": "The Long Way Down",
+          "artist": "Ivey Wilder",
+          "album": "...For Hard Truths",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-for-hard-truths/avery-ivey-the-long-way-down-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/c06dpwu8z8ghmhripoasu/The-Long-Way-Down-Mastered-MP3.mp3?rlkey=lawjr12q40tq7nvme4lavvzd6&raw=1",
+          "artistId": "ivey-wilder"
+        }
+      ]
     },
     {
       "id": "velvet-lounge",
