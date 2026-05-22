@@ -1,0 +1,22 @@
+{
+  "name": "HTR Radio",
+  "short_name": "HTR Radio",
+  "description": "Hello Texas Records Radio - 15 stations of independent Texas music",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#0a0908",
+  "theme_color": "#0a0908",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/stations/htr-top-20.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "images/stations/htr-top-20.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
