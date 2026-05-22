@@ -1,11 +1,15 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>HTR Radio</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Install HTR Radio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=2">
 <style>
 :root{
   --dark:#0a0908;--dark2:#131110;--dark3:#1c1a18;
@@ -74,6 +78,29 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
 </head>
 <body>
 
+<!-- Background atmosphere -->
+<div id="bg-art"></div>
+<div class="bg-overlay"></div>
+<div class="grain"></div>
+
+<!-- App shell -->
+<div class="app">
+
+  <!-- ── NOW PLAYING VIEW ── -->
+  <div class="view view--nowplaying active" id="view-nowplaying">
+
+    <div class="np-header">
+      <div class="np-station-pill" id="np-station-pill">
+        <span class="np-station-dot" id="np-dot"></span>
+        <span id="np-station-name">HTR Radio</span>
+      </div>
+      <button class="icon-btn" id="btn-menu" onclick="openStations()">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <rect x="2" y="4" width="16" height="1.5" rx=".75" fill="currentColor"/>
+          <rect x="2" y="9.25" width="16" height="1.5" rx=".75" fill="currentColor"/>
+          <rect x="2" y="14.5" width="16" height="1.5" rx=".75" fill="currentColor"/>
+        </svg>
+      </button>
 <header>
   <a href="https://hellotexasrecords.com" class="back">← Hello Texas Records</a>
   <br>
@@ -89,14 +116,32 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
     <div class="app-icon">
       <img src="https://raw.githubusercontent.com/SteveP999/htr-radio/main/images/stations/htr-top-20.png"
            alt="HTR Radio" onerror="this.src='https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png'">
+</div>
+
+    <!-- Album art -->
+    <div class="np-art-wrap">
+      <div class="np-art-shadow"></div>
+      <img class="np-art" id="np-art" src="" alt="Album art">
+      <div class="np-art-shimmer"></div>
     </div>
+
+    <!-- Casey label -->
+    <div class="np-casey" id="np-casey">
+      <span class="np-casey-dot"></span>
+      Countdown Casey...
     <div class="app-meta">
       <div class="app-name">HTR Radio</div>
       <div class="app-desc">15 stations of independent Texas music. Lone Star, Skyline FM, Voltage, Velvet Lounge, Spirit Radio and more.</div>
       <div class="app-url">htr-radio.hellotexasrecords.com</div>
-    </div>
+</div>
   </div>
 
+    <!-- Track info -->
+    <div class="np-info">
+      <div class="np-track" id="np-track">—</div>
+      <div class="np-artist" id="np-artist">Hello Texas Records</div>
+      <div class="np-album" id="np-album"></div>
+    </div>
   <div class="tabs">
     <button class="tab active" onclick="switchTab('iphone')">
       <span>🍎</span> iPhone
@@ -109,6 +154,11 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
     </button>
   </div>
 
+    <!-- Progress -->
+    <div class="np-progress-wrap">
+      <div class="np-progress-bar" id="np-progress-bar">
+        <div class="np-progress-fill" id="np-fill"></div>
+        <div class="np-progress-thumb" id="np-thumb"></div>
   <!-- iPhone -->
   <div class="panel active" id="panel-iphone">
     <div class="steps">
@@ -118,7 +168,10 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
           <div class="step-title">Open in Safari</div>
           <div class="step-desc">Make sure you're using <strong>Safari</strong> — not Chrome or another browser. HTR Radio installs as an app through Safari only on iPhone.</div>
         </div>
-      </div>
+</div>
+      <div class="np-times">
+        <span id="np-elapsed">0:00</span>
+        <span id="np-duration">--:--</span>
       <div class="step">
         <div class="step-num">2</div>
         <div class="step-body">
@@ -139,16 +192,51 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
           <div class="step-title">Name it and tap Add</div>
           <div class="step-desc">The name will already say <strong>HTR Radio</strong>. Tap <strong>Add</strong> in the top right corner. That's it — the app icon appears on your home screen.</div>
         </div>
-      </div>
+</div>
+</div>
+
+    <!-- Controls -->
+    <div class="np-controls">
+      <button class="ctrl-btn ctrl-btn--sm" id="btn-prev" onclick="prevTrack()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/>
+        </svg>
+      </button>
+      <button class="ctrl-btn ctrl-btn--play" id="btn-play" onclick="togglePlay()">
+        <svg class="play-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+        <svg class="pause-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+          <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+        </svg>
+      </button>
+      <button class="ctrl-btn ctrl-btn--sm" id="btn-next" onclick="nextTrack()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6 18l8.5-6L6 6v12zm2-8.14L11.03 12 8 14.14V9.86zM16 6h2v12h-2z"/>
+        </svg>
+      </button>
     </div>
+
+    <!-- Station strip -->
+    <div class="np-stations-strip" id="np-stations-strip">
+      <!-- injected by JS -->
     <a class="open-btn" href="https://htr-radio.hellotexasrecords.com" target="_blank">
       Open HTR Radio in Safari →
     </a>
     <div class="note">
       <strong>Opens full screen.</strong> Once installed, HTR Radio opens without any browser bars — just like a real app. No App Store, no sign-up, no cost.
-    </div>
-  </div>
+</div>
 
+</div>
+
+  <!-- ── STATIONS VIEW ── -->
+  <div class="view view--stations" id="view-stations">
+
+    <div class="stations-header">
+      <div class="stations-logo">
+        <img src="https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png"
+             alt="HTR" class="stations-logo-img" onerror="this.style.display='none'">
+        <span class="stations-logo-text">HTR Radio</span>
   <!-- Android -->
   <div class="panel" id="panel-android">
     <div class="steps">
@@ -173,22 +261,32 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
           <div class="step-desc">Find and tap <strong>"Add to Home Screen"</strong> in the menu. Chrome may also show an automatic install banner at the bottom — tap that if it appears.</div>
         </div>
       </div>
-      <div class="step"> 
+      <div class="step">
         <div class="step-num">4</div>
         <div class="step-body">
           <div class="step-title">Tap Add</div>
           <div class="step-desc">Confirm by tapping <strong>Add</strong>. HTR Radio will appear on your home screen and open full screen just like a native app.</div>
         </div>
-      </div>
-    </div>
+</div>
+      <button class="icon-btn" onclick="closeStations()">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+</div>
+
+    <div class="stations-grid" id="stations-grid">
+      <!-- injected by JS -->
     <a class="open-btn" href="https://htr-radio.hellotexasrecords.com" target="_blank">
       Open HTR Radio in Chrome →
     </a>
     <div class="note">
       <strong>Android may prompt automatically.</strong> Chrome sometimes shows an "Add to Home Screen" banner at the bottom of the page on its own — just tap it if you see it.
-    </div>
-  </div>
+</div>
 
+</div>
+
+</div>
   <!-- Share -->
   <div class="panel" id="panel-share">
     <div class="share-box">
@@ -204,8 +302,20 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
     </a>
   </div>
 
+<!-- Bottom tab bar -->
+<div class="tab-bar">
+  <button class="tab-btn active" id="tab-nowplaying" onclick="showView('nowplaying')">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+    <span>Now Playing</span>
+  </button>
+  <button class="tab-btn" id="tab-stations" onclick="showView('stations')">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 6H4c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-1 10H5V8h14v8z"/><circle cx="12" cy="12" r="2"/></svg>
+    <span>Stations</span>
+  </button>
 </div>
 
+<audio id="main-audio"></audio>
+<script src="player.js"></script>
 <script>
 function switchTab(name) {
   document.querySelectorAll('.tab').forEach((t,i) => {
