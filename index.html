@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<title>HTR Radio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Background atmosphere -->
+<div id="bg-art"></div>
+<div class="bg-overlay"></div>
+<div class="grain"></div>
+
+<!-- App shell -->
+<div class="app">
+
+  <!-- ── NOW PLAYING VIEW ── -->
+  <div class="view view--nowplaying active" id="view-nowplaying">
+
+    <div class="np-header">
+      <div class="np-station-pill" id="np-station-pill">
+        <span class="np-station-dot" id="np-dot"></span>
+        <span id="np-station-name">HTR Radio</span>
+      </div>
+      <button class="icon-btn" id="btn-menu" onclick="openStations()">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <rect x="2" y="4" width="16" height="1.5" rx=".75" fill="currentColor"/>
+          <rect x="2" y="9.25" width="16" height="1.5" rx=".75" fill="currentColor"/>
+          <rect x="2" y="14.5" width="16" height="1.5" rx=".75" fill="currentColor"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Album art -->
+    <div class="np-art-wrap">
+      <div class="np-art-shadow"></div>
+      <img class="np-art" id="np-art" src="" alt="Album art">
+      <div class="np-art-shimmer"></div>
+    </div>
+
+    <!-- Casey label -->
+    <div class="np-casey" id="np-casey">
+      <span class="np-casey-dot"></span>
+      Countdown Casey...
+    </div>
+
+    <!-- Track info -->
+    <div class="np-info">
+      <div class="np-track" id="np-track">—</div>
+      <div class="np-artist" id="np-artist">Hello Texas Records</div>
+      <div class="np-album" id="np-album"></div>
+    </div>
+
+    <!-- Progress -->
+    <div class="np-progress-wrap">
+      <div class="np-progress-bar" id="np-progress-bar">
+        <div class="np-progress-fill" id="np-fill"></div>
+        <div class="np-progress-thumb" id="np-thumb"></div>
+      </div>
+      <div class="np-times">
+        <span id="np-elapsed">0:00</span>
+        <span id="np-duration">--:--</span>
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="np-controls">
+      <button class="ctrl-btn ctrl-btn--sm" id="btn-prev" onclick="prevTrack()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/>
+        </svg>
+      </button>
+      <button class="ctrl-btn ctrl-btn--play" id="btn-play" onclick="togglePlay()">
+        <svg class="play-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M8 5v14l11-7z"/>
+        </svg>
+        <svg class="pause-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" style="display:none">
+          <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
+        </svg>
+      </button>
+      <button class="ctrl-btn ctrl-btn--sm" id="btn-next" onclick="nextTrack()">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M6 18l8.5-6L6 6v12zm2-8.14L11.03 12 8 14.14V9.86zM16 6h2v12h-2z"/>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Station strip -->
+    <div class="np-stations-strip" id="np-stations-strip">
+      <!-- injected by JS -->
+    </div>
+
+  </div>
+
+  <!-- ── STATIONS VIEW ── -->
+  <div class="view view--stations" id="view-stations">
+
+    <div class="stations-header">
+      <div class="stations-logo">
+        <img src="https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png"
+             alt="HTR" class="stations-logo-img" onerror="this.style.display='none'">
+        <span class="stations-logo-text">HTR Radio</span>
+      </div>
+      <button class="icon-btn" onclick="closeStations()">
+        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+          <path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        </svg>
+      </button>
+    </div>
+
+    <div class="stations-grid" id="stations-grid">
+      <!-- injected by JS -->
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Bottom tab bar -->
+<div class="tab-bar">
+  <button class="tab-btn active" id="tab-nowplaying" onclick="showView('nowplaying')">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+    <span>Now Playing</span>
+  </button>
+  <button class="tab-btn" id="tab-stations" onclick="showView('stations')">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 6H4c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-1 10H5V8h14v8z"/><circle cx="12" cy="12" r="2"/></svg>
+    <span>Stations</span>
+  </button>
+</div>
+
+<audio id="main-audio"></audio>
+<script src="player.js"></script>
+</body>
+</html>
