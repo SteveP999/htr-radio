@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
@@ -5,7 +6,6 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <title>HTR Radio</title>
-<<<<<<< HEAD
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
 <link rel="manifest" href="manifest.json">
@@ -13,123 +13,11 @@
 <link rel="stylesheet" href="styles.css?v=2">
 </head>
 <body>
-
 <div id="bg-art"></div>
 <div class="bg-overlay"></div>
 <div class="grain"></div>
-=======
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Install HTR Radio</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=2">
-<style>
-:root{
-  --dark:#0a0908;--dark2:#131110;--dark3:#1c1a18;
-  --gold:#c8922a;--gold-lt:#e8b44a;--rust:#c41a1a;
-  --cream:#f2ede3;--tan:#b8a898;--muted:#6b6058;
-  --border:rgba(200,146,42,0.18);
-}
-*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
-body{background:var(--dark);color:var(--cream);font-family:'Barlow',sans-serif;font-weight:300;min-height:100vh;padding-bottom:3rem;}
-body::after{content:'';position:fixed;inset:0;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");pointer-events:none;z-index:999;}
-
-header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align:center;}
-.back{display:inline-block;font-family:'Barlow Condensed',sans-serif;font-size:.65rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);text-decoration:none;margin-bottom:1.5rem;transition:color .2s;}
-.back:hover{color:var(--gold-lt);}
-.logo{height:80px;width:auto;margin-bottom:.75rem;}
-.page-title{font-family:'Bebas Neue',sans-serif;font-size:clamp(2rem,6vw,3.5rem);letter-spacing:.06em;line-height:.95;}
-.page-title span{color:var(--gold);}
-.page-sub{font-family:'Barlow Condensed',sans-serif;font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--muted);margin-top:.5rem;}
-
-.wrap{max-width:600px;margin:0 auto;padding:2rem 1.5rem;}
-
-/* App preview */
-.app-preview{display:flex;align-items:center;gap:1.25rem;background:var(--dark2);border:1px solid var(--border);padding:1.25rem;margin-bottom:2.5rem;border-radius:4px;}
-.app-icon{width:72px;height:72px;border-radius:16px;overflow:hidden;flex-shrink:0;background:var(--dark3);}
-.app-icon img{width:100%;height:100%;object-fit:cover;}
-.app-meta{}
-.app-name{font-family:'Bebas Neue',sans-serif;font-size:1.4rem;letter-spacing:.06em;color:var(--cream);line-height:1;}
-.app-desc{font-size:.8rem;color:var(--tan);margin-top:.25rem;line-height:1.5;}
-.app-url{font-family:'Barlow Condensed',sans-serif;font-size:.62rem;letter-spacing:.12em;color:var(--muted);margin-top:.35rem;}
-
-/* Tabs */
-.tabs{display:flex;gap:0;margin-bottom:1.5rem;border:1px solid var(--border);}
-.tab{flex:1;padding:.65rem 1rem;font-family:'Barlow Condensed',sans-serif;font-size:.7rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;background:transparent;color:var(--muted);border:none;cursor:pointer;transition:background .2s,color .2s;display:flex;align-items:center;justify-content:center;gap:.4rem;}
-.tab.active{background:var(--dark3);color:var(--cream);}
-.tab:not(:last-child){border-right:1px solid var(--border);}
-
-/* Panels */
-.panel{display:none;}
-.panel.active{display:block;}
-
-/* Steps */
-.steps{display:flex;flex-direction:column;gap:.75rem;}
-.step{display:grid;grid-template-columns:36px 1fr;gap:1rem;align-items:start;background:var(--dark2);border:1px solid var(--border);padding:1rem 1.25rem;}
-.step-num{font-family:'Bebas Neue',sans-serif;font-size:1.6rem;color:var(--gold);line-height:1;text-align:center;}
-.step-body{}
-.step-title{font-family:'Barlow Condensed',sans-serif;font-size:.85rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--cream);margin-bottom:.25rem;}
-.step-desc{font-size:.82rem;color:var(--tan);line-height:1.6;}
-.step-desc strong{color:var(--cream);}
-.step-icon{font-size:1.1rem;vertical-align:middle;}
-
-/* Direct link button */
-.open-btn{display:block;width:100%;margin-top:2rem;padding:1rem;background:var(--gold);color:var(--dark);font-family:'Barlow Condensed',sans-serif;font-size:.85rem;font-weight:700;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;text-align:center;transition:background .2s,transform .1s;}
-.open-btn:hover{background:var(--gold-lt);transform:translateY(-1px);}
-
-.note{margin-top:1.5rem;padding:1rem 1.25rem;border-left:2px solid var(--gold);background:rgba(200,146,42,.06);font-size:.78rem;color:var(--tan);line-height:1.7;}
-.note strong{color:var(--cream);}
-
-/* Share link box */
-.share-box{background:var(--dark2);border:1px solid var(--border);padding:1.25rem;margin-top:1.5rem;}
-.share-label{font-family:'Barlow Condensed',sans-serif;font-size:.6rem;letter-spacing:.25em;text-transform:uppercase;color:var(--muted);margin-bottom:.6rem;}
-.share-url{font-family:'Barlow Condensed',sans-serif;font-size:1rem;letter-spacing:.06em;color:var(--gold-lt);margin-bottom:.75rem;}
-.copy-btn{font-family:'Barlow Condensed',sans-serif;font-size:.65rem;font-weight:700;letter-spacing:.18em;text-transform:uppercase;background:transparent;border:1px solid var(--border);color:var(--tan);padding:.4rem 1rem;cursor:pointer;transition:all .2s;}
-.copy-btn:hover{border-color:var(--gold);color:var(--gold-lt);}
-.copy-btn.copied{border-color:var(--gold);color:var(--gold);background:rgba(200,146,42,.08);}
-</style>
-</head>
-<body>
-
-<!-- Background atmosphere -->
-<div id="bg-art"></div>
-<div class="bg-overlay"></div>
-<div class="grain"></div>
-
-<!-- App shell -->
 <div class="app">
-
-  <!-- ── NOW PLAYING VIEW ── -->
   <div class="view view--nowplaying active" id="view-nowplaying">
-
-    <div class="np-header">
-      <div class="np-station-pill" id="np-station-pill">
-        <span class="np-station-dot" id="np-dot"></span>
-        <span id="np-station-name">HTR Radio</span>
-      </div>
-      <button class="icon-btn" id="btn-menu" onclick="openStations()">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-          <rect x="2" y="4" width="16" height="1.5" rx=".75" fill="currentColor"/>
-          <rect x="2" y="9.25" width="16" height="1.5" rx=".75" fill="currentColor"/>
-          <rect x="2" y="14.5" width="16" height="1.5" rx=".75" fill="currentColor"/>
-        </svg>
-      </button>
-<header>
-  <a href="https://hellotexasrecords.com" class="back">← Hello Texas Records</a>
-  <br>
-  <img src="https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png"
-       alt="Hello Texas Records" class="logo">
-  <div class="page-title">Install <span>HTR</span> Radio</div>
-  <div class="page-sub">Add it to your phone like an app — free, no App Store needed</div>
-</header>
->>>>>>> origin/main
-
-<div class="app">
-
-<<<<<<< HEAD
-  <!-- NOW PLAYING VIEW -->
-  <div class="view view--nowplaying active" id="view-nowplaying">
-
     <div class="np-header">
       <div class="np-station-pill" id="np-station-pill">
         <span class="np-station-dot" id="np-dot"></span>
@@ -143,24 +31,20 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
         </svg>
       </button>
     </div>
-
     <div class="np-art-wrap">
       <div class="np-art-shadow"></div>
       <img class="np-art" id="np-art" src="" alt="Album art">
       <div class="np-art-shimmer"></div>
     </div>
-
     <div class="np-casey" id="np-casey">
       <span class="np-casey-dot"></span>
       Countdown Casey...
     </div>
-
     <div class="np-info">
       <div class="np-track" id="np-track">—</div>
       <div class="np-artist" id="np-artist">Hello Texas Records</div>
       <div class="np-album" id="np-album"></div>
     </div>
-
     <div class="np-progress-wrap">
       <div class="np-progress-bar" id="np-progress-bar">
         <div class="np-progress-fill" id="np-fill"></div>
@@ -171,7 +55,6 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
         <span id="np-duration">--:--</span>
       </div>
     </div>
-
     <div class="np-controls">
       <button class="ctrl-btn ctrl-btn--sm" id="btn-prev" onclick="prevTrack()">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>
@@ -184,14 +67,9 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zm2-8.14L11.03 12 8 14.14V9.86zM16 6h2v12h-2z"/></svg>
       </button>
     </div>
-
     <div class="np-stations-strip" id="np-stations-strip"></div>
-
   </div>
-
-  <!-- STATIONS VIEW -->
   <div class="view view--stations" id="view-stations">
-
     <div class="stations-header">
       <div class="stations-logo">
         <img src="https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png"
@@ -204,202 +82,9 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
         </svg>
       </button>
     </div>
-
     <div class="stations-grid" id="stations-grid"></div>
-
-=======
-  <div class="app-preview">
-    <div class="app-icon">
-      <img src="https://raw.githubusercontent.com/SteveP999/htr-radio/main/images/stations/htr-top-20.png"
-           alt="HTR Radio" onerror="this.src='https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png'">
-</div>
-
-    <!-- Album art -->
-    <div class="np-art-wrap">
-      <div class="np-art-shadow"></div>
-      <img class="np-art" id="np-art" src="" alt="Album art">
-      <div class="np-art-shimmer"></div>
-    </div>
-
-    <!-- Casey label -->
-    <div class="np-casey" id="np-casey">
-      <span class="np-casey-dot"></span>
-      Countdown Casey...
-    <div class="app-meta">
-      <div class="app-name">HTR Radio</div>
-      <div class="app-desc">15 stations of independent Texas music. Lone Star, Skyline FM, Voltage, Velvet Lounge, Spirit Radio and more.</div>
-      <div class="app-url">htr-radio.hellotexasrecords.com</div>
-</div>
   </div>
-
-    <!-- Track info -->
-    <div class="np-info">
-      <div class="np-track" id="np-track">—</div>
-      <div class="np-artist" id="np-artist">Hello Texas Records</div>
-      <div class="np-album" id="np-album"></div>
-    </div>
-  <div class="tabs">
-    <button class="tab active" onclick="switchTab('iphone')">
-      <span>🍎</span> iPhone
-    </button>
-    <button class="tab" onclick="switchTab('android')">
-      <span>🤖</span> Android
-    </button>
-    <button class="tab" onclick="switchTab('share')">
-      <span>📤</span> Share It
-    </button>
-  </div>
-
-    <!-- Progress -->
-    <div class="np-progress-wrap">
-      <div class="np-progress-bar" id="np-progress-bar">
-        <div class="np-progress-fill" id="np-fill"></div>
-        <div class="np-progress-thumb" id="np-thumb"></div>
-  <!-- iPhone -->
-  <div class="panel active" id="panel-iphone">
-    <div class="steps">
-      <div class="step">
-        <div class="step-num">1</div>
-        <div class="step-body">
-          <div class="step-title">Open in Safari</div>
-          <div class="step-desc">Make sure you're using <strong>Safari</strong> — not Chrome or another browser. HTR Radio installs as an app through Safari only on iPhone.</div>
-        </div>
 </div>
-      <div class="np-times">
-        <span id="np-elapsed">0:00</span>
-        <span id="np-duration">--:--</span>
-      <div class="step">
-        <div class="step-num">2</div>
-        <div class="step-body">
-          <div class="step-title">Tap the Share button</div>
-          <div class="step-desc">Look for the <strong>share icon</strong> <span class="step-icon">⬆️</span> — it's a box with an arrow pointing up. It's usually at the bottom of the screen. If you don't see it, scroll up on the page first to make the toolbar appear.</div>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <div class="step-body">
-          <div class="step-title">Scroll down and tap "Add to Home Screen"</div>
-          <div class="step-desc">In the share sheet that appears, <strong>scroll down</strong> past the top row of icons until you see <strong>"Add to Home Screen"</strong> with a plus icon. Tap it.</div>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">4</div>
-        <div class="step-body">
-          <div class="step-title">Name it and tap Add</div>
-          <div class="step-desc">The name will already say <strong>HTR Radio</strong>. Tap <strong>Add</strong> in the top right corner. That's it — the app icon appears on your home screen.</div>
-        </div>
-</div>
-</div>
-
-    <!-- Controls -->
-    <div class="np-controls">
-      <button class="ctrl-btn ctrl-btn--sm" id="btn-prev" onclick="prevTrack()">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/>
-        </svg>
-      </button>
-      <button class="ctrl-btn ctrl-btn--play" id="btn-play" onclick="togglePlay()">
-        <svg class="play-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M8 5v14l11-7z"/>
-        </svg>
-        <svg class="pause-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" style="display:none">
-          <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/>
-        </svg>
-      </button>
-      <button class="ctrl-btn ctrl-btn--sm" id="btn-next" onclick="nextTrack()">
-        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M6 18l8.5-6L6 6v12zm2-8.14L11.03 12 8 14.14V9.86zM16 6h2v12h-2z"/>
-        </svg>
-      </button>
-    </div>
-
-    <!-- Station strip -->
-    <div class="np-stations-strip" id="np-stations-strip">
-      <!-- injected by JS -->
-    <a class="open-btn" href="https://htr-radio.hellotexasrecords.com" target="_blank">
-      Open HTR Radio in Safari →
-    </a>
-    <div class="note">
-      <strong>Opens full screen.</strong> Once installed, HTR Radio opens without any browser bars — just like a real app. No App Store, no sign-up, no cost.
-</div>
-
-</div>
-
-  <!-- ── STATIONS VIEW ── -->
-  <div class="view view--stations" id="view-stations">
-
-    <div class="stations-header">
-      <div class="stations-logo">
-        <img src="https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png"
-             alt="HTR" class="stations-logo-img" onerror="this.style.display='none'">
-        <span class="stations-logo-text">HTR Radio</span>
-  <!-- Android -->
-  <div class="panel" id="panel-android">
-    <div class="steps">
-      <div class="step">
-        <div class="step-num">1</div>
-        <div class="step-body">
-          <div class="step-title">Open in Chrome</div>
-          <div class="step-desc">Open <strong>Google Chrome</strong> on your Android device and go to <strong>htr-radio.hellotexasrecords.com</strong></div>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">2</div>
-        <div class="step-body">
-          <div class="step-title">Tap the three-dot menu</div>
-          <div class="step-desc">Tap the <strong>⋮</strong> three dots in the top right corner of Chrome to open the menu.</div>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">3</div>
-        <div class="step-body">
-          <div class="step-title">Tap "Add to Home Screen"</div>
-          <div class="step-desc">Find and tap <strong>"Add to Home Screen"</strong> in the menu. Chrome may also show an automatic install banner at the bottom — tap that if it appears.</div>
-        </div>
-      </div>
-      <div class="step">
-        <div class="step-num">4</div>
-        <div class="step-body">
-          <div class="step-title">Tap Add</div>
-          <div class="step-desc">Confirm by tapping <strong>Add</strong>. HTR Radio will appear on your home screen and open full screen just like a native app.</div>
-        </div>
-</div>
-      <button class="icon-btn" onclick="closeStations()">
-        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-          <path d="M4 4l12 12M16 4L4 16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
-        </svg>
-      </button>
-</div>
-
-    <div class="stations-grid" id="stations-grid">
-      <!-- injected by JS -->
-    <a class="open-btn" href="https://htr-radio.hellotexasrecords.com" target="_blank">
-      Open HTR Radio in Chrome →
-    </a>
-    <div class="note">
-      <strong>Android may prompt automatically.</strong> Chrome sometimes shows an "Add to Home Screen" banner at the bottom of the page on its own — just tap it if you see it.
-</div>
-
-</div>
-
-</div>
-  <!-- Share -->
-  <div class="panel" id="panel-share">
-    <div class="share-box">
-      <div class="share-label">Send this link to a friend</div>
-      <div class="share-url">htr-radio.hellotexasrecords.com</div>
-      <button class="copy-btn" onclick="copyLink()">Copy Link</button>
-    </div>
-    <div class="note" style="margin-top:1.5rem">
-      <strong>What to tell them:</strong> "Open this link in Safari (iPhone) or Chrome (Android), tap the share/menu button, and choose Add to Home Screen. It installs like a free app — 15 radio stations of independent Texas music."
-    </div>
-    <a class="open-btn" href="sms:&body=Check%20out%20HTR%20Radio%20%E2%80%94%2015%20stations%20of%20independent%20Texas%20music.%20Add%20it%20to%20your%20phone%20like%20an%20app%3A%20https%3A%2F%2Fhtr-radio.hellotexasrecords.com%2Finstall" style="margin-top:1rem">
-      📱 Text a Friend
-    </a>
->>>>>>> origin/main
-  </div>
-
-<!-- Bottom tab bar -->
 <div class="tab-bar">
   <button class="tab-btn active" id="tab-nowplaying" onclick="showView('nowplaying')">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
@@ -410,32 +95,6 @@ header{padding:1.5rem 2rem 1rem;border-bottom:1px solid var(--border);text-align
     <span>Stations</span>
   </button>
 </div>
-
-<<<<<<< HEAD
-<div class="tab-bar">
-  <button class="tab-btn active" id="tab-nowplaying" onclick="showView('nowplaying')">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
-    <span>Now Playing</span>
-  </button>
-  <button class="tab-btn" id="tab-stations" onclick="showView('stations')">
-    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20 6H4c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-1 10H5V8h14v8z"/><circle cx="12" cy="12" r="2"/></svg>
-    <span>Stations</span>
-  </button>
-</div>
-=======
-<audio id="main-audio"></audio>
-<script src="player.js"></script>
-<script>
-function switchTab(name) {
-  document.querySelectorAll('.tab').forEach((t,i) => {
-    const names = ['iphone','android','share'];
-    t.classList.toggle('active', names[i] === name);
-  });
-  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
-  document.getElementById('panel-' + name).classList.add('active');
-}
->>>>>>> origin/main
-
 <audio id="main-audio"></audio>
 <script src="player.js"></script>
 </body>
