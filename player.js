@@ -279,10 +279,9 @@ function buildStationStrip() {
   const strip = document.getElementById('np-stations-strip');
   strip.innerHTML = stations.map((st, i) => `
     <button class="strip-btn ${i===0?'active':''}" onclick="switchStation(${i})"
-            title="${st.name}" style="background:${st.color}22;border-color:${st.color}33">
-      <div class="strip-placeholder" style="color:${st.color}">
-        ${STATION_ICONS[st.id] || '📻'}
-      </div>
+            title="${st.name}"
+            style="${st.art ? `background-image:url('${st.art}');background-size:cover;background-position:center;border-color:${st.color}55` : `background:${st.color}22;border-color:${st.color}33`}">
+      ${st.art ? '' : `<div class="strip-placeholder" style="color:${st.color}">${STATION_ICONS[st.id] || '📻'}</div>`}
     </button>
   `).join('');
 }
@@ -292,8 +291,8 @@ function buildStationGrid() {
   const grid = document.getElementById('stations-grid');
   grid.innerHTML = stations.map((st, i) => `
     <div class="station-card ${i===0?'active':''}" onclick="stationCardClick(${i})">
-      <div class="station-card-art" style="background:linear-gradient(135deg,${st.color}44,${st.color}11)"></div>
-      <div class="station-card-placeholder">
+      <div class="station-card-art" style="${st.art ? `background-image:url('${st.art}');background-size:cover;background-position:center` : `background:linear-gradient(135deg,${st.color}44,${st.color}11)`}"></div>
+      <div class="station-card-placeholder" style="${st.art ? 'display:none' : ''}">
         <div class="station-card-placeholder-inner">
           <div class="placeholder-color" style="background:${st.color}"></div>
           <div class="placeholder-icon">${STATION_ICONS[st.id] || '📻'}</div>
