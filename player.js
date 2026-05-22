@@ -19,6 +19,7 @@ fetch('radio-data.json?cb=' + Date.now())
     stations = data.stations || [];
     buildStationStrip();
     buildStationGrid();
+    applyStationArt();
     loadStation(0, false);
   })
   .catch(err => console.error('Failed to load radio-data.json:', err));
@@ -335,9 +336,6 @@ function buildStationGrid() {
     </div>
   `).join('');
 }
-
-// Apply art after grid and strip are built
-function initArt() { applyStationArt(); }
 
 function stationCardClick(i) {
   switchStation(i);
