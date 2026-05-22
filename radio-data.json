@@ -3041,7 +3041,269 @@
       "glow": "rgba(106,140,106,0.4)",
       "art": "images/stations/on-the-hill.png",
       "type": "curated",
-      "tracks": []
+      "tracks": [
+        {
+          "id": "dark_nights_of_the_soul",
+          "title": "Dark Nights of the Soul",
+          "artist": "Parsons Cross",
+          "album": "Out of the Darkness",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-dark-nights-of-the-soul-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/lvy40kvrsreftclicsiie/parsons-cross-dark-nights-of-the-soul-mp3.mp3?rlkey=5lttcugp86qupyaqz4d9vaesr&st=1v9s3pmw&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "keep_the_son_in_your_eyes",
+          "title": "Keep the Son In Your Eyes",
+          "artist": "Parsons Cross",
+          "album": "Out of the Darkness",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-keep-the-son-in-your-eyes-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/6futa7hyqu7v61rntvsed/parsons-cross-keep-the-son-in-your-eyes-mp3.mp3?rlkey=tiyf5zck33e0zryg4v8cet64z&st=h8rcaqo8&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "touching_heaven",
+          "title": "Touching Heaven",
+          "artist": "Parsons Cross",
+          "album": "Out of the Darkness",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-touching-heaven-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/lsd40kwdipq0sxds5yf7o/parsons-cross-touching-heaven-mp3.mp3?rlkey=yleeswhf1tdhrtxeee43z5mye&st=03sxc3ig&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "you_havent_moved",
+          "title": "You Haven't Moved",
+          "artist": "Parsons Cross",
+          "album": "Out of the Darkness",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-you-havent-moved-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/5zuhf9wresbop4tup7i0j/parsons-cross-you-havent-moved-mp3.mp3?rlkey=2kry0k6wqz9ohdnv9hr24c3b8&st=m4r8k3g7&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "thick_and_thin",
+          "title": "Thick & Thin",
+          "artist": "Parsons Cross",
+          "album": "Out of the Darkness",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-thick-and-thin-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9nxrgic5bpxagygdhgunh/parsons-cross-thick-and-thin-mp3.mp3?rlkey=s5x9s5kdfb0lnnxywo46n266w&st=9tn9x1ml&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "the_waiting_room",
+          "title": "The Waiting Room",
+          "artist": "Parsons Cross",
+          "album": "Into the Light",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-the-waiting-room-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9j3cp9ajsd513fpjro3wo/parsons-cross-the-waiting-room-mp3.mp3?rlkey=9i3suos4ja4o5kalph8pipnd8&st=hn2sdhcp&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "fear",
+          "title": "Fear",
+          "artist": "Parsons Cross",
+          "album": "Into the Light",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-fear-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/tydai7q6rknk94n1d7wtg/parsons-cross-fear-mp3.mp3?rlkey=7lqwoswtpsob6em8eqd0qo1ay&st=jgzb95zc&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "circle_the_wagons",
+          "title": "Circle the Wagons",
+          "artist": "Parsons Cross",
+          "album": "Into the Light",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-circle-the-wagons-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/zv9z8076a6hc13vm8c67z/parsons-cross-circle-the-wagons-mp3.mp3?rlkey=wtv99unlw7flzrtxodxy2n7ho&st=i4v868b3&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "lost_wheres_god",
+          "title": "Lost (Where's God)",
+          "artist": "Parsons Cross",
+          "album": "Into the Light",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-lost-wheres-god-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/aucayb7h1iimytjaxapwo/parsons-cross-lost-wheres-god-mp3.mp3?rlkey=fbxd0i8l4hax25r4k6f4fk65s&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "thank_you_mom_and_dad",
+          "title": "Thank You Mom and Dad",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-thank-you-mom-and-dad-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/09pimczovbjl5bbjqoxjf/stephen-parsons-thank-you-mom-and-dad-mp3.mp3?rlkey=v5qac8t8s945oe016y1p2lnej&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "run_to_his_heart",
+          "title": "Run to His Heart",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-run-to-his-heart-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/k18bdosdhrhi0kggek6q0/stephen-parsons-run-to-his-heart-mp3.mp3?rlkey=2xp47q5q2ysrsgke184sx8rau&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "wide_open_silence",
+          "title": "Wide Open Silence",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-wide-open-silence-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/4wt3mx9s3woo05d7ff5ei/stephen-parsons-wide-open-silence-mp3.mp3?rlkey=xak7nxx0xb0s9ivrn6azgpbt8&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "love_for_eternity",
+          "title": "Love for Eternity",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-love-for-eternity-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/ykzghssn5bi44z14r0fhb/stephen-parsons-love-for-eternity-mp3.mp3?rlkey=71rtz64wtlfemaydj937xtel9&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "moms_love",
+          "title": "Mom's Love",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-moms-love-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/hz1ptkb0eyj06hxe34jvi/stephen-parsons-moms-love-mp3.mp3?rlkey=n4h4u0b64mikukb5inkomx6am&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "done_with_the_damage",
+          "title": "Done With The Damage",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-done-with-the-damage-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/oww767j5mv9zhebw4qnqh/stephen-parsons-done-with-the-damage.mp3.mp3?rlkey=m50njubs1y0k40ijrttlkw1ts&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "my_daughters_heart",
+          "title": "My Daughter's Heart",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-my-daughters-heart-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/czv2skkkp8c3nggo8ngml/stephen-parsons-my-daughters-heart-mp3.mp3?rlkey=keaw0zy3n5zk60igwk8mchqc5&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "rise_up",
+          "title": "Rise Up",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-rise-up-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/fgz0bbtwwf0e9wlkm8org/stephen-parsons-rise-up-mp3.mp3?rlkey=6yh8ebyatwtvovct94a9nj4xn&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "calling_in_the_silence",
+          "title": "Calling in the Silence",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-calling-in-the-silence.png",
+          "audio": "https://www.dropbox.com/scl/fi/qifps9vrox4dbkrsf4k5u/stephen-parsons-calling-in-the-silence-mp3.mp3?rlkey=7zz2iut6s3n23sbf8q23rot2s&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "stephen-parsons-just-move-on",
+          "title": "Just Move On",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-just-move-on-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/0jh7i1oix1yhh5jyc51n2/just-move-on.mp3?rlkey=duqmyacqvmc1ghcqeb8pkrs8k&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "stephen-parsons-here-and-now",
+          "title": "Here and Now",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-here-and-now-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/839e67q80a9er7osv9jea/here-and-now-radio-version.mp3?rlkey=hlupifdmxl8ff1vy5uk8jknpm&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "stephen-parsons-finally-alive",
+          "title": "Finally Alive",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-finally-alive-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/0ernzio6gq5ttmywlvkr0/stephen-parsons-finally-alive-mp3.mp3?rlkey=mv3dasyg5uxx2sqv1q1fi48mv&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "september-skies-one-move-at-a-time",
+          "title": "One Move at a Time",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-one-move-at-a-time-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/d1e4kiyy4xme7g4656jrt/one-move-at-a-time-live-premier.mp3?rlkey=6acr74q1omxqu2h9kze6xr0h0&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-moment-to-live",
+          "title": "Moment to Live",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-moment-to-live-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/b0gq0xfl1tzelkwztw8s8/september-skies-moment-to-live.mp3?rlkey=lgry7yd1dcy4pj765j2h12k84&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-life-in-the-light",
+          "title": "Life in the Light",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-life-in-the-light-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/gmsamup3bfiiwb0libxop/september-skies-life-in-the-light-mp3.mp3?rlkey=mhxx75x2xqf5k5esdt6joqstt&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-perfectly-imperfect",
+          "title": "Perfectly Imperfect",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-perfectly-imperfect-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/lg6e6m5qbxuuh41uuggww/silent-oblivion-perfectly-imperfect.mp3.mp3?rlkey=eja1hfky1z793h9jtstd271bj&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "montana_skies",
+          "title": "Montana Skies",
+          "artist": "Taylor Martin",
+          "album": "Northbound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Taylor-Martin/main/images/covers/taylor-martin-montana-skies-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/umy4fkkkabucsufshifry/Sky-v10.mp3?rlkey=oal277gilvw2mkava6sm7xy07&raw=1",
+          "artistId": "taylor-martin"
+        },
+        {
+          "id": "lift_off_with_a_bang",
+          "title": "Lift Off (With a Bang)",
+          "artist": "Silent Oblivion",
+          "album": "Beginnings Past",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/images/covers/silent-oblivion-lift-off-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/tctbe476glsb4mu3hv7k7/Lift-Off-With-a-Bang-Mastered-MP3.mp3?rlkey=2dt2a3mayzne6l1lff1jf3t00&raw=1",
+          "artistId": "silent-oblivion"
+        },
+        {
+          "id": "silence_dont_scare_me",
+          "title": "Silence Don't Scare Me Anymore",
+          "artist": "Hello Texas",
+          "album": "That Texas Sound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-silence-don't-scare-me-anymore-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9wl11kdagwdsp5h8s0sy6/hello-texas-silence-dont-scare-me-anymore-mp3.mp3?rlkey=zwha59nz115icszj90blqf0xp&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "same_damn_band",
+          "title": "Same Damn Band",
+          "artist": "Hello Texas",
+          "album": "That Texas Sound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-same-damn-band-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/emu7122b7nqxd9hz9v5c6/Same-Damn-Band-1.mp3?rlkey=7c9by9hu7rzss5b542nfq2dc9&raw=1",
+          "artistId": "hello-texas"
+        }
+      ]
     },
     {
       "id": "skyline-fm",
