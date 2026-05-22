@@ -1550,6 +1550,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-perfectly-imperfect-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/lg6e6m5qbxuuh41uuggww/silent-oblivion-perfectly-imperfect.mp3.mp3?rlkey=eja1hfky1z793h9jtstd271bj&raw=1",
           "artistId": "september-skies"
+        },
+        {
+          "id": "vanta-say-it-again",
+          "title": "Say It Again",
+          "artist": "Vanta",
+          "album": "Eclipse",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-say-it-again-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/m44zpz3iy0opjdnp9p23u/vanta-say-it-again-mp3.mp3?rlkey=m38kdqjh98pkbpy7zlm270a9e&raw=1",
+          "artistId": "vanta"
         }
       ]
     },
@@ -3009,6 +3018,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-too-loud-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/4228evr7l0qrs0kegwzty/Too-Loud-Mastered-MP3.mp3?rlkey=pw5icqqci9xf6cj36iqarmkdj&raw=1",
           "artistId": "vanta"
+        },
+        {
+          "id": "vanta-say-it-again",
+          "title": "Say It Again",
+          "artist": "Vanta",
+          "album": "Eclipse",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-say-it-again-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/m44zpz3iy0opjdnp9p23u/vanta-say-it-again-mp3.mp3?rlkey=m38kdqjh98pkbpy7zlm270a9e&raw=1",
+          "artistId": "vanta"
         }
       ]
     },
@@ -3417,13 +3435,121 @@
       "type": "curated",
       "tracks": [
         {
-          "id": "ivey-wilder-burning-bridges",
-          "title": "Burning Bridges",
+          "id": "somewhere_in_the_middle_wf",
+          "title": "Somewhere in the Middle",
+          "artist": "Avery Ivey",
+          "album": "Wildflower Soundtrack",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1",
+          "artistId": "avery-ivey"
+        },
+        {
+          "id": "tomorrow_never_comes",
+          "title": "Tomorrow Never Comes",
           "artist": "Ivey Wilder",
-          "album": "...For Hard Truths",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Ivey-Wilder/main/images/covers/ivey-wilder-burning-bridges-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/yn1bx0irycyb147ngey9j/ivey-wilder-burning-bridges-mp3.mp3?rlkey=yc3uian4ji5sc8j3kkmxuce4o&raw=1",
+          "album": "Singles",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-somewhere-in-the-middle/avery-ivey-tomorrow-never-comes-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/7bdpevq44m491ygp0gk5i/avery-ivey-tomorrow-never-comes-mp3.mp3?rlkey=2qx7l8yjjnwb2wyiaptkpryau&raw=1",
           "artistId": "ivey-wilder"
+        },
+        {
+          "id": "just_this_once",
+          "title": "Just This Once",
+          "artist": "Daniel Kincaid",
+          "album": "Running Out of Reasons",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-just-this-once-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xfwjj7nwovh6s7gf5oy50/Just-This-Once-Mastered-MP3.mp3?rlkey=1phk6fx0ulbdwr0qpa7zdzjd6&raw=1",
+          "artistId": "daniel-kincaid"
+        },
+        {
+          "id": "happily_ever_after",
+          "title": "Happily Ever After",
+          "artist": "Hello Texas",
+          "album": "That Texas Sound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-happily-ever-after-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/hupjoesyytssakywiqkjv/Happily-Ever-After-Mastered-MP3.mp3?rlkey=kp0csfv81xn0wqxidyfg7qn4v&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "dancing_through_my_dreams",
+          "title": "Dancing Through My Dreams",
+          "artist": "Hello Texas",
+          "album": "Day To Day (The Lost Tapes)",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-dancing-through-my-dreams-lost-sessions-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/w2hsbin8zy5qy6zutfvph/Dancing-Through-My-Dreams-Lost-Session.wav?rlkey=7ugf8qa4kjwx5upjy6z7gc7cl&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "turn_me_up",
+          "title": "Turn Me Up",
+          "artist": "Night Shift",
+          "album": "No Rules Tonight",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/images/covers/night-shift-turn-me-up-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/ncplflnsdo9cp4o5ldgn3/night-shift-turn-me-up-mp3.mp3?rlkey=1w1zljwrr2y901ti1unhppdnw&raw=1",
+          "artistId": "night-shift"
+        },
+        {
+          "id": "circle_the_wagons",
+          "title": "Circle the Wagons",
+          "artist": "Parsons Cross",
+          "album": "Into the Light",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-circle-the-wagons-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/zv9z8076a6hc13vm8c67z/parsons-cross-circle-the-wagons-mp3.mp3?rlkey=wtv99unlw7flzrtxodxy2n7ho&st=i4v868b3&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "twonights",
+          "title": "Two Nights",
+          "artist": "PULSE7",
+          "album": "Endless Echo",
+          "cover": "https://raw.githubusercontent.com/SteveP999/pulse7/main/images/covers/pulse7-two-nights-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/2wioc1edj01haev6ifjkl/Two-Nights-PULSE7.mp3?rlkey=dwogp86reax5amxrh30bphoay&raw=1",
+          "artistId": "pulse7"
+        },
+        {
+          "id": "no_control",
+          "title": "No Control",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-no-control-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xl6id8cftbsvrqpsueehx/No-Control-Mastered-MP3.mp3?rlkey=4vxmg9u10jckquwf5xkloccq0&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "lift_off_with_a_bang",
+          "title": "Lift Off (With a Bang)",
+          "artist": "Silent Oblivion",
+          "album": "Beginnings Past",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/images/covers/silent-oblivion-lift-off-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/tctbe476glsb4mu3hv7k7/Lift-Off-With-a-Bang-Mastered-MP3.mp3?rlkey=2dt2a3mayzne6l1lff1jf3t00&raw=1",
+          "artistId": "silent-oblivion"
+        },
+        {
+          "id": "too_loud",
+          "title": "Too Loud",
+          "artist": "Vanta",
+          "album": "Signal",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-too-loud-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/4228evr7l0qrs0kegwzty/Too-Loud-Mastered-MP3.mp3?rlkey=pw5icqqci9xf6cj36iqarmkdj&raw=1",
+          "artistId": "vanta"
+        },
+        {
+          "id": "too_late_to_behave",
+          "title": "Too Late To Behave",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-too-late-to-behave-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/wvym3juow40a76gor19hu/vincent-cole-too-late-to-behave-mp3.mp3?rlkey=2gu6hybeu8y49mwdqoea71yhv&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "nightstrike-crash-and-burn",
+          "title": "Crash and Burn",
+          "artist": "NightStrike",
+          "album": "High Voltage",
+          "cover": "https://raw.githubusercontent.com/SteveP999/NightStrike/main/images/covers/nightstrike-crash-and-burn-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/pdk6fd86ja75lrfd862i9/nightstrike-crash-and-burn-mp3.mp3?rlkey=65gjedmk6v53dxnyhfwyjwc83&raw=1",
+          "artistId": "nightstrike"
         },
         {
           "id": "hello-texas-modern-man-grind",
@@ -3433,6 +3559,96 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-modern-man-grind-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/xj3d2p0d7f7ma03673cvd/modern-man-grind-country-rock-mix.mp3?rlkey=8qjmcyci0zseojbwaru1emmg6&raw=1",
           "artistId": "hello-texas"
+        },
+        {
+          "id": "stephen-parsons-just-move-on",
+          "title": "Just Move On",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-just-move-on-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/0jh7i1oix1yhh5jyc51n2/just-move-on.mp3?rlkey=duqmyacqvmc1ghcqeb8pkrs8k&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "brightons-yesterday-s-girl",
+          "title": "Yesterday's Girl",
+          "artist": "Brightons",
+          "album": "The Last Good Summer",
+          "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-yesterdays-girl-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/q5y6ly4jo82f5f0a6wmpx/brightons-yesterdays-girl-mp3.mp3?rlkey=4zf0wqtnhfxass2xr1mcrjlnx&raw=1",
+          "artistId": "brightons"
+        },
+        {
+          "id": "brightons-nicole-in-the-rain",
+          "title": "Nicole in the Rain",
+          "artist": "Brightons",
+          "album": "The Last Good Summer",
+          "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-nicole-in-the-rain-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/t9suftfr0k83z2punwruh/brightons-nicole-in-the-rain-mp3-v1.mp3?rlkey=zb7lv17xgx1a4t3nf0d03aic3&raw=1",
+          "artistId": "brightons"
+        },
+        {
+          "id": "skyline-theory-we-dont-come-down",
+          "title": "We Don't Come Down",
+          "artist": "Skyline Theory",
+          "album": "Fade and Fire",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Skyline-Theory/main/images/covers/skyline-theory-we-dont-come-down-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/h5svn3mi4a63930w9l7ui/We-Don-t-Come-Down-Mastered-MP3.mp3?rlkey=zt4xmckggd78pupouh05pibge&raw=1",
+          "artistId": "skyline-theory"
+        },
+        {
+          "id": "borrowed-whispers-if-i-could-love-you-again",
+          "title": "If I Could Love You Again",
+          "artist": "Borrowed Whispers",
+          "album": "I Still Remember",
+          "cover": "https://raw.githubusercontent.com/SteveP999/borrowed-whispers/main/images/covers/borrowed-whispers-if-i-could-love-you-again-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/r2ph0eaje07tqmz1kxbeo/borrowed-whispers-if-i-could-love-you-again-mp3.mp3?rlkey=9nmgyjhpmi6nor9d7ap31edj8&raw=1",
+          "artistId": "borrowed-whispers"
+        },
+        {
+          "id": "september-skies-life-in-the-light",
+          "title": "Life in the Light",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-life-in-the-light-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/gmsamup3bfiiwb0libxop/september-skies-life-in-the-light-mp3.mp3?rlkey=mhxx75x2xqf5k5esdt6joqstt&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "stephen-parsons-finally-alive",
+          "title": "Finally Alive",
+          "artist": "Stephen Parsons",
+          "album": "Touches of the Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-finally-alive-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/0ernzio6gq5ttmywlvkr0/stephen-parsons-finally-alive-mp3.mp3?rlkey=mv3dasyg5uxx2sqv1q1fi48mv&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "sawyer-price-burnin-gas",
+          "title": "Burnin' Gas",
+          "artist": "Sawyer Price",
+          "album": "Unrushed",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-burnin-gas-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/4fx72e3509ucibl04wnm5/sawyer-price-burnin-gas-MP3.mp3?rlkey=k0llb4t23e4hlei6gafmk57xk&raw=1",
+          "artistId": "sawyer-price"
+        },
+        {
+          "id": "september-skies-perfectly-imperfect",
+          "title": "Perfectly Imperfect",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-perfectly-imperfect-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/lg6e6m5qbxuuh41uuggww/silent-oblivion-perfectly-imperfect.mp3.mp3?rlkey=eja1hfky1z793h9jtstd271bj&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "vanta-say-it-again",
+          "title": "Say It Again",
+          "artist": "Vanta",
+          "album": "Eclipse",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-say-it-again-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/m44zpz3iy0opjdnp9p23u/vanta-say-it-again-mp3.mp3?rlkey=m38kdqjh98pkbpy7zlm270a9e&raw=1",
+          "artistId": "vanta"
         }
       ]
     },
