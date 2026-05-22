@@ -279,20 +279,45 @@ function buildStationStrip() {
   const strip = document.getElementById('np-stations-strip');
   strip.innerHTML = stations.map((st, i) => `
     <button class="strip-btn ${i===0?'active':''}" onclick="switchStation(${i})"
-            title="${st.name}"
-            style="${st.art ? `background-image:url('${st.art}');background-size:cover;background-position:center;border-color:${st.color}55` : `background:${st.color}22;border-color:${st.color}33`}">
-      ${st.art ? '' : `<div class="strip-placeholder" style="color:${st.color}">${STATION_ICONS[st.id] || '📻'}</div>`}
+            title="${st.name}" id="strip-btn-${i}"
+            style="background:${st.color}22;border-color:${st.color}33">
+      <div class="strip-placeholder" id="strip-ph-${i}" style="color:${st.color}">${STATION_ICONS[st.id] || '📻'}</div>
     </button>
   `).join('');
 }
 
 // ── Station grid (Stations tab) ───────────────────────────────
+function applyStationArt() {
+  stations.forEach((st, i) => {
+    if (!st.art) return;
+    // Card art
+    const cardArt = document.getElementById('card-art-' + i);
+    if (cardArt) {
+      cardArt.style.backgroundImage = "url('" + st.art + "')";
+      cardArt.style.backgroundSize = 'cover';
+      cardArt.style.backgroundPosition = 'center';
+      const ph = document.getElementById('card-ph-' + i);
+      if (ph) ph.style.display = 'none';
+    }
+    // Strip btn
+    const stripBtn = document.getElementById('strip-btn-' + i);
+    if (stripBtn) {
+      stripBtn.style.backgroundImage = "url('" + st.art + "')";
+      stripBtn.style.backgroundSize = 'cover';
+      stripBtn.style.backgroundPosition = 'center';
+      stripBtn.style.borderColor = st.color + '88';
+      const stripPh = document.getElementById('strip-ph-' + i);
+      if (stripPh) stripPh.style.display = 'none';
+    }
+  });
+}
+
 function buildStationGrid() {
   const grid = document.getElementById('stations-grid');
   grid.innerHTML = stations.map((st, i) => `
     <div class="station-card ${i===0?'active':''}" onclick="stationCardClick(${i})">
-      <div class="station-card-art" style="${st.art ? `background-image:url('${st.art}');background-size:cover;background-position:center` : `background:linear-gradient(135deg,${st.color}44,${st.color}11)`}"></div>
-      <div class="station-card-placeholder" style="${st.art ? 'display:none' : ''}">
+      <div class="station-card-art" id="card-art-${i}"></div>
+      <div class="station-card-placeholder" id="card-ph-${i}">
         <div class="station-card-placeholder-inner">
           <div class="placeholder-color" style="background:${st.color}"></div>
           <div class="placeholder-icon">${STATION_ICONS[st.id] || '📻'}</div>
@@ -310,6 +335,9 @@ function buildStationGrid() {
     </div>
   `).join('');
 }
+
+// Apply art after grid and strip are built
+function initArt() { applyStationArt(); }
 
 function stationCardClick(i) {
   switchStation(i);
