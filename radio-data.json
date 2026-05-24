@@ -1588,13 +1588,13 @@
           "artistId": "sawyer-price"
         },
         {
-          "id": "night-shift-hearts-racing-2",
-          "title": "Hearts Racing",
-          "artist": "Night Shift",
-          "album": "No Rules Tonight",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Night-Shift/main/images/covers/night-shift-hearts-racing-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/rvksbrmd25kl66ot6m7rz/night-shift-hearts-racing-mp3.mp3?rlkey=f1ub15nhbdclmcvag0lzev4v3&raw=1",
-          "artistId": "night-shift"
+          "id": "harlan-rhodes-pain",
+          "title": "PAIN",
+          "artist": "Harlan Rhodes",
+          "album": "Ashes and Rain",
+          "cover": "https://raw.githubusercontent.com/stevep999/harlan-rhodes/main/images/covers/harlan-rhodes-pain-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/splb0tlcd7e2puzid5vdc/harlan-rhodes-pain-mp3.mp3?rlkey=v69cvbfw4xpqvr1nzkzm3nisl&raw=1",
+          "artistId": "harlan-rhodes"
         }
       ]
     },
@@ -1771,6 +1771,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-wish-that-i-was-here-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/omwmauhlbbfrzqzagju9c/sawyer-price-wish-that-i-was-here-mp3.mp3?rlkey=sfyryj05qt7a4k2fa7s87ix4x&raw=1",
           "artistId": "sawyer-price"
+        },
+        {
+          "id": "harlan-rhodes-pain",
+          "title": "PAIN",
+          "artist": "Harlan Rhodes",
+          "album": "Ashes and Rain",
+          "cover": "https://raw.githubusercontent.com/stevep999/harlan-rhodes/main/images/covers/harlan-rhodes-pain-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/splb0tlcd7e2puzid5vdc/harlan-rhodes-pain-mp3.mp3?rlkey=v69cvbfw4xpqvr1nzkzm3nisl&raw=1",
+          "artistId": "harlan-rhodes"
         }
       ]
     },
@@ -2303,6 +2312,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-for-hard-truths/avery-ivey-the-long-way-down-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/c06dpwu8z8ghmhripoasu/The-Long-Way-Down-Mastered-MP3.mp3?rlkey=lawjr12q40tq7nvme4lavvzd6&raw=1",
           "artistId": "ivey-wilder"
+        },
+        {
+          "id": "harlan-rhodes-pain",
+          "title": "PAIN",
+          "artist": "Harlan Rhodes",
+          "album": "Ashes and Rain",
+          "cover": "https://raw.githubusercontent.com/stevep999/harlan-rhodes/main/images/covers/harlan-rhodes-pain-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/splb0tlcd7e2puzid5vdc/harlan-rhodes-pain-mp3.mp3?rlkey=v69cvbfw4xpqvr1nzkzm3nisl&raw=1",
+          "artistId": "harlan-rhodes"
         }
       ]
     },
@@ -3850,15 +3868,6 @@
           "artistId": "silent-oblivion"
         },
         {
-          "id": "too_loud",
-          "title": "Too Loud",
-          "artist": "Vanta",
-          "album": "Signal",
-          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-too-loud-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/4228evr7l0qrs0kegwzty/Too-Loud-Mastered-MP3.mp3?rlkey=pw5icqqci9xf6cj36iqarmkdj&raw=1",
-          "artistId": "vanta"
-        },
-        {
           "id": "too_late_to_behave",
           "title": "Too Late To Behave",
           "artist": "Vincent Cole",
@@ -4001,6 +4010,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-wish-that-i-was-here-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/omwmauhlbbfrzqzagju9c/sawyer-price-wish-that-i-was-here-mp3.mp3?rlkey=sfyryj05qt7a4k2fa7s87ix4x&raw=1",
           "artistId": "sawyer-price"
+        },
+        {
+          "id": "harlan-rhodes-pain",
+          "title": "PAIN",
+          "artist": "Harlan Rhodes",
+          "album": "Ashes and Rain",
+          "cover": "https://raw.githubusercontent.com/stevep999/harlan-rhodes/main/images/covers/harlan-rhodes-pain-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/splb0tlcd7e2puzid5vdc/harlan-rhodes-pain-mp3.mp3?rlkey=v69cvbfw4xpqvr1nzkzm3nisl&raw=1",
+          "artistId": "harlan-rhodes"
         }
       ]
     },
