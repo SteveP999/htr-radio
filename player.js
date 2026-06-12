@@ -98,8 +98,15 @@ function playAudio() {
   audio.removeAttribute('crossorigin');
   audio.load();
   const p = audio.play();
-  if (p) p.then(() => { isPlaying = true; updatePlayBtn(); })
-              .catch(() => { isPlaying = false; updatePlayBtn(); });
+  if (p) p.then(() => {
+    isPlaying = true;
+    updatePlayBtn();
+    if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'playing';
+  }).catch(() => {
+    isPlaying = false;
+    updatePlayBtn();
+    if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
+  });
 }
 
 audio.addEventListener('ended', () => {
@@ -140,6 +147,7 @@ function togglePlay() {
     audio.pause();
     isPlaying = false;
     updatePlayBtn();
+    if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
   }
 }
 
@@ -215,6 +223,28 @@ function updateTrackUI(track) {
   } else {
     art.src = '';
     art.style.background = getStation()?.color || '#1c1a18';
+  }
+
+  // Media Session API — lock screen / notification controls on mobile
+  if ('mediaSession' in navigator) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title:  track.title  || 'HTR Radio',
+      artist: track.artist || 'Hello Texas Records',
+      album:  track.album  || (getStation()?.name || 'HTR Radio'),
+      artwork: track.cover ? [
+        { src: track.cover, sizes: '512x512', type: 'image/png' },
+        { src: track.cover, sizes: '256x256', type: 'image/png' },
+      ] : [
+        { src: 'https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png',
+          sizes: '512x512', type: 'image/png' }
+      ]
+    });
+
+    navigator.mediaSession.setActionHandler('play',          () => { playAudio(); isPlaying = true;  updatePlayBtn(); });
+    navigator.mediaSession.setActionHandler('pause',         () => { audio.pause(); isPlaying = false; updatePlayBtn(); });
+    navigator.mediaSession.setActionHandler('nexttrack',     () => nextTrack());
+    navigator.mediaSession.setActionHandler('previoustrack', () => prevTrack());
+    navigator.mediaSession.setActionHandler('stop',          () => { audio.pause(); isPlaying = false; updatePlayBtn(); });
   }
 }
 
