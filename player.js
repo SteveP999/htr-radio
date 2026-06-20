@@ -1,8 +1,8 @@
-// ── HTR Radio Player ─────────────────────────────────────────
+// ── HTR Radio Player v3 ─────────────────────────────────────
 'use strict';
 
 const audio = document.getElementById('main-audio');
-let stations = [];
+let stations       = [];
 let currentStationIdx = 0;
 let currentTrackIdx   = 0;
 let isPlaying         = false;
@@ -12,13 +12,16 @@ let playingIntro      = false;
 let duration          = 0;
 let progressDragging  = false;
 
+const IS_DESKTOP = () => window.innerWidth >= 768;
+
 // ── Load data ─────────────────────────────────────────────────
 fetch('radio-data.json?cb=' + Date.now())
   .then(r => r.json())
   .then(data => {
     stations = data.stations || [];
-    buildStationStrip();
-    buildStationGrid();
+    buildMobileStrip();
+    buildMobileGrid();
+    buildDesktopGrid();
     applyStationArt();
     loadStation(0, false);
   })
@@ -49,9 +52,7 @@ function loadStation(idx, autoplay) {
   updateAccentColor(st.color);
   updateActiveStation();
 
-  if (tracks.length > 0) {
-    loadTrack(autoplay);
-  }
+  if (tracks.length > 0) loadTrack(autoplay);
 }
 
 function switchStation(idx) {
@@ -77,8 +78,6 @@ function loadTrack(autoplay) {
   updateBgArt(track.cover);
 
   const st = getStation();
-
-  // The Hits — play random intro clip first if available
   if (st.djIntros && track.introClips && track.introClips.length > 0) {
     const clip = track.introClips[Math.floor(Math.random() * track.introClips.length)];
     playingIntro = true;
@@ -94,7 +93,6 @@ function loadTrack(autoplay) {
 }
 
 function playAudio() {
-  // iOS fix
   audio.removeAttribute('crossorigin');
   audio.load();
   const p = audio.play();
@@ -111,33 +109,18 @@ function playAudio() {
 
 audio.addEventListener('ended', () => {
   if (playingIntro) {
-    // Intro done — play the actual song
     playingIntro = false;
     hideCasey();
     const track = getTrack();
-    if (track) {
-      audio.src = track.audio;
-      audio.load();
-      playAudio();
-    }
+    if (track) { audio.src = track.audio; audio.load(); playAudio(); }
     return;
   }
   nextTrack();
 });
 
-audio.addEventListener('timeupdate', () => {
-  if (!progressDragging) updateProgress();
-});
-
-audio.addEventListener('loadedmetadata', () => {
-  duration = audio.duration || 0;
-  updateDuration();
-});
-
-audio.addEventListener('durationchange', () => {
-  duration = audio.duration || 0;
-  updateDuration();
-});
+audio.addEventListener('timeupdate', () => { if (!progressDragging) updateProgress(); });
+audio.addEventListener('loadedmetadata', () => { duration = audio.duration || 0; updateDuration(); });
+audio.addEventListener('durationchange',  () => { duration = audio.duration || 0; updateDuration(); });
 
 // ── Playback controls ─────────────────────────────────────────
 function togglePlay() {
@@ -169,21 +152,48 @@ function prevTrack() {
   loadTrack(isPlaying);
 }
 
+// ── Artist link ───────────────────────────────────────────────
+function goToArtist() {
+  const track = getTrack();
+  if (!track?.artistId) return;
+  window.open(`https://${track.artistId}.hellotexasrecords.com`, '_blank');
+}
+
 // ── Progress bar ──────────────────────────────────────────────
-const progressBar = document.getElementById('np-progress-bar');
-const fill        = document.getElementById('np-fill');
-const thumb       = document.getElementById('np-thumb');
+function wireProgress(barId, fillId, thumbId, elapsedId) {
+  const bar   = document.getElementById(barId);
+  const fill  = document.getElementById(fillId);
+  const thumb = document.getElementById(thumbId);
+  if (!bar) return;
+  bar.addEventListener('click', e => {
+    if (!duration) return;
+    const r = bar.getBoundingClientRect();
+    audio.currentTime = ((e.clientX - r.left) / r.width) * duration;
+  });
+  bar.addEventListener('mousedown', () => progressDragging = true);
+  bar.addEventListener('mousemove', e => {
+    if (!progressDragging || !duration) return;
+    const r = bar.getBoundingClientRect();
+    audio.currentTime = Math.max(0, Math.min(1, (e.clientX - r.left) / r.width)) * duration;
+  });
+}
+document.addEventListener('mouseup', () => progressDragging = false);
+
+wireProgress('np-progress-bar',  'np-fill',  'np-thumb',  'np-elapsed');
+wireProgress('dnp-progress-bar', 'dnp-fill', 'dnp-thumb', 'dnp-elapsed');
 
 function updateProgress() {
   if (!duration) return;
   const pct = (audio.currentTime / duration) * 100;
-  fill.style.width  = pct + '%';
-  thumb.style.left  = pct + '%';
-  document.getElementById('np-elapsed').textContent = fmt(audio.currentTime);
+  ['np-fill','dnp-fill'].forEach(id => { const el = document.getElementById(id); if(el) el.style.width = pct+'%'; });
+  ['np-thumb','dnp-thumb'].forEach(id => { const el = document.getElementById(id); if(el) el.style.left = pct+'%'; });
+  setText('np-elapsed',  fmt(audio.currentTime));
+  setText('dnp-elapsed', fmt(audio.currentTime));
 }
 
 function updateDuration() {
-  document.getElementById('np-duration').textContent = fmt(duration);
+  setText('np-duration',  fmt(duration));
+  setText('dnp-duration', fmt(duration));
 }
 
 function fmt(s) {
@@ -191,41 +201,44 @@ function fmt(s) {
   return `${Math.floor(s/60)}:${String(Math.floor(s%60)).padStart(2,'0')}`;
 }
 
-progressBar?.addEventListener('click', e => {
-  if (!duration) return;
-  const r = progressBar.getBoundingClientRect();
-  audio.currentTime = ((e.clientX - r.left) / r.width) * duration;
-});
-
-progressBar?.addEventListener('mousedown', () => progressDragging = true);
-document.addEventListener('mouseup', () => progressDragging = false);
-progressBar?.addEventListener('mousemove', e => {
-  if (!progressDragging || !duration) return;
-  const r = progressBar.getBoundingClientRect();
-  audio.currentTime = Math.max(0, Math.min(1, (e.clientX-r.left)/r.width)) * duration;
-});
-
 // ── UI updates ────────────────────────────────────────────────
 function updatePlayBtn() {
-  const btn = document.getElementById('btn-play');
-  btn.querySelector('.play-icon').style.display  = isPlaying ? 'none' : 'block';
-  btn.querySelector('.pause-icon').style.display = isPlaying ? 'block' : 'none';
-  btn.classList.toggle('playing', isPlaying);
+  // Mobile
+  const mb = document.getElementById('btn-play');
+  if (mb) {
+    mb.querySelector('.play-icon').style.display  = isPlaying ? 'none'  : 'block';
+    mb.querySelector('.pause-icon').style.display = isPlaying ? 'block' : 'none';
+    mb.classList.toggle('playing', isPlaying);
+  }
+  // Desktop
+  const db = document.getElementById('dnp-btn-play');
+  if (db) {
+    db.querySelector('.play-icon').style.display  = isPlaying ? 'none'  : 'block';
+    db.querySelector('.pause-icon').style.display = isPlaying ? 'block' : 'none';
+    db.classList.toggle('playing', isPlaying);
+  }
 }
 
 function updateTrackUI(track) {
-  setText('np-track',  track.title   || '—');
-  setText('np-artist', track.artist  || '');
-  setText('np-album',  track.album   || '');
-  const art = document.getElementById('np-art');
-  if (track.cover) {
-    art.src = track.cover;
-  } else {
-    art.src = '';
-    art.style.background = getStation()?.color || '#1c1a18';
-  }
+  // Mobile
+  setText('np-track',  track.title  || '—');
+  setText('np-artist', track.artist || '');
+  setText('np-album',  track.album  || '');
+  const ma = document.getElementById('np-art');
+  if (ma) ma.src = track.cover || '';
 
-  // Media Session API — lock screen / notification controls on mobile
+  // Desktop
+  setText('dnp-track',  track.title  || '—');
+  setText('dnp-artist', track.artist || '');
+  setText('dnp-album',  track.album  || '');
+  const da = document.getElementById('dnp-art');
+  if (da) da.src = track.cover || '';
+
+  // Update "now playing" text in active station card (desktop)
+  const nowEl = document.getElementById(`dsg-now-${currentStationIdx}`);
+  if (nowEl) nowEl.textContent = '▶ ' + (track.title || '—');
+
+  // Media Session API
   if ('mediaSession' in navigator) {
     navigator.mediaSession.metadata = new MediaMetadata({
       title:  track.title  || 'HTR Radio',
@@ -234,12 +247,8 @@ function updateTrackUI(track) {
       artwork: track.cover ? [
         { src: track.cover, sizes: '512x512', type: 'image/png' },
         { src: track.cover, sizes: '256x256', type: 'image/png' },
-      ] : [
-        { src: 'https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png',
-          sizes: '512x512', type: 'image/png' }
-      ]
+      ] : [{ src: 'https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png', sizes:'512x512', type:'image/png' }]
     });
-
     navigator.mediaSession.setActionHandler('play',          () => { playAudio(); isPlaying = true;  updatePlayBtn(); });
     navigator.mediaSession.setActionHandler('pause',         () => { audio.pause(); isPlaying = false; updatePlayBtn(); });
     navigator.mediaSession.setActionHandler('nexttrack',     () => nextTrack());
@@ -249,10 +258,21 @@ function updateTrackUI(track) {
 }
 
 function updateStationUI(st) {
+  // Mobile pill
   setText('np-station-name', st.shortName || st.name);
-  const dot = document.getElementById('np-dot');
-  dot.style.background = st.color;
-  dot.style.boxShadow  = `0 0 6px ${st.glow}`;
+  const md = document.getElementById('np-dot');
+  if (md) { md.style.background = st.color; md.style.boxShadow = `0 0 6px ${st.glow}`; }
+
+  // Desktop station bar
+  setText('dnp-station-name-d', st.name || '');
+  setText('dnp-station-genre-d', st.genre || '');
+  const dd = document.getElementById('dnp-dot-d');
+  if (dd) { dd.style.background = st.color; dd.style.boxShadow = `0 0 6px ${st.glow}`; }
+  const sa = document.getElementById('dnp-station-art');
+  if (sa) { sa.src = st.art || ''; sa.style.display = st.art ? 'block' : 'none'; }
+
+  // Desktop sub header
+  setText('dsg-sub', st.name || '');
 }
 
 function updateBgArt(src) {
@@ -262,7 +282,6 @@ function updateBgArt(src) {
 function updateAccentColor(color) {
   if (!color) return;
   document.documentElement.style.setProperty('--accent', color);
-  // glow is accent at 35% opacity
   const r = parseInt(color.slice(1,3),16);
   const g = parseInt(color.slice(3,5),16);
   const b = parseInt(color.slice(5,7),16);
@@ -270,88 +289,56 @@ function updateAccentColor(color) {
 }
 
 function updateActiveStation() {
-  // Strip buttons
-  document.querySelectorAll('.strip-btn').forEach((btn, i) => {
-    btn.classList.toggle('active', i === currentStationIdx);
-  });
-  // Grid cards
-  document.querySelectorAll('.station-card').forEach((card, i) => {
-    card.classList.toggle('active', i === currentStationIdx);
-  });
+  // Mobile strip
+  document.querySelectorAll('.strip-btn').forEach((btn, i) => btn.classList.toggle('active', i === currentStationIdx));
+  // Mobile grid
+  document.querySelectorAll('.station-card').forEach((card, i) => card.classList.toggle('active', i === currentStationIdx));
+  // Desktop grid
+  document.querySelectorAll('.dsg-card').forEach((card, i) => card.classList.toggle('active', i === currentStationIdx));
 }
 
-function showCasey() { document.getElementById('np-casey').classList.add('visible'); }
-function hideCasey() { document.getElementById('np-casey').classList.remove('visible'); }
-function setText(id, val) {
-  const el = document.getElementById(id);
-  if (el) el.textContent = val;
+function showCasey() {
+  document.getElementById('np-casey')?.classList.add('visible');
+  document.getElementById('dnp-casey')?.classList.add('visible');
 }
+function hideCasey() {
+  document.getElementById('np-casey')?.classList.remove('visible');
+  document.getElementById('dnp-casey')?.classList.remove('visible');
+}
+function setText(id, val) { const el = document.getElementById(id); if (el) el.textContent = val; }
 
-// ── Station strip (Now Playing tab) ──────────────────────────
+// ── Station ICONS ─────────────────────────────────────────────
 const STATION_ICONS = {
-  'lone-star':       '🤠',
-  'skyline-fm':      '🌃',
-  'sunset-boulevard':'🌅',
-  'voltage':         '⚡',
-  'velvet-lounge':   '🎷',
-  'spirit-radio':    '✝️',
-  'neon-nights':     '🪩',
-  'horizon':         '🌌',
-  'retro-gold':      '🎸',
-  'lucas-harlow':    '🎹',
-  'htr-top-20':      '🏆',
-  'the-hits':        '⭐',
-  'back-porch':      '🪑',
-  'benders-search':  '🔍',
-  'new-releases':    '🆕',
+  'lone-star':'🤠','skyline-fm':'🌃','sunset-boulevard':'🌅','voltage':'⚡',
+  'velvet-lounge':'🎷','spirit-radio':'✝️','neon-nights':'🪩','horizon':'🌌',
+  'retro-gold':'🎸','lucas-harlow':'🎹','htr-top-20':'🏆','the-hits':'⭐',
+  'back-porch':'🪑','benders-search':'🔍','new-releases':'🆕',
 };
 
-function buildStationStrip() {
+// ── MOBILE STRIP ──────────────────────────────────────────────
+function buildMobileStrip() {
   const strip = document.getElementById('np-stations-strip');
+  if (!strip) return;
   strip.innerHTML = stations.map((st, i) => `
     <button class="strip-btn ${i===0?'active':''}" onclick="switchStation(${i})"
             title="${st.name}" id="strip-btn-${i}"
             style="background:${st.color}22;border-color:${st.color}33">
-      <div class="strip-placeholder" id="strip-ph-${i}" style="color:${st.color}">${STATION_ICONS[st.id] || '📻'}</div>
+      <div class="strip-placeholder" id="strip-ph-${i}" style="color:${st.color}">${STATION_ICONS[st.id]||'📻'}</div>
     </button>
   `).join('');
 }
 
-// ── Station grid (Stations tab) ───────────────────────────────
-function applyStationArt() {
-  stations.forEach((st, i) => {
-    if (!st.art) return;
-    // Card art
-    const cardArt = document.getElementById('card-art-' + i);
-    if (cardArt) {
-      cardArt.style.backgroundImage = "url('" + st.art + "')";
-      cardArt.style.backgroundSize = 'cover';
-      cardArt.style.backgroundPosition = 'center';
-      const ph = document.getElementById('card-ph-' + i);
-      if (ph) ph.style.display = 'none';
-    }
-    // Strip btn
-    const stripBtn = document.getElementById('strip-btn-' + i);
-    if (stripBtn) {
-      stripBtn.style.backgroundImage = "url('" + st.art + "')";
-      stripBtn.style.backgroundSize = 'cover';
-      stripBtn.style.backgroundPosition = 'center';
-      stripBtn.style.borderColor = st.color + '88';
-      const stripPh = document.getElementById('strip-ph-' + i);
-      if (stripPh) stripPh.style.display = 'none';
-    }
-  });
-}
-
-function buildStationGrid() {
+// ── MOBILE GRID ───────────────────────────────────────────────
+function buildMobileGrid() {
   const grid = document.getElementById('stations-grid');
+  if (!grid) return;
   grid.innerHTML = stations.map((st, i) => `
     <div class="station-card ${i===0?'active':''}" onclick="stationCardClick(${i})">
-      <div class="station-card-art" id="card-art-${i}"></div>
-      <div class="station-card-placeholder" id="card-ph-${i}">
+      <div class="station-card-art" id="mcard-art-${i}"></div>
+      <div class="station-card-placeholder" id="mcard-ph-${i}">
         <div class="station-card-placeholder-inner">
           <div class="placeholder-color" style="background:${st.color}"></div>
-          <div class="placeholder-icon">${STATION_ICONS[st.id] || '📻'}</div>
+          <div class="placeholder-icon">${STATION_ICONS[st.id]||'📻'}</div>
         </div>
       </div>
       <div class="station-card-overlay"></div>
@@ -359,27 +346,79 @@ function buildStationGrid() {
       <div class="station-card-body">
         <div class="station-card-name">${st.name}</div>
         <div class="station-card-genre">${st.genre}</div>
-        <div class="station-card-playing" id="card-playing-${i}">
-          ${st.tracks?.length ? `▶ ${st.tracks[0]?.title || '—'}` : 'No tracks assigned'}
-        </div>
       </div>
     </div>
   `).join('');
 }
 
-function stationCardClick(i) {
-  switchStation(i);
-  // Switch back to Now Playing view
-  setTimeout(() => showView('nowplaying'), 200);
+// ── DESKTOP GRID ──────────────────────────────────────────────
+function buildDesktopGrid() {
+  const grid = document.getElementById('dsg-grid');
+  if (!grid) return;
+  grid.innerHTML = stations.map((st, i) => `
+    <div class="dsg-card ${i===0?'active':''}" onclick="switchStation(${i})" id="dsg-card-${i}">
+      <div class="dsg-card-art" id="dsg-art-${i}"></div>
+      <div class="dsg-placeholder" id="dsg-ph-${i}">
+        <div class="dsg-ph-color" style="background:${st.color}"></div>
+        <div class="dsg-placeholder-icon">${STATION_ICONS[st.id]||'📻'}</div>
+      </div>
+      <div class="dsg-card-overlay"></div>
+      <div class="dsg-card-active-overlay"></div>
+      <div class="dsg-card-badge"></div>
+      <div class="dsg-card-body">
+        <div class="dsg-card-name">${st.name}</div>
+        <div class="dsg-card-genre">${st.genre}</div>
+        <div class="dsg-card-now" id="dsg-now-${i}"></div>
+      </div>
+    </div>
+  `).join('');
 }
 
-// ── View switching ────────────────────────────────────────────
+// ── Apply station art images ───────────────────────────────────
+function applyStationArt() {
+  stations.forEach((st, i) => {
+    if (!st.art) return;
+    const setBg = (el, ph) => {
+      if (!el) return;
+      el.style.backgroundImage = `url('${st.art}')`;
+      el.style.backgroundSize = 'cover';
+      el.style.backgroundPosition = 'center';
+      if (ph) ph.style.display = 'none';
+    };
+    // Mobile strip
+    const sb = document.getElementById(`strip-btn-${i}`);
+    const sp = document.getElementById(`strip-ph-${i}`);
+    if (sb) { sb.style.backgroundImage=`url('${st.art}')`;sb.style.backgroundSize='cover';sb.style.backgroundPosition='center';sb.style.borderColor=st.color+'88'; if(sp) sp.style.display='none'; }
+    // Mobile card
+    setBg(document.getElementById(`mcard-art-${i}`), document.getElementById(`mcard-ph-${i}`));
+    // Desktop card
+    setBg(document.getElementById(`dsg-art-${i}`),   document.getElementById(`dsg-ph-${i}`));
+  });
+}
+
+// ── Mobile view switching ─────────────────────────────────────
 function showView(name) {
   document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
   document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
   document.getElementById('view-' + name)?.classList.add('active');
   document.getElementById('tab-' + name)?.classList.add('active');
 }
-
 function openStations()  { showView('stations'); }
 function closeStations() { showView('nowplaying'); }
+
+function stationCardClick(i) {
+  switchStation(i);
+  setTimeout(() => showView('nowplaying'), 200);
+}
+
+// BroadcastChannel — stop radio if artist site starts playing
+try {
+  const bc = new BroadcastChannel('htr-audio');
+  bc.onmessage = e => {
+    if (e.data?.type === 'artist-play' && isPlaying) {
+      audio.pause(); isPlaying = false; updatePlayBtn();
+      if ('mediaSession' in navigator) navigator.mediaSession.playbackState = 'paused';
+    }
+  };
+  audio.addEventListener('play', () => bc.postMessage({ type: 'radio-play' }));
+} catch(e) {}

@@ -10,13 +10,101 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@300;400;600;700&family=Barlow:wght@300;400&display=swap" rel="stylesheet">
 <link rel="manifest" href="manifest.json">
 <link rel="apple-touch-icon" href="images/stations/htr-top-20.png">
-<link rel="stylesheet" href="styles.css?v=2">
+<link rel="stylesheet" href="styles.css?v=3">
 </head>
 <body>
 <div id="bg-art"></div>
 <div class="bg-overlay"></div>
 <div class="grain"></div>
-<div class="app">
+
+<!-- ═══════════════════════════════════════════
+     DESKTOP LAYOUT (hidden on mobile via CSS)
+     ═══════════════════════════════════════════ -->
+<nav class="desktop-nav">
+  <div class="desktop-nav-logo">
+    <img src="https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png" alt="HTR">
+    <span>HTR Radio</span>
+  </div>
+  <a href="https://hellotexasrecords.com" class="desktop-nav-back"><span>&#8592;</span> hellotexasrecords.com</a>
+</nav>
+
+<div class="desktop-layout">
+
+  <!-- LEFT COLUMN: Now Playing -->
+  <div class="desktop-np">
+    <!-- Album Art -->
+    <div class="dnp-art-wrap">
+      <div class="dnp-art-shadow"></div>
+      <img class="dnp-art" id="dnp-art" src="" alt="Album art">
+      <div class="dnp-art-shimmer"></div>
+    </div>
+
+    <!-- Casey DJ tag -->
+    <div class="dnp-casey" id="dnp-casey">
+      <span class="dnp-casey-dot"></span>
+      Countdown Casey...
+    </div>
+
+    <!-- Track info -->
+    <div class="dnp-info">
+      <div class="dnp-track" id="dnp-track">—</div>
+      <div class="dnp-artist" id="dnp-artist" onclick="goToArtist()">Hello Texas Records</div>
+      <div class="dnp-album" id="dnp-album"></div>
+
+      <!-- Progress -->
+      <div class="dnp-progress-wrap">
+        <div class="dnp-progress-bar" id="dnp-progress-bar">
+          <div class="dnp-progress-fill" id="dnp-fill"></div>
+          <div class="dnp-progress-thumb" id="dnp-thumb"></div>
+        </div>
+        <div class="dnp-times">
+          <span id="dnp-elapsed">0:00</span>
+          <span id="dnp-duration">--:--</span>
+        </div>
+      </div>
+
+      <!-- Controls -->
+      <div class="dnp-controls">
+        <button class="dnp-ctrl-btn dnp-ctrl-btn--sm" onclick="prevTrack()">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>
+        </button>
+        <button class="dnp-ctrl-btn dnp-ctrl-btn--play" id="dnp-btn-play" onclick="togglePlay()">
+          <svg class="play-icon" width="34" height="34" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+          <svg class="pause-icon" width="34" height="34" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
+        </button>
+        <button class="dnp-ctrl-btn dnp-ctrl-btn--sm" onclick="nextTrack()">
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zm2-8.14L11.03 12 8 14.14V9.86zM16 6h2v12h-2z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Station info bar at bottom -->
+    <div class="dnp-station-bar">
+      <img class="dnp-station-art" id="dnp-station-art" src="" alt="" onerror="this.style.display='none'">
+      <div class="dnp-station-dot" id="dnp-dot-d"></div>
+      <div class="dnp-station-text">
+        <div class="dnp-station-name" id="dnp-station-name-d">HTR Radio</div>
+        <div class="dnp-station-genre" id="dnp-station-genre-d"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT COLUMN: Station Grid -->
+  <div class="desktop-stations">
+    <div class="dsg-header">
+      <div class="dsg-title">Stations</div>
+      <div class="dsg-sub" id="dsg-sub">Select a station</div>
+    </div>
+    <div class="dsg-grid" id="dsg-grid"></div>
+  </div>
+
+</div><!-- /desktop-layout -->
+
+
+<!-- ═══════════════════════════════════════════
+     MOBILE LAYOUT (hidden on desktop via CSS)
+     ═══════════════════════════════════════════ -->
+<div class="mobile-app">
   <div class="view view--nowplaying active" id="view-nowplaying">
     <div class="np-header">
       <div class="np-station-pill" id="np-station-pill">
@@ -42,7 +130,7 @@
     </div>
     <div class="np-info">
       <div class="np-track" id="np-track">—</div>
-      <div class="np-artist" id="np-artist">Hello Texas Records</div>
+      <div class="np-artist" id="np-artist" onclick="goToArtist()">Hello Texas Records</div>
       <div class="np-album" id="np-album"></div>
     </div>
     <div class="np-progress-wrap">
@@ -56,19 +144,20 @@
       </div>
     </div>
     <div class="np-controls">
-      <button class="ctrl-btn ctrl-btn--sm" id="btn-prev" onclick="prevTrack()">
+      <button class="ctrl-btn ctrl-btn--sm" onclick="prevTrack()">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 6h2v12H6zm3.5 6 8.5 6V6z"/></svg>
       </button>
       <button class="ctrl-btn ctrl-btn--play" id="btn-play" onclick="togglePlay()">
         <svg class="play-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
         <svg class="pause-icon" width="32" height="32" viewBox="0 0 24 24" fill="currentColor" style="display:none"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>
       </button>
-      <button class="ctrl-btn ctrl-btn--sm" id="btn-next" onclick="nextTrack()">
+      <button class="ctrl-btn ctrl-btn--sm" onclick="nextTrack()">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M6 18l8.5-6L6 6v12zm2-8.14L11.03 12 8 14.14V9.86zM16 6h2v12h-2z"/></svg>
       </button>
     </div>
     <div class="np-stations-strip" id="np-stations-strip"></div>
   </div>
+
   <div class="view view--stations" id="view-stations">
     <div class="stations-header">
       <div class="stations-logo">
@@ -84,7 +173,8 @@
     </div>
     <div class="stations-grid" id="stations-grid"></div>
   </div>
-</div>
+</div><!-- /mobile-app -->
+
 <div class="tab-bar">
   <button class="tab-btn active" id="tab-nowplaying" onclick="showView('nowplaying')">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
@@ -95,7 +185,8 @@
     <span>Stations</span>
   </button>
 </div>
+
 <audio id="main-audio"></audio>
-<script src="player.js"></script>
+<script src="player.js?v=3"></script>
 </body>
 </html>
