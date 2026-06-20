@@ -195,13 +195,13 @@ body{background:var(--dark);color:var(--cream);font-family:'Barlow',sans-serif;f
   }
   .dsg-card-art{position:absolute;inset:0;background-size:cover;background-position:center;transition:transform .4s;}
   .dsg-card:hover .dsg-card-art{transform:scale(1.05);}
-  .dsg-card-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 25%,rgba(0,0,0,.25) 55%,rgba(0,0,0,.88) 100%);}
+  .dsg-card-overlay{position:absolute;inset:0;background:linear-gradient(to bottom,transparent 30%,rgba(0,0,0,.2) 55%,rgba(0,0,0,.78) 100%);}
   .dsg-card-active-overlay{position:absolute;inset:0;background:rgba(200,146,42,.08);opacity:0;transition:opacity .2s;}
   .dsg-card.active .dsg-card-active-overlay{opacity:1;}
   .dsg-card-body{position:absolute;bottom:0;left:0;right:0;padding:.7rem .85rem .85rem;}
-  .dsg-card-name{font-family:'Bebas Neue',sans-serif;font-size:1.15rem;letter-spacing:.04em;color:var(--cream);line-height:1;margin-bottom:.2rem;}
-  .dsg-card-genre{font-family:'Barlow Condensed',sans-serif;font-size:.58rem;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.5);}
-  .dsg-card-now{font-family:'Barlow Condensed',sans-serif;font-size:.6rem;letter-spacing:.1em;color:var(--accent);margin-top:.25rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:none;}
+  .dsg-card-name{display:none;}
+  .dsg-card-genre{font-family:'Barlow Condensed',sans-serif;font-size:.82rem;letter-spacing:.1em;text-transform:uppercase;color:rgba(255,255,255,.92);line-height:1.35;text-shadow:0 1px 4px rgba(0,0,0,.8);}
+  .dsg-card-now{font-family:'Barlow Condensed',sans-serif;font-size:.65rem;letter-spacing:.1em;color:var(--accent);margin-top:.3rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;display:none;text-shadow:0 1px 4px rgba(0,0,0,.8);}
   .dsg-card.active .dsg-card-now{display:block;}
   .dsg-card-badge{position:absolute;top:.6rem;right:.6rem;width:9px;height:9px;border-radius:50%;background:var(--accent);box-shadow:0 0 8px var(--glow);display:none;}
   .dsg-card.active .dsg-card-badge{display:block;animation:pdot 2s ease-in-out infinite;}
