@@ -73,11 +73,10 @@ body{background:var(--dark);color:var(--cream);font-family:'Barlow',sans-serif;f
 
   .dnp-art-wrap{
     position:relative;
-    width:100%;
+    width:min(100%, 260px);
     aspect-ratio:1;
     flex-shrink:0;
-    margin-bottom:1.5rem;
-    max-height:340px;
+    margin:0 auto 1.25rem;
   }
   .dnp-art-shadow{position:absolute;inset:8%;bottom:-12%;border-radius:12px;background:var(--glow);filter:blur(35px);opacity:.65;}
   .dnp-art{
