@@ -118,6 +118,33 @@ audio.addEventListener('ended', () => {
   nextTrack();
 });
 
+// ── Stall / error recovery ────────────────────────────────────
+let stallTimer = null;
+let lastTime   = 0;
+let stallCount = 0;
+
+function resetStallTimer() {
+  clearTimeout(stallTimer);
+  if (!isPlaying) return;
+  stallTimer = setTimeout(() => {
+    // If currentTime hasn't moved and we're supposed to be playing — stalled
+    if (isPlaying && Math.abs(audio.currentTime - lastTime) < 0.1 && !audio.paused) {
+      stallCount++;
+      console.warn('HTR Radio: stall detected — skipping track', stallCount);
+      nextTrack();
+    }
+    lastTime = audio.currentTime;
+    resetStallTimer();
+  }, 8000);
+}
+
+audio.addEventListener('playing',  () => { stallCount = 0; lastTime = audio.currentTime; resetStallTimer(); });
+audio.addEventListener('waiting',  () => resetStallTimer());
+audio.addEventListener('stalled',  () => { console.warn('HTR Radio: stalled event'); if (isPlaying) { setTimeout(() => nextTrack(), 3000); } });
+audio.addEventListener('error',    () => { console.warn('HTR Radio: audio error — skipping'); if (isPlaying) { setTimeout(() => nextTrack(), 1500); } });
+audio.addEventListener('pause',    () => clearTimeout(stallTimer));
+audio.addEventListener('emptied',  () => clearTimeout(stallTimer));
+
 audio.addEventListener('timeupdate', () => { if (!progressDragging) updateProgress(); });
 audio.addEventListener('loadedmetadata', () => { duration = audio.duration || 0; updateDuration(); });
 audio.addEventListener('durationchange',  () => { duration = audio.duration || 0; updateDuration(); });

@@ -1829,6 +1829,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-selah-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/i1pkyn2sbykm4a8kb3cnc/12-lucas-harlow-Selah-mp3.mp3?rlkey=bkhgascnzni9f929r6cxfo5ab&raw=1",
           "artistId": "lucas-harlow"
+        },
+        {
+          "id": "taylor-martin-she-loved-horses",
+          "title": "She Loved Horses",
+          "artist": "Taylor Martin",
+          "album": "Northbound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Taylor-Martin/main/images/covers/taylor-martin-she-loved-horses-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/3qx8dfahefmelw492p2yu/taylor-martin-she-loved-horses-mp3.mp3?rlkey=i41o1fmafvva2likbm9cmxhn0&raw=1",
+          "artistId": "taylor-martin"
         }
       ]
     },
@@ -1841,7 +1850,7 @@
       "mood": "Warm, storied, grounded",
       "color": "#8B5E3C",
       "glow": "rgba(139,94,60,0.4)",
-      "art": "images/stations/country-road.png",
+      "art": "images/stations/lone-star.png",
       "type": "genre",
       "tracks": [
         {
@@ -2509,6 +2518,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-still-my-favorite-song-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
           "artistId": "sawyer-price"
+        },
+        {
+          "id": "taylor-martin-she-loved-horses",
+          "title": "She Loved Horses",
+          "artist": "Taylor Martin",
+          "album": "Northbound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Taylor-Martin/main/images/covers/taylor-martin-she-loved-horses-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/3qx8dfahefmelw492p2yu/taylor-martin-she-loved-horses-mp3.mp3?rlkey=i41o1fmafvva2likbm9cmxhn0&raw=1",
+          "artistId": "taylor-martin"
         }
       ]
     },
@@ -2521,7 +2539,7 @@
       "mood": "Reverent, hopeful, intimate",
       "color": "#6B8FAF",
       "glow": "rgba(107,143,175,0.4)",
-      "art": "images/stations/late-night-worship.png",
+      "art": "images/stations/spirit-radio.png",
       "type": "genre",
       "tracks": [
         {
@@ -3075,7 +3093,7 @@
       "mood": "High energy, euphoric, electric",
       "color": "#7B2FBE",
       "glow": "rgba(123,47,190,0.4)",
-      "art": "images/stations/neon-underground.png",
+      "art": "images/stations/neon-nights.png",
       "type": "genre",
       "tracks": [
         {
@@ -3431,7 +3449,7 @@
       "mood": "Introspective, moody, raw",
       "color": "#4A3F6B",
       "glow": "rgba(74,63,107,0.4)",
-      "art": "images/stations/indie-after-dark.png",
+      "art": "images/stations/horizon.png",
       "type": "genre",
       "tracks": [
         {
@@ -3607,7 +3625,7 @@
       "mood": "Smooth, warm, sophisticated",
       "color": "#B8860B",
       "glow": "rgba(184,134,11,0.4)",
-      "art": "images/stations/soul-and-swing.png",
+      "art": "images/stations/velvet-lounge.png",
       "type": "genre",
       "tracks": [
         {
@@ -3783,7 +3801,7 @@
       "mood": "Aggressive, powerful, raw",
       "color": "#C0392B",
       "glow": "rgba(192,57,43,0.4)",
-      "art": "images/stations/hard-drive.png",
+      "art": "images/stations/voltage.png",
       "type": "genre",
       "tracks": [
         {
@@ -3824,7 +3842,7 @@
       "mood": "Festive, passionate, danceable",
       "color": "#E74C3C",
       "glow": "rgba(231,76,60,0.4)",
-      "art": "images/stations/latin-heat.png",
+      "art": "images/stations/sunset-boulevard.png",
       "type": "genre",
       "tracks": [
         {
@@ -3883,7 +3901,7 @@
       "mood": "Bold, raw, unapologetic",
       "color": "#2C3E50",
       "glow": "rgba(44,62,80,0.4)",
-      "art": "images/stations/streets.png",
+      "art": "images/stations/skyline-fm.png",
       "type": "genre",
       "tracks": []
     }
