@@ -37,55 +37,11 @@ function buildShuffle(len) {
   return arr;
 }
 
-// ── YouTube station overlay ───────────────────────────────────
-function showYouTubeStation(st) {
-  audio.pause();
-  isPlaying = false;
-
-  updateStationUI(st);
-  updateAccentColor(st.color);
-  updateActiveStation();
-  updateBgArt(st.art || '');
-
-  setText('np-track',   'HTR Top 20 — July 2026');
-  setText('np-artist',  'Hello Texas Records');
-  setText('np-album',   'Full Countdown \u2022 1 hr 35 min');
-  setText('dnp-track',  'HTR Top 20 — July 2026');
-  setText('dnp-artist', 'Hello Texas Records');
-  setText('dnp-album',  'Full Countdown \u2022 1 hr 35 min');
-
-  const artSrc = st.art || '';
-  const ma = document.getElementById('np-art');  if (ma) ma.src = artSrc;
-  const da = document.getElementById('dnp-art'); if (da) da.src = artSrc;
-
-  const nowEl = document.getElementById(`dsg-now-${currentStationIdx}`);
-  if (nowEl) nowEl.textContent = '\u25b6 Watch on YouTube';
-
-  ['yt-overlay-mobile', 'yt-overlay-desktop'].forEach(id => {
-    const el = document.getElementById(id);
-    if (el) { el.style.display = 'flex'; el.onclick = () => window.open(st.youtubeUrl, '_blank'); }
-  });
-}
-
-function hideYouTubeStation() {
-  ['yt-overlay-mobile', 'yt-overlay-desktop'].forEach(id => {
-    const el = document.getElementById(id);
-    if (el) el.style.display = 'none';
-  });
-}
-
 // ── Station management ────────────────────────────────────────
 function loadStation(idx, autoplay) {
   currentStationIdx = idx;
   const st = stations[idx];
   if (!st) return;
-
-  hideYouTubeStation();
-
-  if (st.youtubeUrl) {
-    showYouTubeStation(st);
-    return;
-  }
 
   const tracks = st.tracks || [];
   shuffleOrder = buildShuffle(tracks.length);
@@ -100,12 +56,7 @@ function loadStation(idx, autoplay) {
 }
 
 function switchStation(idx) {
-  if (idx === currentStationIdx) {
-    const st = stations[idx];
-    if (st?.youtubeUrl) { window.open(st.youtubeUrl, '_blank'); return; }
-    togglePlay();
-    return;
-  }
+  if (idx === currentStationIdx) { togglePlay(); return; }
   const wasPlaying = isPlaying;
   audio.pause();
   isPlaying = false;
