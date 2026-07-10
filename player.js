@@ -75,6 +75,7 @@ function loadTrack(autoplay) {
   playingIntro = false;
   hideCasey();
   updateTrackUI(track);
+  try { if (typeof gtag === 'function') gtag('event', 'play_song', { song_title: track.title, artist: track.artist, source: 'htr_radio' }); } catch(e) {}
   updateBgArt(track.cover);
 
   const st = getStation();
