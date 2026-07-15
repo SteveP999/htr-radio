@@ -3390,6 +3390,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Skyline-Theory/main/images/covers/skyline-theory-when-we-were-free-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/ly7j3ckfar207g2s0qizi/When-We-Were-Free-Mastered-MP3.mp3?rlkey=eipwfp09qtq615bcys791l5el&raw=1",
           "artistId": "skyline-theory"
+        },
+        {
+          "id": "silent-oblivion-world-cup-victory",
+          "title": "World Cup Victory",
+          "artist": "Silent Oblivion",
+          "album": "Beginnings Past",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/images/covers/silent-oblivion-world-cup-victory-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/3et3s93lnb67h3ev6npul/silent-oblivion-world-cup-victory.mp3?rlkey=gbqa1d2dez0cp3mvce4z9342o&raw=1",
+          "artistId": "silent-oblivion"
         }
       ]
     },
@@ -3769,6 +3778,168 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-same-damn-band-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/emu7122b7nqxd9hz9v5c6/Same-Damn-Band-1.mp3?rlkey=7c9by9hu7rzss5b542nfq2dc9&raw=1",
           "artistId": "hello-texas"
+        },
+        {
+          "id": "parsons-cross-wake-up",
+          "title": "Wake Up",
+          "artist": "Parsons Cross",
+          "album": "Into the Light",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-wake-up-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/o8zegd4d885m6jx0t9gth/parsons-cross-wake-up.mp3?rlkey=uxfobcotdjjt0sskl8o44i7h9&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "silent-oblivion-world-cup-victory",
+          "title": "World Cup Victory",
+          "artist": "Silent Oblivion",
+          "album": "Beginnings Past",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/images/covers/silent-oblivion-world-cup-victory-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/3et3s93lnb67h3ev6npul/silent-oblivion-world-cup-victory.mp3?rlkey=gbqa1d2dez0cp3mvce4z9342o&raw=1",
+          "artistId": "silent-oblivion"
+        },
+        {
+          "id": "surfin",
+          "title": "Surfin'",
+          "artist": "Silent Oblivion",
+          "album": "Beginnings Past",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/images/covers/silent-oblivion-surfin-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/h78uz069co3qihjn5a8c1/silent-oblivion-surfin-mastered-mp3.mp3?rlkey=qzee0gdurw8j8z4etd63jbdmd&raw=1",
+          "artistId": "silent-oblivion"
+        },
+        {
+          "id": "lip_gloss_ghost",
+          "title": "Lip Gloss Ghost",
+          "artist": "Silent Oblivion",
+          "album": "Beginnings Past",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/images/covers/silent-oblivion-lip-gloss-ghost-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/j087cbyzyv8jh89ifcc4o/silent-oblivion-lip-gloss-ghost-mastered-MP3.mp3?rlkey=u3a79co0vb1qee24142goud4f&raw=1",
+          "artistId": "silent-oblivion"
+        },
+        {
+          "id": "cruisin",
+          "title": "Cruisin'",
+          "artist": "Silent Oblivion",
+          "album": "Beginnings Past",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/images/covers/silent-oblivion-cruisin-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9pvkuega75b3cvyrv4aiw/silent-oblivion-cruisin-mastered-mp3.mp3?rlkey=zc46e28eaj60ia8dxdxilyr2m&raw=1",
+          "artistId": "silent-oblivion"
+        },
+        {
+          "id": "silent-oblivion-bubblegum",
+          "title": "Bubblegum",
+          "artist": "Silent Oblivion",
+          "album": "Beginnings Past",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/images/covers/silent-oblivion-bubblegum-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/3lx7e5ochef1cyhhgcxb3/silent-oblivion-bubblegum-mp3.mp3?rlkey=xeat09g9mpdeqkqh7296kgtva&raw=1",
+          "artistId": "silent-oblivion"
+        },
+        {
+          "id": "september-skies-turn-back-time",
+          "title": "Turn Back Time",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-turn-back-time-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/acgvt3qtfpwabagp3y65f/september-skies-turn-back-time-mp3.mp3?rlkey=kgbjj8nyz75losghc5phbe41y&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-shine-for-all-time",
+          "title": "Shine For All Time",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-shine-for-all-time-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/jkukm6o7wy611leuu7xlm/september-skies-shine-for-all-time-mp3.mp3?rlkey=4un7snrpkasg5z1lozmxqi926&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-serena",
+          "title": "Serena",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-serena-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/704jbke40c9q3y3jwqn0l/september-skies-serena-mp3.mp3?rlkey=7sh3b38a6zc7r81s1f61ydrne&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-new-day",
+          "title": "New Day",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-new-day-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/0s799ba9vjlqpp1oeu9l9/september-skies-new-day-mp3.mp3?rlkey=vvusc5ikwj6x8q13267mthqd1&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-lead-me-safely-home",
+          "title": "Lead Me Safely Home",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-lead-me-safely-home-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/iurzjl9a8ep9rkw33hes3/september-skies-lead-me-safely-home.mp3?rlkey=u655z2i24dfo4unklaxw61ylc&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-give-it-away",
+          "title": "Give It Away",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-give-it-away-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/i6l30r2si2vgjsk7usyu5/september-skies-give-it-away.mp3?rlkey=0496b3kwnp5hiesyojgykkx0i&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-four-seasons-one-heart",
+          "title": "Four Seasons One Heart",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-four-seasons-one-heart-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/cxdd9b5g4q4me0u2aw12d/september-skies-four-seasons-one-heart-mp3.mp3?rlkey=dpyb3lxqj5zj4e4fpo12fhviv&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-butterflies",
+          "title": "Butterflies",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-butterflies-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/kiziora8etw8oyhe7hi0s/september-skies-Butterlies-mp3-v4.mp3?rlkey=xpx7hwu2tftda8mccy1brk64k&st=5cxv3p2r&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-bending-not-breaking",
+          "title": "Bending Not Breaking",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-bending-not-breaking-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/ro9nfodo63kytb5fs8q43/september-skies-bending-not-breaking-mp3.mp3?rlkey=6q0vpndzf7qzo8ym50486u798&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "montana_skies",
+          "title": "Montana Skies",
+          "artist": "Taylor Martin",
+          "album": "Northbound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Taylor-Martin/main/images/covers/taylor-martin-montana-skies-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/umy4fkkkabucsufshifry/Sky-v10.mp3?rlkey=oal277gilvw2mkava6sm7xy07&raw=1",
+          "artistId": "taylor-martin"
+        },
+        {
+          "id": "hello-texas-modern-man-grind",
+          "title": "Modern Man Grind",
+          "artist": "Hello Texas",
+          "album": "Messin' Round",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-modern-man-grind-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xj3d2p0d7f7ma03673cvd/modern-man-grind-country-rock-mix.mp3?rlkey=8qjmcyci0zseojbwaru1emmg6&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "dancing_through_my_dreams",
+          "title": "Dancing Through My Dreams",
+          "artist": "Hello Texas",
+          "album": "Day To Day (The Lost Tapes)",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-dancing-through-my-dreams-lost-sessions-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/w2hsbin8zy5qy6zutfvph/Dancing-Through-My-Dreams-Lost-Session.wav?rlkey=7ugf8qa4kjwx5upjy6z7gc7cl&raw=1",
+          "artistId": "hello-texas"
         }
       ]
     },
@@ -3977,6 +4148,24 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-a-soft-place-to-fall/avery-ivey-backroads-after-rain-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/inkygtk375ok8gflb4fsr/Backroads-After-Rain-Mastered-MP3.mp3?rlkey=2w7ub4g23co3z1a125ghx5pzh&raw=1",
           "artistId": "avery-ivey"
+        },
+        {
+          "id": "quincy-cade-even-my-tears",
+          "title": "Even My Tears",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-even-my-tears-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/g3zu9ep2j6dl7prs4c2kx/quincy-cade-even-my-tears-mp3.mp3?rlkey=rvb1t8uk0qw6gip1f6lwoeyk3&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "sawyer-price-burnin-gas",
+          "title": "Burnin' Gas",
+          "artist": "Sawyer Price",
+          "album": "Unrushed",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-burnin-gas-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/4fx72e3509ucibl04wnm5/sawyer-price-burnin-gas-MP3.mp3?rlkey=k0llb4t23e4hlei6gafmk57xk&raw=1",
+          "artistId": "sawyer-price"
         }
       ]
     },
@@ -4478,6 +4667,114 @@
           "album": "Yearning",
           "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-where-the-light-stayed-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/6lbt6f7aju95mqwvv7mm7/14-Where-the-Light-Stayed-Mastered-MP3.mp3?rlkey=pxgumpojrig7tz7wdo19ve5a0&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-forty-years",
+          "title": "Forty Years",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-forty-years-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/10rh1z3lqrj3rcs1lqsg2/09-lucas-harlow-forty-years-numbers-mp3.mp3?rlkey=27fk1utxh4kth9992k77why1w&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-fields-of-bethlehem",
+          "title": "Fields of Bethlehem",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-fields-of-bethlehem-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/mm6xym53zxnyixqalhupa/06-lucas-harlow-fields-of-bethlehem-ruth-mp3.mp3?rlkey=1p2n3gvdldzxq02t5gduepjyb&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-red-sea",
+          "title": "Red Sea",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-red-sea-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9rde6gxiq22guvsavx25f/03-lucas-harlow-red-sea-exodus-mp3.mp3?rlkey=xpkgv0ialjydekogg8g0nqrwl&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-selah",
+          "title": "Selah",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-selah-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/i1pkyn2sbykm4a8kb3cnc/12-lucas-harlow-Selah-mp3.mp3?rlkey=bkhgascnzni9f929r6cxfo5ab&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-songs-in-the-wilderness",
+          "title": "Songs in the Wilderness",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-songs-in-the-wilderness-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/oos802f9zl0ut5wyxjtvd/04-lucas-harlow-songs-in-the-wilderness-psalms-mp3.mp3?rlkey=qrpncljrx1rcp333mtbsxza4q&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-the-beginning",
+          "title": "The Beginning",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-the-beginning-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/y6ld7hgr50x6e221cesh2/02-lucas-harlow-the-beginning-genesis-mp3.mp3?rlkey=2pyl8pe9yhk0mutpv65q9a4pi&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-the-final-speech",
+          "title": "The Final Speech",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-the-final-speech-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/olpknnlhmvdlbp9ev9qvw/10-lucas-harlow-the-final-speech-deuteronomy-mp3.mp3?rlkey=7rp2inuon03n03e1g2suhjm1t&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-the-garden-at-night",
+          "title": "The Garden at Night",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-the-garden-at-night-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/nfmubg9k2jv7uh71bfvy0/11-lucas-harlow-the-garden-at-night-song-of-songs-mp3.mp3?rlkey=a2v9n4yozrqcg5xt7oxv9w8aw&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-the-hidden-queen",
+          "title": "The Hidden Queen",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-the-hidden-queen-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9khehbachedkzvr9cpc4v/07-lucas-harlow-the-hidden-queen-esther-mp3.mp3?rlkey=d4975z1rx6va990vfh2qn7t4k&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-the-promise",
+          "title": "The Promise",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-the-promise-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/5j2aqez3kxkwc919picfh/01-lucas-harlow-the-promise-mp3.mp3?rlkey=zfovhzmcha74w6ud8uliybqg9&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-the-watchman",
+          "title": "The Watchman",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-the-watchman-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9egifnxkdjay5f8cztu3g/08-lucas-harlow-the-watchman-isaiah-mp3.mp3?rlkey=y6cilkobqktdxwi2v9ijnvtb1&raw=1",
+          "artistId": "lucas-harlow"
+        },
+        {
+          "id": "lucas-harlow-wise-mans-path",
+          "title": "Wise Mans Path",
+          "artist": "Lucas Harlow",
+          "album": "The Promise",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Lucas-Harlow/main/images/covers/lucas-harlow-wise-mans-path-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/i4jrfnipqwwmg68i5e2hx/05-lucas-harlow-wise-mans-path-proverbs-MP3.mp3?rlkey=v8gg3k7ix8jlabgfzn8vc63jq&raw=1",
           "artistId": "lucas-harlow"
         }
       ]
