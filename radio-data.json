@@ -1802,6 +1802,33 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-serena-acoustic-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/b8rxxj9fw58dita1bgk4k/september-skies-serena-acoustic-MP3.mp3?rlkey=fe9wvrh0lswvegqsse0lr6t5z&st=mlcu7h5d&raw=1",
           "artistId": "september-skies"
+        },
+        {
+          "id": "rio-valencia-no-digas-nada",
+          "title": "No Digas Nada",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-no-digas-nada-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/zrboeh2lgega8v1tvitlz/rio-valencia-no-digas-nada-MP3.mp3?rlkey=d00lr4j21iv3gq8rbe58xdy76&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "rio-valencia-sin-prisa",
+          "title": "Sin Prisa",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-sin-prisa-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/uekcy63qujoufdiih4pue/rio-valencia-sin-prisa-mp3.mp3?rlkey=fedpyfapp9eu2bfxtkesf9lk4&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "rio-valencia-cerca-di-mi",
+          "title": "Cerca Di Mi",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-cerca-di-mi-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/se3w6699imu7yj2mueh1i/rio-valencia-cerca-di-mi-mp3.mp3?rlkey=ivdn9mhifdnx6ir2yhfsznfgo&st=dfm4y5aj&raw=1",
+          "artistId": "rio-valencia"
         }
       ]
     },
@@ -2632,6 +2659,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-running-out-of-reasons-acoustic-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/wxb9d60j46233617z9np0/Running-Out-of-Reasons-STRIPPED-Mastered-MP3-v02.mp3?rlkey=4rfrumm5rsnfncbe7ft9p6j8k&raw=1",
           "artistId": "daniel-kincaid"
+        },
+        {
+          "id": "the_last_song",
+          "title": "The Last Song",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-the-last-song-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/mzrz0htmnr3rpkof2sadg/vincent-cole-the-last-song-mp3-v1.mp3?rlkey=vhgd3bjde2k1qli8lkmk07iq3&raw=1",
+          "artistId": "vincent-cole"
         }
       ]
     },
@@ -4053,6 +4089,33 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-dancing-through-my-dreams-lost-sessions-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/w2hsbin8zy5qy6zutfvph/Dancing-Through-My-Dreams-Lost-Session.wav?rlkey=7ugf8qa4kjwx5upjy6z7gc7cl&raw=1",
           "artistId": "hello-texas"
+        },
+        {
+          "id": "september-skies-time-to-shine-once-more",
+          "title": "Time to Shine (Once More)",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-time-to-shine-once-more-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/kvq0evuyowjhjgvpojq5c/september-skies-time-to-shine-once-more-mp3.mp3?rlkey=7l7qac5fa5suo1z3ll58wn64m&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-serena-acoustic",
+          "title": "Serena (Acoustic)",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-serena-acoustic-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/b8rxxj9fw58dita1bgk4k/september-skies-serena-acoustic-MP3.mp3?rlkey=fe9wvrh0lswvegqsse0lr6t5z&st=mlcu7h5d&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-love-fills-the-air",
+          "title": "Love Fills the Air",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-love-fills-the-air-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xyddgj6f1by8pqorkufmp/september-skies-love-fills-the-air-mp3.mp3?rlkey=odvzth99c7kgrlaxi9215vrs4&raw=1",
+          "artistId": "september-skies"
         }
       ]
     },
@@ -4068,24 +4131,6 @@
       "art": "images/stations/sunset-boulevard.png",
       "type": "genre",
       "tracks": [
-        {
-          "id": "borrowed-whispers-if-i-could-love-you-again",
-          "title": "If I Could Love You Again",
-          "artist": "Borrowed Whispers",
-          "album": "I Still Remember",
-          "cover": "https://raw.githubusercontent.com/SteveP999/borrowed-whispers/main/images/covers/borrowed-whispers-if-i-could-love-you-again-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/r2ph0eaje07tqmz1kxbeo/borrowed-whispers-if-i-could-love-you-again-mp3.mp3?rlkey=9nmgyjhpmi6nor9d7ap31edj8&raw=1",
-          "artistId": "borrowed-whispers"
-        },
-        {
-          "id": "borrowed-whispers-still-falling-for-you",
-          "title": "Still Falling For You",
-          "artist": "Borrowed Whispers",
-          "album": "I Still Remember",
-          "cover": "https://raw.githubusercontent.com/SteveP999/borrowed-whispers/main/images/covers/borrowed-whispers-still-falling-for-you-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/o8s2z0p87bo8zgl47k0da/Borrowed-Whispers-Still-Falling-for-You-H-O-Version-KEEPER.mp3?rlkey=wc4ww26y1yex5dj9g1bct8712&raw=1",
-          "artistId": "borrowed-whispers"
-        },
         {
           "id": "already_gone",
           "title": "Already Gone",
@@ -4155,33 +4200,6 @@
       "type": "curated",
       "tracks": [
         {
-          "id": "somewhere_in_the_middle_wf",
-          "title": "Somewhere in the Middle",
-          "artist": "Avery Ivey",
-          "album": "Wildflower Soundtrack",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-wildflower-soundtrack/avery-ivey-wildflower-soundtrack-somewhere-in-the-middle-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/4o4bad3jn16xbga2q3gxi/Somewhere-in-the-Middle-Mastered-MP3.mp3?rlkey=2jj4fqzl3zjzdsof51n9g7ron&raw=1",
-          "artistId": "avery-ivey"
-        },
-        {
-          "id": "ivey-wilder-tomorrow-never-comes",
-          "title": "Tomorrow Never Comes",
-          "artist": "Ivey Wilder",
-          "album": "Singles",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Ivey-Wilder/main/images/covers/ivey-wilder-tomorrow-never-comes-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/7bdpevq44m491ygp0gk5i/avery-ivey-tomorrow-never-comes-mp3.mp3?rlkey=2qx7l8yjjnwb2wyiaptkpryau&raw=1",
-          "artistId": "ivey-wilder"
-        },
-        {
-          "id": "cut_the_line",
-          "title": "Cut the Line",
-          "artist": "Vanta",
-          "album": "Eclipse",
-          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-cut-the-line-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/kpqpw6x42mlhcn2gtgqka/Cut-the-Line-Mastered-MP3.mp3?rlkey=p98ux0qljqvko46toju9qm125&raw=1",
-          "artistId": "vanta"
-        },
-        {
           "id": "september-skies-butterflies",
           "title": "Butterflies",
           "artist": "September Skies",
@@ -4209,15 +4227,6 @@
           "artistId": "bailey-wade"
         },
         {
-          "id": "daniel-kincaid-if-i-could-love-you-again",
-          "title": "If I Could Love You Again",
-          "artist": "Daniel Kincaid",
-          "album": "Running Out of Reasons",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-if-i-could-love-you-again-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/2ql4qup86bgc4u6eklmuu/daniel-kincaid-if-i-could-love-you-again-mp3.mp3?rlkey=p2fm0owphs9d677pdrsb5u5ba&raw=1",
-          "artistId": "daniel-kincaid"
-        },
-        {
           "id": "silent-oblivion-world-cup-victory",
           "title": "World Cup Victory",
           "artist": "Silent Oblivion",
@@ -4234,24 +4243,6 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-whats-left-of-me-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
           "artistId": "sawyer-price"
-        },
-        {
-          "id": "rio-valencia-buenos-noches",
-          "title": "Buenos Noches",
-          "artist": "Rio Valencia",
-          "album": "Midnight Line",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-buenos-noches-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/gw76ynyxtfrz0gfuf6ea3/rio-valencia-buenos-noches-mp3.mp3?rlkey=8aygdxdod8fpkiqinlyfk701h&raw=1",
-          "artistId": "rio-valencia"
-        },
-        {
-          "id": "ivey-wilder-people-pleaser-rest-in-peace",
-          "title": "People Pleaser (Rest In Peace)",
-          "artist": "Ivey Wilder",
-          "album": "...For Hard Truths",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Ivey-Wilder/main/images/covers/ivey-wilder-people-pleaser-rest-in-peace-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/lp84m87nvizsdltwgvseg/ivey-wilder-people-pleaser-mp3.mp3?rlkey=i1tg5nl8ury8u2aa3n3tldlkc&raw=1",
-          "artistId": "ivey-wilder"
         },
         {
           "id": "backroads_after_rain",
@@ -4272,13 +4263,220 @@
           "artistId": "quincy-cade"
         },
         {
-          "id": "sawyer-price-burnin-gas",
-          "title": "Burnin' Gas",
+          "id": "burn_it_down",
+          "title": "Burn It Down",
+          "artist": "Avery Ivey",
+          "album": "Somewhere in the Middle",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-album-somewhere-in-the-middle/avery-ivey-burn-it-down-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/88z4a3jtfmx4c3f7rv5rr/Avery-Ivey-Burn-it-Down-Master-mp3-1.mp3?rlkey=ojbbd704yy2tvuk4cvd9lm3fp&raw=1",
+          "artistId": "avery-ivey"
+        },
+        {
+          "id": "bailey-wade-stay-gone",
+          "title": "Stay Gone",
+          "artist": "Bailey Wade",
+          "album": "Queen of Broken Hearts",
+          "cover": "https://raw.githubusercontent.com/SteveP999/bailey-wade/main/images/covers/bailey-wade-stay-gone-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/robykblwlsvw6dnvoxpnl/bailey-wade-stay-gone-mp3-v02.mp3?rlkey=jn2jzikvv6bq76w58ca68bgm6&raw=1",
+          "artistId": "bailey-wade"
+        },
+        {
+          "id": "bailey-wade-whats-left-of-me",
+          "title": "What's Left of Me",
+          "artist": "Bailey Wade",
+          "album": "Queen of Broken Hearts",
+          "cover": "https://raw.githubusercontent.com/SteveP999/bailey-wade/main/images/covers/bailey-wade-whats-left-of-me-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/7s6u6cv93xjczhetktxy6/baily-wade-whats-left-of-me-MP3.mp3?rlkey=9lu56iqi6hamohkreqiojim8y&raw=1",
+          "artistId": "bailey-wade"
+        },
+        {
+          "id": "brent-alan-smoke",
+          "title": "Smoke",
+          "artist": "Brent Alan",
+          "album": "One More Day",
+          "cover": "https://raw.githubusercontent.com/SteveP999/brent-alan/main/images/covers/brent-alan-smoke-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/glbb4ub8u9hpjxl50es51/brent-alan-smoke-mp3.mp3?rlkey=zndu3q6kuhkrnheerjxxbpv7h&st=k7nct3vz&raw=1",
+          "artistId": "brent-alan"
+        },
+        {
+          "id": "harlan-rhodes-cigarette-halo",
+          "title": "Cigarette Halo",
+          "artist": "Harlan Rhodes",
+          "album": "Ashes and Rain",
+          "cover": "https://raw.githubusercontent.com/stevep999/harlan-rhodes/main/images/covers/harlan-rhodes-cigarette-halo-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/x7qqtykpvziwg2v4ozayh/harlan-rhodes-cigarette-halo-mp3.mp3?rlkey=908gauwb870me9gsnjhjvzetf&raw=1",
+          "artistId": "harlan-rhodes"
+        },
+        {
+          "id": "harlan-rhodes-pain",
+          "title": "PAIN",
+          "artist": "Harlan Rhodes",
+          "album": "Ashes and Rain",
+          "cover": "https://raw.githubusercontent.com/stevep999/harlan-rhodes/main/images/covers/harlan-rhodes-pain-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/splb0tlcd7e2puzid5vdc/harlan-rhodes-pain-mp3.mp3?rlkey=v69cvbfw4xpqvr1nzkzm3nisl&raw=1",
+          "artistId": "harlan-rhodes"
+        },
+        {
+          "id": "hello-texas-modern-man-grind",
+          "title": "Modern Man Grind",
+          "artist": "Hello Texas",
+          "album": "Messin' Round",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-modern-man-grind-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xj3d2p0d7f7ma03673cvd/modern-man-grind-country-rock-mix.mp3?rlkey=8qjmcyci0zseojbwaru1emmg6&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "ivey-wilder-tomorrow-never-comes",
+          "title": "Tomorrow Never Comes",
+          "artist": "Ivey Wilder",
+          "album": "Singles",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Ivey-Wilder/main/images/covers/ivey-wilder-tomorrow-never-comes-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/7bdpevq44m491ygp0gk5i/avery-ivey-tomorrow-never-comes-mp3.mp3?rlkey=2qx7l8yjjnwb2wyiaptkpryau&raw=1",
+          "artistId": "ivey-wilder"
+        },
+        {
+          "id": "lori-hayes-walk-away-clean",
+          "title": "Walk Away Clean",
+          "artist": "Lori Hayes",
+          "album": "Wild Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-walk-away-clean-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xw51xywduz1ycbc5fkquo/lori-hayes-walk-away-clean-mp3.mp3?rlkey=6plsxqk8yejowny6l58e6vlmb&st=5wj7ar45&raw=1",
+          "artistId": "lori-hayes"
+        },
+        {
+          "id": "lori-hayes-dont-cost-nothin",
+          "title": "Don't Cost Nothin'",
+          "artist": "Lori Hayes",
+          "album": "Wild Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-dont-cost-nothin-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/o7pr6597qtyokfj34tco8/lori-hayes-dont-cost-nuthin-mp3.mp3?rlkey=pl7tvgs4ngb96xtkiiqh3paim&st=c5gun209&raw=1",
+          "artistId": "lori-hayes"
+        },
+        {
+          "id": "nightstrike-while-the-city-sleeps",
+          "title": "While The City Sleeps",
+          "artist": "NightStrike",
+          "album": "High Voltage",
+          "cover": "https://raw.githubusercontent.com/SteveP999/NightStrike/main/images/covers/nightstrike-while-the-city-sleeps-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/a308cgw7d3jffbdnungpx/nightstrike-while-the-city-sleeps-mp3.mp3?rlkey=8cfqd4tjs2kz9xao36qfv48bt&raw=1",
+          "artistId": "nightstrike"
+        },
+        {
+          "id": "quincy-cade-i-never-got-your-name",
+          "title": "I Never Got Your Name",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-i-never-got-your-name-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/1gjfcg9wgrs766is78urs/quincy-cade-i-never-got-your-name-mp3.mp3?rlkey=fefwasroy4p9qv1viry4gi0ni&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-still-falling-for-you",
+          "title": "Still Falling For You",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-still-falling-for-you-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/yw9611c8814o5zqo1xrpo/quincy-cade-still-falling-for-you-mp3.mp3?rlkey=1zvurbrqok6sjycvjycg0930f&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-sunday-suit",
+          "title": "Sunday Suit",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-sunday-suit-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/iit1b9cwpew7mgt2wje8o/quincy-cade-sunday-suit-mp3.mp3?rlkey=9rgb9oszc6cmos0wjsqq2zumr&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "rio-valencia-buenos-noches",
+          "title": "Buenos Noches",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-buenos-noches-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/gw76ynyxtfrz0gfuf6ea3/rio-valencia-buenos-noches-mp3.mp3?rlkey=8aygdxdod8fpkiqinlyfk701h&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "rio-valencia-cerca-di-mi",
+          "title": "Cerca Di Mi",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-cerca-di-mi-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/se3w6699imu7yj2mueh1i/rio-valencia-cerca-di-mi-mp3.mp3?rlkey=ivdn9mhifdnx6ir2yhfsznfgo&st=dfm4y5aj&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "rio-valencia-no-digas-nada",
+          "title": "No Digas Nada",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-no-digas-nada-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/zrboeh2lgega8v1tvitlz/rio-valencia-no-digas-nada-MP3.mp3?rlkey=d00lr4j21iv3gq8rbe58xdy76&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "rio-valencia-sin-prisa",
+          "title": "Sin Prisa",
+          "artist": "Rio Valencia",
+          "album": "Midnight Line",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Rio-Valencia/main/images/covers/rio-valencia-sin-prisa-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/uekcy63qujoufdiih4pue/rio-valencia-sin-prisa-mp3.mp3?rlkey=fedpyfapp9eu2bfxtkesf9lk4&raw=1",
+          "artistId": "rio-valencia"
+        },
+        {
+          "id": "all_my_life",
+          "title": "All My Life",
           "artist": "Sawyer Price",
           "album": "Unrushed",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-burnin-gas-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/4fx72e3509ucibl04wnm5/sawyer-price-burnin-gas-MP3.mp3?rlkey=k0llb4t23e4hlei6gafmk57xk&raw=1",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-all-my-life-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/2bme49g8ftejf9e3recpn/Sawyer-Price-All-My-Life-Mastered-MP3.mp3?rlkey=k1ob4d11k6j9lw7axx42mwaz7&raw=1",
           "artistId": "sawyer-price"
+        },
+        {
+          "id": "every_song_is_you",
+          "title": "Every Song is You",
+          "artist": "Sawyer Price",
+          "album": "Unrushed",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-every-song-is-you-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/emwh6p45i8l2fydaz0o8c/V3-Every-Song-Is-You-Mastered-MP3-411.mp3?rlkey=17b87sw5gzelujbblmm99euay&raw=1",
+          "artistId": "sawyer-price"
+        },
+        {
+          "id": "sawyer-price-still-my-favorite-song",
+          "title": "Still My Favorite Song",
+          "artist": "Sawyer Price",
+          "album": "Unrushed",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-still-my-favorite-song-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
+          "artistId": "sawyer-price"
+        },
+        {
+          "id": "september-skies-lead-me-safely-home",
+          "title": "Lead Me Safely Home",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-lead-me-safely-home-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/iurzjl9a8ep9rkw33hes3/september-skies-lead-me-safely-home.mp3?rlkey=u655z2i24dfo4unklaxw61ylc&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-time-to-shine-once-more",
+          "title": "Time to Shine (Once More)",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-time-to-shine-once-more-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/kvq0evuyowjhjgvpojq5c/september-skies-time-to-shine-once-more-mp3.mp3?rlkey=7l7qac5fa5suo1z3ll58wn64m&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "vanta-if-i-know-me",
+          "title": "If I Know Me",
+          "artist": "Vanta",
+          "album": "Eclipse",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-if-i-know-me-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/um1xgnlosgtk3ngrdrucf/vanta-if-I-know-me-mp3.mp3?rlkey=z0pq6mfr6wo1ogkj7uq741ya5&raw=1",
+          "artistId": "vanta"
         }
       ]
     },
