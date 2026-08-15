@@ -1883,6 +1883,78 @@
           "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-maybe-tonight-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/z2zy93u5zi7tzfkddgk6w/brightons-maybe-tonight-mp3.mp3?rlkey=9vy8dc3zezkjyjtp9gjcf7iwd&raw=1",
           "artistId": "brightons"
+        },
+        {
+          "id": "vincent-cole-just-one-more-dance",
+          "title": "Just One More Dance",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-just-one-more-dance-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/88vhf1hu2lpfwtzh20n5o/vincent-cole-just-one-more-dance-mp3.mp3?rlkey=h1s3sjy2csbmdcvooq72d6mth&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "velvet-static-hit-the-peak",
+          "title": "Hit The Peak",
+          "artist": "Velvet Static",
+          "album": "Velvet Static",
+          "cover": "https://raw.githubusercontent.com/SteveP999/velvet-static/main/images/covers/velvet-static-hit-the-peak-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/z2j290ir55hetk54q8x8u/hit-the-peak-by-velvet-static.mp3?rlkey=6dshx8xxdezk4i2h8ymwcvqbk&raw=1",
+          "artistId": "velvet-static"
+        },
+        {
+          "id": "vincent-cole-right-where-i-belong",
+          "title": "Right Where I Belong",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-right-where-i-belong-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/gqwx1e5bxcatq8i9fuod7/vincent-cole-right-where-i-belong-mp3.mp3?rlkey=1otml0hdla25eae7cb1pzn8tl&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-what-we-dont-say",
+          "title": "What We Don't Say",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-what-we-dont-say-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/kcrrxns9bdzt89wabpnk3/vincent-cole-what-we-dont-say-MP3.mp3?rlkey=pggwz9cfebtp3xsyomx2bs0sl&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-make-it-look-easy",
+          "title": "Make it Look Easy",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-make-it-look-easy-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/wt1b4udmwtykvsk9d17r8/vincent-cole-make-it-look-easy-mp3.mp3?rlkey=wl6uqt78sxrbat8khd036i50a&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-let-them-talk",
+          "title": "Let Them Talk",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-let-them-talk-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9lwkbsr9rgzi9qi741em5/vincent-cole-let-them-talk-mp3.mp3?rlkey=gvvdhb2ffx089jxcrydc2lgj4&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "stephen-parsons-trust-your-heart",
+          "title": "Trust Your Heart",
+          "artist": "Stephen Parsons",
+          "album": "Trust Your Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-trust-your-heart-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/8fy0yp9c22rykx23a0p9y/Trust-your-Heart-by-Stephen-Parsons.mp3?rlkey=9ijcdz8twklzjzdmz2yrqtqhd&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "september-skies-turn-around",
+          "title": "Turn Around",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-turn-around-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/nw9cburbszymxek1q5um7/Turn-Around-by-September-Skies.mp3?rlkey=rgln7ujq2cvj9a1ethrcwn4fj&raw=1",
+          "artistId": "september-skies"
         }
       ]
     },
@@ -2307,6 +2379,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-shine-for-all-time-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/jkukm6o7wy611leuu7xlm/september-skies-shine-for-all-time-mp3.mp3?rlkey=4un7snrpkasg5z1lozmxqi926&raw=1",
           "artistId": "september-skies"
+        },
+        {
+          "id": "stephen-parsons-trust-your-heart",
+          "title": "Trust Your Heart",
+          "artist": "Stephen Parsons",
+          "album": "Trust Your Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-trust-your-heart-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/8fy0yp9c22rykx23a0p9y/Trust-your-Heart-by-Stephen-Parsons.mp3?rlkey=9ijcdz8twklzjzdmz2yrqtqhd&raw=1",
+          "artistId": "stephen-parsons"
         }
       ]
     },
@@ -2722,6 +2803,78 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-the-last-song-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/mzrz0htmnr3rpkof2sadg/vincent-cole-the-last-song-mp3-v1.mp3?rlkey=vhgd3bjde2k1qli8lkmk07iq3&raw=1",
           "artistId": "vincent-cole"
+        },
+        {
+          "id": "daniel-kincaid-if-i-could-love-you-again-acoustic",
+          "title": "If I Could Love You Again (Acoustic)",
+          "artist": "Daniel Kincaid",
+          "album": "Running Out of Reasons Acoustic",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-if-i-could-love-you-again-acoustic-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/jmo6l2jfrqolpnl8gth2r/daniel-kincaid-if-i-could-love-you-again-acoustic-mp3.mp3?rlkey=bvidcpl1ng08kobp64r5fqqxg&raw=1",
+          "artistId": "daniel-kincaid"
+        },
+        {
+          "id": "daniel-kincaid-still-falling-for-you-acoustic",
+          "title": "Still Falling For You (Acoustic)",
+          "artist": "Daniel Kincaid",
+          "album": "Running Out of Reasons Acoustic",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-still-falling-for-you-acoustic-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/311thg22xifv26fr5ig90/daniel-kincaid-still-falling-for-you-acoustic-mp3.mp3?rlkey=wigwtwksu5gaikiw6d7tpvb8q&raw=1",
+          "artistId": "daniel-kincaid"
+        },
+        {
+          "id": "daniel-kincaid-two-tickets-to-anywhere-acoustic",
+          "title": "Two Tickets to Anywhere (Acoustic)",
+          "artist": "Daniel Kincaid",
+          "album": "Running Out of Reasons Acoustic",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-two-tickets-to-anywhere-acoustic-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/fs9jhg71t4cares7cinfa/daniel-kincaid-two-tickets-to-anywhere-acoustic-mp3.mp3?rlkey=3opi1aeo4sclkts0n9xskw9w5&raw=1",
+          "artistId": "daniel-kincaid"
+        },
+        {
+          "id": "vincent-cole-just-one-more-dance",
+          "title": "Just One More Dance",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-just-one-more-dance-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/88vhf1hu2lpfwtzh20n5o/vincent-cole-just-one-more-dance-mp3.mp3?rlkey=h1s3sjy2csbmdcvooq72d6mth&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-let-them-talk",
+          "title": "Let Them Talk",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-let-them-talk-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9lwkbsr9rgzi9qi741em5/vincent-cole-let-them-talk-mp3.mp3?rlkey=gvvdhb2ffx089jxcrydc2lgj4&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-make-it-look-easy",
+          "title": "Make it Look Easy",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-make-it-look-easy-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/wt1b4udmwtykvsk9d17r8/vincent-cole-make-it-look-easy-mp3.mp3?rlkey=wl6uqt78sxrbat8khd036i50a&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-right-where-i-belong",
+          "title": "Right Where I Belong",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-right-where-i-belong-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/gqwx1e5bxcatq8i9fuod7/vincent-cole-right-where-i-belong-mp3.mp3?rlkey=1otml0hdla25eae7cb1pzn8tl&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-what-we-dont-say",
+          "title": "What We Don't Say",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-what-we-dont-say-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/kcrrxns9bdzt89wabpnk3/vincent-cole-what-we-dont-say-MP3.mp3?rlkey=pggwz9cfebtp3xsyomx2bs0sl&raw=1",
+          "artistId": "vincent-cole"
         }
       ]
     },
@@ -2835,6 +2988,51 @@
           "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-names-in-the-sand-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/1gu88hwu1p25lpzrwgzr8/brightons-names-in-the-sand-mp3.mp3?rlkey=q2t914k2narvcuc0ut5jdejw5&raw=1",
           "artistId": "brightons"
+        },
+        {
+          "id": "vincent-cole-what-we-dont-say",
+          "title": "What We Don't Say",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-what-we-dont-say-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/kcrrxns9bdzt89wabpnk3/vincent-cole-what-we-dont-say-MP3.mp3?rlkey=pggwz9cfebtp3xsyomx2bs0sl&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-right-where-i-belong",
+          "title": "Right Where I Belong",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-right-where-i-belong-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/gqwx1e5bxcatq8i9fuod7/vincent-cole-right-where-i-belong-mp3.mp3?rlkey=1otml0hdla25eae7cb1pzn8tl&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-make-it-look-easy",
+          "title": "Make it Look Easy",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-make-it-look-easy-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/wt1b4udmwtykvsk9d17r8/vincent-cole-make-it-look-easy-mp3.mp3?rlkey=wl6uqt78sxrbat8khd036i50a&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-let-them-talk",
+          "title": "Let Them Talk",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-let-them-talk-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9lwkbsr9rgzi9qi741em5/vincent-cole-let-them-talk-mp3.mp3?rlkey=gvvdhb2ffx089jxcrydc2lgj4&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-just-one-more-dance",
+          "title": "Just One More Dance",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-just-one-more-dance-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/88vhf1hu2lpfwtzh20n5o/vincent-cole-just-one-more-dance-mp3.mp3?rlkey=h1s3sjy2csbmdcvooq72d6mth&raw=1",
+          "artistId": "vincent-cole"
         }
       ]
     },
@@ -2888,16 +3086,6 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-dont-need-permission-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/7autvxh8dd3aaktvz3vm1/Vanta-Don-t-Need-Permission-Mastered-MP3.mp3?rlkey=505p9f0jnfsg3wau3tpzscbat&raw=1",
           "artistId": "vanta",
-          "introClips": []
-        },
-        {
-          "id": "stephen-parsons-here-and-now",
-          "title": "Here and Now",
-          "artist": "Stephen Parsons",
-          "album": "Touches of the Heart",
-          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-here-and-now-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/6xy8sv8sze431x44kj3j7/stephen-parsons-here-and-now-mp3.mp3?rlkey=5axs5kd0363obn4i6gjanufba&raw=1",
-          "artistId": "stephen-parsons",
           "introClips": []
         },
         {
@@ -3228,6 +3416,46 @@
           "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-were-all-in-this-together-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/yoas7vnwozxomc10765lw/brightons-were-all-in-this-together-mp3.mp3?rlkey=92mj20l7z24ybn44vokc8o1mu&raw=1",
           "artistId": "brightons",
+          "introClips": []
+        },
+        {
+          "id": "if_tonight_would_never_end",
+          "title": "If Tonight Would Never End",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-if-tonight-would-never-end-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/24kj8kf367r8q0xgeji62/vincent-cole-if-tonight-would-never-end-mp3.mp3?rlkey=hhbv46uxi693qxiwdhb7bhxjz&raw=1",
+          "artistId": "vincent-cole",
+          "introClips": []
+        },
+        {
+          "id": "twonights",
+          "title": "Two Nights",
+          "artist": "PULSE7",
+          "album": "Endless Echo",
+          "cover": "https://raw.githubusercontent.com/SteveP999/pulse7/main/images/covers/pulse7-two-nights-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/2wioc1edj01haev6ifjkl/Two-Nights-PULSE7.mp3?rlkey=dwogp86reax5amxrh30bphoay&raw=1",
+          "artistId": "pulse7",
+          "introClips": []
+        },
+        {
+          "id": "lori-hayes-dont-cost-nothin",
+          "title": "Don't Cost Nothin'",
+          "artist": "Lori Hayes",
+          "album": "Wild Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-dont-cost-nothin-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/o7pr6597qtyokfj34tco8/lori-hayes-dont-cost-nuthin-mp3.mp3?rlkey=pl7tvgs4ngb96xtkiiqh3paim&st=c5gun209&raw=1",
+          "artistId": "lori-hayes",
+          "introClips": []
+        },
+        {
+          "id": "brent-alan-smoke",
+          "title": "Smoke",
+          "artist": "Brent Alan",
+          "album": "One More Day",
+          "cover": "https://raw.githubusercontent.com/SteveP999/brent-alan/main/images/covers/brent-alan-smoke-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/glbb4ub8u9hpjxl50es51/brent-alan-smoke-mp3.mp3?rlkey=zndu3q6kuhkrnheerjxxbpv7h&st=k7nct3vz&raw=1",
+          "artistId": "brent-alan",
           "introClips": []
         }
       ],
@@ -4190,6 +4418,33 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-love-fills-the-air-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/xyddgj6f1by8pqorkufmp/september-skies-love-fills-the-air-mp3.mp3?rlkey=odvzth99c7kgrlaxi9215vrs4&raw=1",
           "artistId": "september-skies"
+        },
+        {
+          "id": "stephen-parsons-trust-your-heart",
+          "title": "Trust Your Heart",
+          "artist": "Stephen Parsons",
+          "album": "Trust Your Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-trust-your-heart-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/8fy0yp9c22rykx23a0p9y/Trust-your-Heart-by-Stephen-Parsons.mp3?rlkey=9ijcdz8twklzjzdmz2yrqtqhd&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "september-skies-turn-around",
+          "title": "Turn Around",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-turn-around-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/nw9cburbszymxek1q5um7/Turn-Around-by-September-Skies.mp3?rlkey=rgln7ujq2cvj9a1ethrcwn4fj&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-get-up-and-go",
+          "title": "Get Up and Go",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-get-up-and-go-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/93cyyt27c9d58wyvtyjue/september-skies-get-up-and-go-mp3.mp3?rlkey=tsn4ft6qo1w2vihva7cneplvp&st=2ks7b5z6&raw=1",
+          "artistId": "september-skies"
         }
       ]
     },
@@ -4310,15 +4565,6 @@
           "artistId": "silent-oblivion"
         },
         {
-          "id": "sawyer-price-whats-left-of-me",
-          "title": "What's Left Of Me",
-          "artist": "Sawyer Price",
-          "album": "Unrushed",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-whats-left-of-me-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/v5v10vobdgnk57rnni7ta/sawyer-price-whats-left-of-me-MP3.mp3?rlkey=ozaaqg4er1ekt2ctbf0v6id9a&raw=1",
-          "artistId": "sawyer-price"
-        },
-        {
           "id": "backroads_after_rain",
           "title": "Backroads After Rain",
           "artist": "Avery Ivey",
@@ -4373,15 +4619,6 @@
           "artistId": "brent-alan"
         },
         {
-          "id": "hello-texas-modern-man-grind",
-          "title": "Modern Man Grind",
-          "artist": "Hello Texas",
-          "album": "Messin' Round",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-modern-man-grind-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/xj3d2p0d7f7ma03673cvd/modern-man-grind-country-rock-mix.mp3?rlkey=8qjmcyci0zseojbwaru1emmg6&raw=1",
-          "artistId": "hello-texas"
-        },
-        {
           "id": "ivey-wilder-tomorrow-never-comes",
           "title": "Tomorrow Never Comes",
           "artist": "Ivey Wilder",
@@ -4407,15 +4644,6 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-dont-cost-nothin-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/o7pr6597qtyokfj34tco8/lori-hayes-dont-cost-nuthin-mp3.mp3?rlkey=pl7tvgs4ngb96xtkiiqh3paim&st=c5gun209&raw=1",
           "artistId": "lori-hayes"
-        },
-        {
-          "id": "nightstrike-while-the-city-sleeps",
-          "title": "While The City Sleeps",
-          "artist": "NightStrike",
-          "album": "High Voltage",
-          "cover": "https://raw.githubusercontent.com/SteveP999/NightStrike/main/images/covers/nightstrike-while-the-city-sleeps-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/a308cgw7d3jffbdnungpx/nightstrike-while-the-city-sleeps-mp3.mp3?rlkey=8cfqd4tjs2kz9xao36qfv48bt&raw=1",
-          "artistId": "nightstrike"
         },
         {
           "id": "quincy-cade-i-never-got-your-name",
@@ -4481,15 +4709,6 @@
           "artistId": "rio-valencia"
         },
         {
-          "id": "all_my_life",
-          "title": "All My Life",
-          "artist": "Sawyer Price",
-          "album": "Unrushed",
-          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-all-my-life-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/2bme49g8ftejf9e3recpn/Sawyer-Price-All-My-Life-Mastered-MP3.mp3?rlkey=k1ob4d11k6j9lw7axx42mwaz7&raw=1",
-          "artistId": "sawyer-price"
-        },
-        {
           "id": "every_song_is_you",
           "title": "Every Song is You",
           "artist": "Sawyer Price",
@@ -4506,15 +4725,6 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-still-my-favorite-song-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/qg86vamj1aeogqmqt5jve/sawyer-price-still-my-favorite-song-mp3.mp3?rlkey=fbg8qdzq23x3vmqqomc3hdgww&raw=1",
           "artistId": "sawyer-price"
-        },
-        {
-          "id": "september-skies-lead-me-safely-home",
-          "title": "Lead Me Safely Home",
-          "artist": "September Skies",
-          "album": "One Move at a Time",
-          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-lead-me-safely-home-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/iurzjl9a8ep9rkw33hes3/september-skies-lead-me-safely-home.mp3?rlkey=u655z2i24dfo4unklaxw61ylc&raw=1",
-          "artistId": "september-skies"
         },
         {
           "id": "september-skies-time-to-shine-once-more",
@@ -4569,6 +4779,105 @@
           "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-maybe-tonight-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/z2zy93u5zi7tzfkddgk6w/brightons-maybe-tonight-mp3.mp3?rlkey=9vy8dc3zezkjyjtp9gjcf7iwd&raw=1",
           "artistId": "brightons"
+        },
+        {
+          "id": "velvet-static-hit-the-peak",
+          "title": "Hit The Peak",
+          "artist": "Velvet Static",
+          "album": "Velvet Static",
+          "cover": "https://raw.githubusercontent.com/SteveP999/velvet-static/main/images/covers/velvet-static-hit-the-peak-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/z2j290ir55hetk54q8x8u/hit-the-peak-by-velvet-static.mp3?rlkey=6dshx8xxdezk4i2h8ymwcvqbk&raw=1",
+          "artistId": "velvet-static"
+        },
+        {
+          "id": "vincent-cole-just-one-more-dance",
+          "title": "Just One More Dance",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-just-one-more-dance-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/88vhf1hu2lpfwtzh20n5o/vincent-cole-just-one-more-dance-mp3.mp3?rlkey=h1s3sjy2csbmdcvooq72d6mth&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-let-them-talk",
+          "title": "Let Them Talk",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-let-them-talk-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9lwkbsr9rgzi9qi741em5/vincent-cole-let-them-talk-mp3.mp3?rlkey=gvvdhb2ffx089jxcrydc2lgj4&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-make-it-look-easy",
+          "title": "Make it Look Easy",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-make-it-look-easy-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/wt1b4udmwtykvsk9d17r8/vincent-cole-make-it-look-easy-mp3.mp3?rlkey=wl6uqt78sxrbat8khd036i50a&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-right-where-i-belong",
+          "title": "Right Where I Belong",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-right-where-i-belong-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/gqwx1e5bxcatq8i9fuod7/vincent-cole-right-where-i-belong-mp3.mp3?rlkey=1otml0hdla25eae7cb1pzn8tl&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "vincent-cole-what-we-dont-say",
+          "title": "What We Don't Say",
+          "artist": "Vincent Cole",
+          "album": "The Cole Standard",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-what-we-dont-say-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/kcrrxns9bdzt89wabpnk3/vincent-cole-what-we-dont-say-MP3.mp3?rlkey=pggwz9cfebtp3xsyomx2bs0sl&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
+          "id": "stephen-parsons-trust-your-heart",
+          "title": "Trust Your Heart",
+          "artist": "Stephen Parsons",
+          "album": "Trust Your Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-trust-your-heart-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/8fy0yp9c22rykx23a0p9y/Trust-your-Heart-by-Stephen-Parsons.mp3?rlkey=9ijcdz8twklzjzdmz2yrqtqhd&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "september-skies-turn-around",
+          "title": "Turn Around",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-turn-around-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/nw9cburbszymxek1q5um7/Turn-Around-by-September-Skies.mp3?rlkey=rgln7ujq2cvj9a1ethrcwn4fj&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "silent-oblivion-bubblegum",
+          "title": "Bubblegum",
+          "artist": "Silent Oblivion",
+          "album": "Beginnings Past",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Silent-Oblivion/main/images/covers/silent-oblivion-bubblegum-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/3lx7e5ochef1cyhhgcxb3/silent-oblivion-bubblegum-mp3.mp3?rlkey=xeat09g9mpdeqkqh7296kgtva&raw=1",
+          "artistId": "silent-oblivion"
+        },
+        {
+          "id": "september-skies-shine-for-all-time",
+          "title": "Shine For All Time",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-shine-for-all-time-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/jkukm6o7wy611leuu7xlm/september-skies-shine-for-all-time-mp3.mp3?rlkey=4un7snrpkasg5z1lozmxqi926&raw=1",
+          "artistId": "september-skies"
+        },
+        {
+          "id": "september-skies-get-up-and-go",
+          "title": "Get Up and Go",
+          "artist": "September Skies",
+          "album": "One Move at a Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-get-up-and-go-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/93cyyt27c9d58wyvtyjue/september-skies-get-up-and-go-mp3.mp3?rlkey=tsn4ft6qo1w2vihva7cneplvp&st=2ks7b5z6&raw=1",
+          "artistId": "september-skies"
         }
       ]
     },
