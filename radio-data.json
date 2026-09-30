@@ -3247,6 +3247,42 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/hill-country-line/main/images/covers/hill-country-line-somewhere-in-the-middle-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/132js6by3ws15kq6c0b1o/somehwere-in-the-middle-hill-country-line-MP3-mastered.mp3?rlkey=iixsa4hrvw2jni25t8218yvzj&raw=1",
           "artistId": "hill-country-line"
+        },
+        {
+          "id": "cheap-silver-i-m-a-fool",
+          "title": "I'm a Fool",
+          "artist": "Cheap Silver",
+          "album": "Bad Luck & Bright Lights",
+          "cover": "https://raw.githubusercontent.com/SteveP999/cheap-silver/main/images/covers/cheap-silver-im-a-fool-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/m9ejpeot7312rloxzpr5s/I-m-a-Fool.mp3?rlkey=utndatzop1a8y1ot8g0hhsdas&raw=1",
+          "artistId": "cheap-silver"
+        },
+        {
+          "id": "lori-hayes-dont-cost-nothin",
+          "title": "Don't Cost Nothin'",
+          "artist": "Lori Hayes",
+          "album": "Wild Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-dont-cost-nothin-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/o7pr6597qtyokfj34tco8/lori-hayes-dont-cost-nuthin-mp3.mp3?rlkey=pl7tvgs4ngb96xtkiiqh3paim&st=c5gun209&raw=1",
+          "artistId": "lori-hayes"
+        },
+        {
+          "id": "lori-hayes-don-t-need-permission",
+          "title": "Don't Need Permission",
+          "artist": "Lori Hayes",
+          "album": "Wild Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-don-t-need-permission-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/x7ivbea6kkeh09kgjru15/Don-t-Need-Permission-Lori-Hayes-Streaming-Master.mp3?rlkey=3tr4jucvmqmydfv2ynbuvm2ir&st=601vreac&raw=1",
+          "artistId": "lori-hayes"
+        },
+        {
+          "id": "lori-hayes-walk-away-clean",
+          "title": "Walk Away Clean",
+          "artist": "Lori Hayes",
+          "album": "Wild Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-walk-away-clean-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xw51xywduz1ycbc5fkquo/lori-hayes-walk-away-clean-mp3.mp3?rlkey=6plsxqk8yejowny6l58e6vlmb&st=5wj7ar45&raw=1",
+          "artistId": "lori-hayes"
         }
       ]
     },
@@ -3887,6 +3923,33 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/hill-country-line/main/images/covers/hill-country-line-burning-bridges-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/zqwhps8lwuiv730rraeaf/hill-country-line-burning-bridges-MP3-mastered.mp3?rlkey=oh6tc60f37p7wv2ci3oi8yjyq&raw=1",
           "artistId": "hill-country-line"
+        },
+        {
+          "id": "cheap-silver-i-m-a-fool",
+          "title": "I'm a Fool",
+          "artist": "Cheap Silver",
+          "album": "Bad Luck & Bright Lights",
+          "cover": "https://raw.githubusercontent.com/SteveP999/cheap-silver/main/images/covers/cheap-silver-im-a-fool-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/m9ejpeot7312rloxzpr5s/I-m-a-Fool.mp3?rlkey=utndatzop1a8y1ot8g0hhsdas&raw=1",
+          "artistId": "cheap-silver"
+        },
+        {
+          "id": "the-long-weekend-a-little-more-of-you",
+          "title": "A Little More of You",
+          "artist": "The Long Weekend",
+          "album": "No Particular Hurry",
+          "cover": "https://raw.githubusercontent.com/SteveP999/the-long-weekend/main/images/covers/the-long-weekend-a-little-more-of-you-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/n7an5dab3r1r7yg707td0/long-weekend-a-little-more-of-you-MP3.mp3?rlkey=lpxntbk52sbbxj7l2iuq8sw56&raw=1",
+          "artistId": "the-long-weekend"
+        },
+        {
+          "id": "the-long-weekend-anywhere-but-here",
+          "title": "Anywhere But Here",
+          "artist": "The Long Weekend",
+          "album": "No Particular Hurry",
+          "cover": "https://raw.githubusercontent.com/SteveP999/the-long-weekend/main/images/covers/the-long-weekend-anywhere-but-here-ALBUM-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/lfiqobshy4jpy4kdp2kbl/the-long-weekend-anywhere-but-here-MP3-mastered.mp3?rlkey=mfc9rdzd4dsau4gtsj1cofykr&raw=1",
+          "artistId": "the-long-weekend"
         }
       ]
     },
@@ -5076,16 +5139,6 @@
           "introClips": []
         },
         {
-          "id": "twonights",
-          "title": "Two Nights",
-          "artist": "PULSE7",
-          "album": "Endless Echo",
-          "cover": "https://raw.githubusercontent.com/SteveP999/pulse7/main/images/covers/pulse7-two-nights-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/2wioc1edj01haev6ifjkl/Two-Nights-PULSE7.mp3?rlkey=dwogp86reax5amxrh30bphoay&raw=1",
-          "artistId": "pulse7",
-          "introClips": []
-        },
-        {
           "id": "lori-hayes-dont-cost-nothin",
           "title": "Don't Cost Nothin'",
           "artist": "Lori Hayes",
@@ -5781,6 +5834,24 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/quiet-damage/main/images/covers/quiet-damage-anxiety-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/koy660rgfv536qhuq8fxe/quiet-damage-anxiety-mp3.mp3?rlkey=3awn8ayjm0uwffl2rocpjy4ie&st=j2pua36r&raw=1",
           "artistId": "quiet-damage"
+        },
+        {
+          "id": "ivey-wilder-if-i-know-me",
+          "title": "If I Know Me",
+          "artist": "Ivey Wilder",
+          "album": "Black and White",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Ivey-Wilder/main/images/covers/ivey-wilder-if-i-know-me-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/8o4r9wpp6aeinhk5xym60/If-I-Know-Me-Ivey-Wilder-Dark-Heavy-Post-Grunge-Version-A.wav?rlkey=bqk8045vh8dqainntw4ostru3&st=q2jb7cyw&raw=1",
+          "artistId": "ivey-wilder"
+        },
+        {
+          "id": "ivey-wilder-the-truth-dont-lie",
+          "title": "The Truth Don't Lie",
+          "artist": "Ivey Wilder",
+          "album": "Black and White",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Ivey-Wilder/main/images/covers/ivey-wilder-the-truth-dont-lie-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/bj2nl9dkcvhct8401lgf8/IVEY-WILDER-Truth-Don-t-Lie.mp3?rlkey=ob8bomdpoe5rn9qoavspqazxg&st=rss7q639&raw=1",
+          "artistId": "ivey-wilder"
         }
       ]
     },
@@ -6610,6 +6681,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-never-say-forever-acoustic-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/1liztvoz3afta1e2hyv39/daniel-kincaid-never-say-forever-acoustic-MP3-mastered.mp3?rlkey=z3fb98az2rwlu03kn8ajojmfa&raw=1",
           "artistId": "daniel-kincaid"
+        },
+        {
+          "id": "the-long-weekend-enjoy-the-ride",
+          "title": "Enjoy the Ride",
+          "artist": "The Long Weekend",
+          "album": "No Particular Hurry",
+          "cover": "https://raw.githubusercontent.com/SteveP999/the-long-weekend/main/images/covers/the-long-weekend-enjoy-the-ride-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/bag1oi7mzdwisdukfdx3k/the-long-weekend-enjoy-the-ride-MP3-remixed.mp3?rlkey=t7wf1bcxpfnoa3zivptuztfva&st=pqhim5qw&raw=1",
+          "artistId": "the-long-weekend"
         }
       ]
     },
@@ -6680,24 +6760,6 @@
           "artistId": "ivey-wilder"
         },
         {
-          "id": "lori-hayes-walk-away-clean",
-          "title": "Walk Away Clean",
-          "artist": "Lori Hayes",
-          "album": "Wild Heart",
-          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-walk-away-clean-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/xw51xywduz1ycbc5fkquo/lori-hayes-walk-away-clean-mp3.mp3?rlkey=6plsxqk8yejowny6l58e6vlmb&st=5wj7ar45&raw=1",
-          "artistId": "lori-hayes"
-        },
-        {
-          "id": "lori-hayes-dont-cost-nothin",
-          "title": "Don't Cost Nothin'",
-          "artist": "Lori Hayes",
-          "album": "Wild Heart",
-          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-dont-cost-nothin-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/o7pr6597qtyokfj34tco8/lori-hayes-dont-cost-nuthin-mp3.mp3?rlkey=pl7tvgs4ngb96xtkiiqh3paim&st=c5gun209&raw=1",
-          "artistId": "lori-hayes"
-        },
-        {
           "id": "quincy-cade-i-never-got-your-name",
           "title": "I Never Got Your Name",
           "artist": "Quincy Cade",
@@ -6759,15 +6821,6 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/elliott-kessler/main/images/covers/elliott-kessler-why-do-i-care-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/ep1gzofp04fbdk2m5anrn/Why-Do-I-Care_.mp3?rlkey=1g288nkhl93a1nhqoj655kooe&st=xtebux6n&raw=1",
           "artistId": "elliott-kessler"
-        },
-        {
-          "id": "brightons-maybe-tonight",
-          "title": "Maybe Tonight",
-          "artist": "Brightons",
-          "album": "The Last Good Summer",
-          "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-maybe-tonight-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/z2zy93u5zi7tzfkddgk6w/brightons-maybe-tonight-mp3.mp3?rlkey=9vy8dc3zezkjyjtp9gjcf7iwd&raw=1",
-          "artistId": "brightons"
         },
         {
           "id": "velvet-static-hit-the-peak",
@@ -6876,15 +6929,6 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-good-night-good-luck-goodbye-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/zj1808ys73uifebcmv0ov/quincy-cade-good-night-good-luck-goodbye-MP3.mp3?rlkey=jddkyqry27zzyaxky7gqnfgr6&raw=1",
           "artistId": "quincy-cade"
-        },
-        {
-          "id": "brightons-good-night-good-luck-goodbye",
-          "title": "Good Night, Good Luck, Goodbye",
-          "artist": "Brightons",
-          "album": "The Last Good Summer",
-          "cover": "https://raw.githubusercontent.com/stevep999/brightons/main/images/covers/brightons-good-night-good-luck-goodbye-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/yprmerhjdh53hsboca9nf/brightons-goodbye-mp3.mp3?rlkey=bwcocefoba5izcfhjh8g0fuyo&raw=1",
-          "artistId": "brightons"
         },
         {
           "id": "quiet-damage-10-years",
@@ -7128,6 +7172,60 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/hill-country-line/main/images/covers/hill-country-line-somewhere-in-the-middle-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/132js6by3ws15kq6c0b1o/somehwere-in-the-middle-hill-country-line-MP3-mastered.mp3?rlkey=iixsa4hrvw2jni25t8218yvzj&raw=1",
           "artistId": "hill-country-line"
+        },
+        {
+          "id": "cheap-silver-i-m-a-fool",
+          "title": "I'm a Fool",
+          "artist": "Cheap Silver",
+          "album": "Bad Luck & Bright Lights",
+          "cover": "https://raw.githubusercontent.com/SteveP999/cheap-silver/main/images/covers/cheap-silver-im-a-fool-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/m9ejpeot7312rloxzpr5s/I-m-a-Fool.mp3?rlkey=utndatzop1a8y1ot8g0hhsdas&raw=1",
+          "artistId": "cheap-silver"
+        },
+        {
+          "id": "ivey-wilder-if-i-know-me",
+          "title": "If I Know Me",
+          "artist": "Ivey Wilder",
+          "album": "Black and White",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Ivey-Wilder/main/images/covers/ivey-wilder-if-i-know-me-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/8o4r9wpp6aeinhk5xym60/If-I-Know-Me-Ivey-Wilder-Dark-Heavy-Post-Grunge-Version-A.wav?rlkey=bqk8045vh8dqainntw4ostru3&st=q2jb7cyw&raw=1",
+          "artistId": "ivey-wilder"
+        },
+        {
+          "id": "ivey-wilder-the-truth-dont-lie",
+          "title": "The Truth Don't Lie",
+          "artist": "Ivey Wilder",
+          "album": "Black and White",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Ivey-Wilder/main/images/covers/ivey-wilder-the-truth-dont-lie-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/bj2nl9dkcvhct8401lgf8/IVEY-WILDER-Truth-Don-t-Lie.mp3?rlkey=ob8bomdpoe5rn9qoavspqazxg&st=rss7q639&raw=1",
+          "artistId": "ivey-wilder"
+        },
+        {
+          "id": "lori-hayes-don-t-need-permission",
+          "title": "Don't Need Permission",
+          "artist": "Lori Hayes",
+          "album": "Wild Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-don-t-need-permission-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/x7ivbea6kkeh09kgjru15/Don-t-Need-Permission-Lori-Hayes-Streaming-Master.mp3?rlkey=3tr4jucvmqmydfv2ynbuvm2ir&st=601vreac&raw=1",
+          "artistId": "lori-hayes"
+        },
+        {
+          "id": "the-long-weekend-anywhere-but-here",
+          "title": "Anywhere But Here",
+          "artist": "The Long Weekend",
+          "album": "No Particular Hurry",
+          "cover": "https://raw.githubusercontent.com/SteveP999/the-long-weekend/main/images/covers/the-long-weekend-anywhere-but-here-ALBUM-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/lfiqobshy4jpy4kdp2kbl/the-long-weekend-anywhere-but-here-MP3-mastered.mp3?rlkey=mfc9rdzd4dsau4gtsj1cofykr&raw=1",
+          "artistId": "the-long-weekend"
+        },
+        {
+          "id": "the-long-weekend-a-little-more-of-you",
+          "title": "A Little More of You",
+          "artist": "The Long Weekend",
+          "album": "No Particular Hurry",
+          "cover": "https://raw.githubusercontent.com/SteveP999/the-long-weekend/main/images/covers/the-long-weekend-a-little-more-of-you-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/n7an5dab3r1r7yg707td0/long-weekend-a-little-more-of-you-MP3.mp3?rlkey=lpxntbk52sbbxj7l2iuq8sw56&raw=1",
+          "artistId": "the-long-weekend"
         }
       ]
     },
