@@ -2200,6 +2200,15 @@
           "artistId": "cheap-silver"
         },
         {
+          "id": "vincent-cole-let-the-good-times-find-us",
+          "title": "Let the Good Times Find Us",
+          "artist": "Vincent Cole",
+          "album": "Another Round",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-let-the-good-times-find-us-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/sadcpuefmo61clvipvo2y/Let-the-Good-Times-Find-Us-Vincent-Cole-mastered.mp3?rlkey=pcu09phed1z6oivhvb1sx4ci9&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
           "id": "september-skies-minutes-at-a-time",
           "title": "Minutes at a Time",
           "artist": "September Skies",
@@ -2213,7 +2222,7 @@
           "title": "Dead Weight",
           "artist": "Quiet Damage",
           "album": "It Doesn't Break All At Once",
-          "cover": "",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quiet-damage/main/images/covers/quiet-damage-dead-weight-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/gs48dgd5a7vlw4v9tn49m/quiet-damage-dead-weight-MP3-mastered.mp3?rlkey=q9s630px3b3inyde6p2t6b45e&raw=1",
           "artistId": "quiet-damage"
         },
@@ -2222,7 +2231,7 @@
           "title": "Nothing Personal",
           "artist": "Quiet Damage",
           "album": "It Doesn't Break All At Once",
-          "cover": "",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quiet-damage/main/images/covers/quiet-damage-nothing-personal-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/ipjq6l57u5ntbyy86hp16/quiet-damage-nothing-personal-MP3-mastered.mp3?rlkey=vrqi2zamru1b1duzie1eb75dm&raw=1",
           "artistId": "quiet-damage"
         },
@@ -2945,6 +2954,60 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/darrell-clayborn/main/images/covers/darrell-clayborn-what-d-i-do-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/94bvbl6z6wlm4nbuhj8e4/darrell-clayborn-whatd-i-do-WAV-mastered.mp3?rlkey=rewk4w7hw6xdw8qnls7rbuvnk&raw=1",
           "artistId": "darrell-clayborn"
+        },
+        {
+          "id": "bender-nothing-left-in-these-lungs",
+          "title": "Nothing Left In These Lungs",
+          "artist": "BENDER",
+          "album": "From the Ashes",
+          "cover": "https://raw.githubusercontent.com/SteveP999/bender/main/images/covers/burning-snow_-nothing-left.png",
+          "audio": "https://www.dropbox.com/scl/fi/x98siif56pgzw4e18kvf3/bender-nothing-left-in-these-lungs-MP3-mastered.mp3?rlkey=lqb3akm9c1eun5rqezr8p9zht&raw=1",
+          "artistId": "bender"
+        },
+        {
+          "id": "avery-ivey-i-freeze",
+          "title": "I Freeze",
+          "artist": "Avery Ivey",
+          "album": "Out of Focus",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Avery-Ivey/main/images/covers/avery-ivey-i-freeze-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xu1c19dro1nbr7jd4yb0f/avery-ivey-i-freeze-MP3-mastered.mp3?rlkey=2t36vpwoowvr86q6l3e48pbk0&raw=1",
+          "artistId": "avery-ivey"
+        },
+        {
+          "id": "stephen-parsons-barefoot-days",
+          "title": "Barefoot Days",
+          "artist": "Stephen Parsons",
+          "album": "Miles from Yesterday",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/barefoot-days_-sunset-ride.png",
+          "audio": "https://www.dropbox.com/scl/fi/7578xlf42jxzfom8oloxe/stephen-parsons-barefoot-days-MP3-mastered.mp3?rlkey=zcdprtlprshkv3usd0turjciv&st=rorq9yvt&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "stephen-parsons-nothing-left-in-these-lungs",
+          "title": "Nothing Left in These Lungs",
+          "artist": "Stephen Parsons",
+          "album": "Miles from Yesterday",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-nothing-left-in-these-lungs-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/bwbd0r22779kl9cdrig0z/stephen-parsons-nothing-left-in-these-lungs-MP3-mastered.mp3?rlkey=36edbdvhe8qfdf2ixur6xnohb&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "vanta-a-man-like-me",
+          "title": "A Man Like Me",
+          "artist": "Vanta",
+          "album": "Eclipse",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-a-man-like-me-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/iot6ekeh9ecew7cg4hcoh/vanta-man-like-me-MP3-mastered.mp3?rlkey=9n4huk2tznu0wuuke5hcvhbuz&raw=1",
+          "artistId": "vanta"
+        },
+        {
+          "id": "stephen-parsons-cowboy-through-and-through",
+          "title": "Cowboy Through and Through",
+          "artist": "Stephen Parsons",
+          "album": "Miles from Yesterday",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-cowboy-through-and-through-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/z56vjan2o019rbk161cys/stephen-parsons-cowboy-through-and-through-MP3-mastered.mp3?rlkey=9ucwj4n7sfbmgbmm5p9xq0gtg&st=v86ipcy3&raw=1",
+          "artistId": "stephen-parsons"
         }
       ]
     },
@@ -3346,6 +3409,24 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/hill-country-line/main/images/covers/hill-country-line-a-little-more-every-day-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/xn0lh61mqukme0ve9yxyb/hill-country-line-a-little-more-every-day-MP3-mastered.mp3?rlkey=lfbweojj1mqssbuk94vqtctp0&raw=1",
           "artistId": "hill-country-line"
+        },
+        {
+          "id": "sawyer-price-good-night-good-luck-goodbye",
+          "title": "Good Night, Good Luck, Goodbye",
+          "artist": "Sawyer Price",
+          "album": "Unrushed",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-good-night-good-luck-goodbye-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/zmxza4bjulzyydw4elgeb/saywer-price-good-night-good-luck-goodbye-MP3-mastered.mp3?rlkey=hvqlg7a7070da59ubpt02k9ap&raw=1",
+          "artistId": "sawyer-price"
+        },
+        {
+          "id": "sawyer-price-when-the-sky-turns-green",
+          "title": "When the Sky Turns Green",
+          "artist": "Sawyer Price",
+          "album": "Unrushed",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-when-the-sky-turns-green-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/cpv6qk8ttndthsbe6z1ew/sawyer-price-when-the-sky-turns-green-MP3-mastered.mp3?rlkey=p49n67unhog3nvvhf181u29j3&raw=1",
+          "artistId": "sawyer-price"
         }
       ]
     },
@@ -3569,15 +3650,6 @@
           "artistId": "stephen-parsons"
         },
         {
-          "id": "wide_open_silence",
-          "title": "Wide Open Silence",
-          "artist": "Stephen Parsons",
-          "album": "Touches of the Heart",
-          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-wide-open-silence-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/4wt3mx9s3woo05d7ff5ei/stephen-parsons-wide-open-silence-mp3.mp3?rlkey=xak7nxx0xb0s9ivrn6azgpbt8&raw=1",
-          "artistId": "stephen-parsons"
-        },
-        {
           "id": "september-skies-shine-for-all-time",
           "title": "Shine For All Time",
           "artist": "September Skies",
@@ -3638,6 +3710,24 @@
           "album": "Into the Light",
           "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-where-are-you-lord-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/bpmsjrhvgatb0uknxxk5n/parsons-cross-where-are-you-lord-MP3-mastered.mp3?rlkey=zfflej8hty1ltcbf4ctwlubob&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "stephen-parsons-nothing-left-in-these-lungs",
+          "title": "Nothing Left in These Lungs",
+          "artist": "Stephen Parsons",
+          "album": "Miles from Yesterday",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-nothing-left-in-these-lungs-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/bwbd0r22779kl9cdrig0z/stephen-parsons-nothing-left-in-these-lungs-MP3-mastered.mp3?rlkey=36edbdvhe8qfdf2ixur6xnohb&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "parsons-cross-the-return",
+          "title": "The Return",
+          "artist": "Parsons Cross",
+          "album": "Out of the Darkness",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-the-return-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/ieg955l24u7ui75870x03/parsons-cross-the-return-MP3-mastered.mp3?rlkey=uufweu8kow1h45hhq6ffgubdz&raw=1",
           "artistId": "parsons-cross"
         }
       ]
@@ -4040,6 +4130,33 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/darrell-clayborn/main/images/covers/darrell-clayborn-what-d-i-do-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/94bvbl6z6wlm4nbuhj8e4/darrell-clayborn-whatd-i-do-WAV-mastered.mp3?rlkey=rewk4w7hw6xdw8qnls7rbuvnk&raw=1",
           "artistId": "darrell-clayborn"
+        },
+        {
+          "id": "vanta-if-i-know-me",
+          "title": "If I Know Me",
+          "artist": "Vanta",
+          "album": "Eclipse",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-if-i-know-me-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/um1xgnlosgtk3ngrdrucf/vanta-if-I-know-me-mp3.mp3?rlkey=z0pq6mfr6wo1ogkj7uq741ya5&raw=1",
+          "artistId": "vanta"
+        },
+        {
+          "id": "vanta-a-man-like-me",
+          "title": "A Man Like Me",
+          "artist": "Vanta",
+          "album": "Eclipse",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-a-man-like-me-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/iot6ekeh9ecew7cg4hcoh/vanta-man-like-me-MP3-mastered.mp3?rlkey=9n4huk2tznu0wuuke5hcvhbuz&raw=1",
+          "artistId": "vanta"
+        },
+        {
+          "id": "elliott-kessler-promises-i-broke",
+          "title": "Promises I Broke",
+          "artist": "Elliott Kessler",
+          "album": "What I Do From Here",
+          "cover": "https://raw.githubusercontent.com/SteveP999/elliott-kessler/main/images/covers/elliott-kessler-promises-i-broke-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/ilkswy3umjlipuejxbtgo/elliott-kessler-promises-I-broke.mp3?rlkey=ogsp0f9ufpdpqi592v3j6ej4d&st=he27d22e&raw=1",
+          "artistId": "elliott-kessler"
         }
       ]
     },
@@ -4630,6 +4747,69 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/twyla-tate/main/images/covers/chatgpt-image-sep-29,-2026,-04_45_24-pm.png",
           "audio": "https://www.dropbox.com/scl/fi/lem4bjjal9lg42d6m3n4u/Twyla-Tate-What-We-Don-t-Say-1950s-Cool-Jazz-Vocal-U000-A-mastered.mp3?rlkey=fdh025l08v6vckb0oemyunzjx&raw=1",
           "artistId": "twyla-tate"
+        },
+        {
+          "id": "quincy-cade-even-my-tears",
+          "title": "Even My Tears",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-even-my-tears-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/g3zu9ep2j6dl7prs4c2kx/quincy-cade-even-my-tears-mp3.mp3?rlkey=rvb1t8uk0qw6gip1f6lwoeyk3&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-good-night-good-luck-goodbye",
+          "title": "Good Night, Good Luck, Goodbye",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-good-night-good-luck-goodbye-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/zj1808ys73uifebcmv0ov/quincy-cade-good-night-good-luck-goodbye-MP3.mp3?rlkey=jddkyqry27zzyaxky7gqnfgr6&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-i-never-got-your-name",
+          "title": "I Never Got Your Name",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-i-never-got-your-name-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/1gjfcg9wgrs766is78urs/quincy-cade-i-never-got-your-name-mp3.mp3?rlkey=fefwasroy4p9qv1viry4gi0ni&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-still-falling-for-you",
+          "title": "Still Falling For You",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-still-falling-for-you-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/yw9611c8814o5zqo1xrpo/quincy-cade-still-falling-for-you-mp3.mp3?rlkey=1zvurbrqok6sjycvjycg0930f&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-sunday-suit",
+          "title": "Sunday Suit",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-sunday-suit-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/iit1b9cwpew7mgt2wje8o/quincy-cade-sunday-suit-mp3.mp3?rlkey=9rgb9oszc6cmos0wjsqq2zumr&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-yesterdays-girl",
+          "title": "Yesterdays Girl",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-yesterdays-girl-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/mm952hx0fm1jqv8qatwc8/quincy-cade-yesterdays-girl-mp3.mp3?rlkey=kct0tprfs60a8blhk8bk463s3&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "daniel-kincaid-good-night-good-luck-goodbye",
+          "title": "Good Night, Good Luck, Goodbye",
+          "artist": "Daniel Kincaid",
+          "album": "Running Out of Reasons",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-good-night-good-luck-goodbye-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/6e07sh44fkk2rpa3wmdud/daniel-kincaid-good-luck-goodbye-MP3.mp3?rlkey=9g6ykvuqvvtho7kz0cets9yae&raw=1",
+          "artistId": "daniel-kincaid"
         }
       ]
     },
@@ -5721,6 +5901,15 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/rio-valencia/main/images/covers/rio-valencia-adi-s-amiga-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/1hk6lexc2pasa5id1vn6i/rio-valencia-adios-amiga-MP3-mastered.mp3?rlkey=ceu1e4v8qcz4negur2wxsf95v&raw=1",
           "artistId": "rio-valencia"
+        },
+        {
+          "id": "signallocked",
+          "title": "Locked in the Lights",
+          "artist": "PULSE7",
+          "album": "Endless Echo",
+          "cover": "https://raw.githubusercontent.com/SteveP999/pulse7/main/images/covers/pulse7-signal-locked-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/49isq5ehrm5fxftjgbbdt/PULSE7-Signal-Locked-Mastered-MP3.mp3?rlkey=ewxlecqcld0za18lgj3e4nylb&raw=1",
+          "artistId": "pulse7"
         }
       ]
     },
@@ -5849,7 +6038,7 @@
           "title": "Dead Weight",
           "artist": "Quiet Damage",
           "album": "It Doesn't Break All At Once",
-          "cover": "",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quiet-damage/main/images/covers/quiet-damage-dead-weight-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/gs48dgd5a7vlw4v9tn49m/quiet-damage-dead-weight-MP3-mastered.mp3?rlkey=q9s630px3b3inyde6p2t6b45e&raw=1",
           "artistId": "quiet-damage"
         },
@@ -5858,7 +6047,7 @@
           "title": "Nothing Personal",
           "artist": "Quiet Damage",
           "album": "It Doesn't Break All At Once",
-          "cover": "",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quiet-damage/main/images/covers/quiet-damage-nothing-personal-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/ipjq6l57u5ntbyy86hp16/quiet-damage-nothing-personal-MP3-mastered.mp3?rlkey=vrqi2zamru1b1duzie1eb75dm&raw=1",
           "artistId": "quiet-damage"
         },
@@ -5942,6 +6131,24 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/Ivey-Wilder/main/images/covers/ivey-wilder-the-truth-dont-lie-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/bj2nl9dkcvhct8401lgf8/IVEY-WILDER-Truth-Don-t-Lie.mp3?rlkey=ob8bomdpoe5rn9qoavspqazxg&st=rss7q639&raw=1",
           "artistId": "ivey-wilder"
+        },
+        {
+          "id": "vanta-a-man-like-me",
+          "title": "A Man Like Me",
+          "artist": "Vanta",
+          "album": "Eclipse",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-a-man-like-me-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/iot6ekeh9ecew7cg4hcoh/vanta-man-like-me-MP3-mastered.mp3?rlkey=9n4huk2tznu0wuuke5hcvhbuz&raw=1",
+          "artistId": "vanta"
+        },
+        {
+          "id": "bender-nothing-left-in-these-lungs",
+          "title": "Nothing Left In These Lungs",
+          "artist": "BENDER",
+          "album": "From the Ashes",
+          "cover": "https://raw.githubusercontent.com/SteveP999/bender/main/images/covers/burning-snow_-nothing-left.png",
+          "audio": "https://www.dropbox.com/scl/fi/x98siif56pgzw4e18kvf3/bender-nothing-left-in-these-lungs-MP3-mastered.mp3?rlkey=lqb3akm9c1eun5rqezr8p9zht&raw=1",
+          "artistId": "bender"
         }
       ]
     },
@@ -6532,6 +6739,33 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-minutes-at-a-time-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/s0815wt1wrehoxaiofaj9/Minutes-at-a-Time-by-September-Skies.mp3?rlkey=jbxkqi2hy65tjugnlnrqpegu6&st=afvbhbjm&raw=1",
           "artistId": "september-skies"
+        },
+        {
+          "id": "stephen-parsons-nothing-left-in-these-lungs",
+          "title": "Nothing Left in These Lungs",
+          "artist": "Stephen Parsons",
+          "album": "Miles from Yesterday",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-nothing-left-in-these-lungs-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/bwbd0r22779kl9cdrig0z/stephen-parsons-nothing-left-in-these-lungs-MP3-mastered.mp3?rlkey=36edbdvhe8qfdf2ixur6xnohb&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "parsons-cross-the-return",
+          "title": "The Return",
+          "artist": "Parsons Cross",
+          "album": "Out of the Darkness",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Parsons-Cross/main/images/covers/parsons-cross-the-return-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/ieg955l24u7ui75870x03/parsons-cross-the-return-MP3-mastered.mp3?rlkey=uufweu8kow1h45hhq6ffgubdz&raw=1",
+          "artistId": "parsons-cross"
+        },
+        {
+          "id": "bender-nothing-left-in-these-lungs",
+          "title": "Nothing Left In These Lungs",
+          "artist": "BENDER",
+          "album": "From the Ashes",
+          "cover": "https://raw.githubusercontent.com/SteveP999/bender/main/images/covers/burning-snow_-nothing-left.png",
+          "audio": "https://www.dropbox.com/scl/fi/x98siif56pgzw4e18kvf3/bender-nothing-left-in-these-lungs-MP3-mastered.mp3?rlkey=lqb3akm9c1eun5rqezr8p9zht&raw=1",
+          "artistId": "bender"
         }
       ]
     },
@@ -6780,6 +7014,60 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/the-long-weekend/main/images/covers/the-long-weekend-enjoy-the-ride-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/bag1oi7mzdwisdukfdx3k/the-long-weekend-enjoy-the-ride-MP3-remixed.mp3?rlkey=t7wf1bcxpfnoa3zivptuztfva&st=pqhim5qw&raw=1",
           "artistId": "the-long-weekend"
+        },
+        {
+          "id": "quincy-cade-still-falling-for-you",
+          "title": "Still Falling For You",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-still-falling-for-you-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/yw9611c8814o5zqo1xrpo/quincy-cade-still-falling-for-you-mp3.mp3?rlkey=1zvurbrqok6sjycvjycg0930f&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-i-never-got-your-name",
+          "title": "I Never Got Your Name",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-i-never-got-your-name-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/1gjfcg9wgrs766is78urs/quincy-cade-i-never-got-your-name-mp3.mp3?rlkey=fefwasroy4p9qv1viry4gi0ni&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-good-night-good-luck-goodbye",
+          "title": "Good Night, Good Luck, Goodbye",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-good-night-good-luck-goodbye-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/zj1808ys73uifebcmv0ov/quincy-cade-good-night-good-luck-goodbye-MP3.mp3?rlkey=jddkyqry27zzyaxky7gqnfgr6&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-even-my-tears",
+          "title": "Even My Tears",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-even-my-tears-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/g3zu9ep2j6dl7prs4c2kx/quincy-cade-even-my-tears-mp3.mp3?rlkey=rvb1t8uk0qw6gip1f6lwoeyk3&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-sunday-suit",
+          "title": "Sunday Suit",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-sunday-suit-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/iit1b9cwpew7mgt2wje8o/quincy-cade-sunday-suit-mp3.mp3?rlkey=9rgb9oszc6cmos0wjsqq2zumr&raw=1",
+          "artistId": "quincy-cade"
+        },
+        {
+          "id": "quincy-cade-yesterdays-girl",
+          "title": "Yesterdays Girl",
+          "artist": "Quincy Cade",
+          "album": "After All This Time",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quincy-cade/main/images/covers/quincy-cade-yesterdays-girl-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/mm952hx0fm1jqv8qatwc8/quincy-cade-yesterdays-girl-mp3.mp3?rlkey=kct0tprfs60a8blhk8bk463s3&raw=1",
+          "artistId": "quincy-cade"
         }
       ]
     },
@@ -6962,7 +7250,7 @@
           "title": "Dead Weight",
           "artist": "Quiet Damage",
           "album": "It Doesn't Break All At Once",
-          "cover": "",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quiet-damage/main/images/covers/quiet-damage-dead-weight-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/gs48dgd5a7vlw4v9tn49m/quiet-damage-dead-weight-MP3-mastered.mp3?rlkey=q9s630px3b3inyde6p2t6b45e&raw=1",
           "artistId": "quiet-damage"
         },
@@ -6971,7 +7259,7 @@
           "title": "Nothing Personal",
           "artist": "Quiet Damage",
           "album": "It Doesn't Break All At Once",
-          "cover": "",
+          "cover": "https://raw.githubusercontent.com/SteveP999/quiet-damage/main/images/covers/quiet-damage-nothing-personal-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/ipjq6l57u5ntbyy86hp16/quiet-damage-nothing-personal-MP3-mastered.mp3?rlkey=vrqi2zamru1b1duzie1eb75dm&raw=1",
           "artistId": "quiet-damage"
         },
@@ -7232,7 +7520,7 @@
           "title": "Buy the Moon Another Round",
           "artist": "Vincent Cole",
           "album": "Another Round",
-          "cover": "images/covers/vincent-cole-buy-the-moon-another-round-cover.png",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-buy-the-moon-another-round-cover.png",
           "audio": "",
           "artistId": "vincent-cole"
         },
@@ -7262,6 +7550,24 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/hill-country-line/main/images/covers/hill-country-line-i-ll-see-you-there-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/lf01rofrvug5q3gv9y0wk/hill-country-line-ill-see-you-there-MP3-mastered.mp3?rlkey=5ikfv9jovwwwfyvcg2pztzi22&raw=1",
           "artistId": "hill-country-line"
+        },
+        {
+          "id": "lori-hayes-dont-cost-nothin",
+          "title": "Don't Cost Nothin'",
+          "artist": "Lori Hayes",
+          "album": "Wild Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-dont-cost-nothin-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/o7pr6597qtyokfj34tco8/lori-hayes-dont-cost-nuthin-mp3.mp3?rlkey=pl7tvgs4ngb96xtkiiqh3paim&st=c5gun209&raw=1",
+          "artistId": "lori-hayes"
+        },
+        {
+          "id": "lori-hayes-walk-away-clean",
+          "title": "Walk Away Clean",
+          "artist": "Lori Hayes",
+          "album": "Wild Heart",
+          "cover": "https://raw.githubusercontent.com/SteveP999/lori-hayes/main/images/covers/lori-hayes-walk-away-clean-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/xw51xywduz1ycbc5fkquo/lori-hayes-walk-away-clean-mp3.mp3?rlkey=6plsxqk8yejowny6l58e6vlmb&st=5wj7ar45&raw=1",
+          "artistId": "lori-hayes"
         }
       ]
     },
