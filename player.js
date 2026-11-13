@@ -77,6 +77,7 @@ function loadTrack(autoplay) {
   updateTrackUI(track);
   try { if (typeof gtag === 'function') gtag('event', 'play_song', { song_title: track.title, artist: track.artist, source: 'htr_radio' }); } catch(e) {}
   updateBgArt(track.cover);
+  lyrLoad(track);
 
   const st = getStation();
   if (st.djIntros && track.introClips && track.introClips.length > 0) {
@@ -450,3 +451,94 @@ try {
   };
   audio.addEventListener('play', () => bc.postMessage({ type: 'radio-play' }));
 } catch(e) {}
+
+// ── Lyrics over the cover art ─────────────────────────────────
+// lyrics/index.json lists the songs that have saved timestamps (published from HTR Studio);
+// lyrics/{id}.txt is the same "M:SS<TAB>text" file the lyric videos use.
+const LYR = { ids: null, id: null, lines: [], cur: -2, on: true, max: 10 };
+try { LYR.on = localStorage.getItem('htr-radio-lyrics') !== 'off'; } catch (e) {}
+
+function lyrParse(text) {
+  const ev = [];
+  text.split(/\r?\n/).forEach(ln => {
+    const m = ln.match(/^\s*(\d+):(\d{2}(?:\.\d+)?)\s+(.+)$/);
+    if (!m) return;
+    const tx = m[3].trim();
+    ev.push({ t: +m[1] * 60 + parseFloat(m[2]), text: tx, marker: /^\[.*\]$/.test(tx) });
+  });
+  ev.sort((a, b) => a.t - b.t);
+  const out = [];
+  for (let i = 0; i < ev.length; i++) {
+    if (ev[i].marker) continue;
+    // lines stamped at the same moment share the time until the next stamp
+    let j = i; while (j + 1 < ev.length && !ev[j + 1].marker && ev[j + 1].t === ev[i].t) j++;
+    const nx = ev.slice(j + 1).find(x => x.t > ev[i].t);
+    const end = nx ? nx.t : ev[i].t + 6, n = j - i + 1, step = (end - ev[i].t) / n;
+    for (let k = 0; k < n; k++) {
+      out.push({ t: ev[i].t + k * step, end: ev[i].t + (k + 1) * step, text: ev[i + k].text.replace(/\s+[\/|]\s+/g, ' ') });
+    }
+    i = j;
+  }
+  return out;
+}
+
+function lyrBuild() {
+  document.querySelectorAll('.np-art-wrap, .dnp-art-wrap').forEach(w => {
+    if (w.querySelector('.lyr-over')) return;
+    const o = document.createElement('div'); o.className = 'lyr-over';
+    o.innerHTML = '<div class="lyr-cur"></div><div class="lyr-next"></div>';
+    const b = document.createElement('button'); b.className = 'lyr-btn'; b.type = 'button'; b.textContent = 'Lyrics';
+    b.title = 'Show or hide lyrics';
+    b.addEventListener('click', e => {
+      e.stopPropagation();
+      LYR.on = !LYR.on; LYR.cur = -2;
+      try { localStorage.setItem('htr-radio-lyrics', LYR.on ? 'on' : 'off'); } catch (err) {}
+      lyrTick();
+    });
+    w.appendChild(o); w.appendChild(b);
+  });
+}
+
+function lyrLoad(track) {
+  LYR.id = track ? track.id : null; LYR.lines = []; LYR.cur = -2;
+  lyrTick();
+  if (!track || !LYR.ids || !LYR.ids.has(track.id)) return;
+  const id = track.id;
+  fetch('lyrics/' + encodeURIComponent(id) + '.txt')
+    .then(r => (r.ok ? r.text() : ''))
+    .then(tx => { if (LYR.id === id) { LYR.lines = lyrParse(tx); LYR.cur = -2; lyrTick(); } })
+    .catch(() => {});
+}
+
+function lyrTick() {
+  const has = LYR.lines.length > 0;
+  let idx = -1;
+  if (has && LYR.on && !playingIntro) {
+    const t = audio.currentTime || 0;
+    for (let i = 0; i < LYR.lines.length; i++) { if (LYR.lines[i].t <= t) idx = i; else break; }
+    if (idx >= 0 && t >= Math.min(LYR.lines[idx].end, LYR.lines[idx].t + LYR.max)) idx = -1;
+  }
+  document.querySelectorAll('.np-art-wrap, .dnp-art-wrap').forEach(w => {
+    w.classList.toggle('has-lyrics', has);
+    w.classList.toggle('lyr-show', idx >= 0);
+    const b = w.querySelector('.lyr-btn'); if (b) b.classList.toggle('off', !LYR.on);
+  });
+  if (idx === LYR.cur) return;
+  LYR.cur = idx;
+  if (idx < 0) return; // keep the last words in place while the overlay fades out
+  const nx = LYR.lines[idx + 1];
+  document.querySelectorAll('.lyr-over').forEach(o => {
+    const c = o.querySelector('.lyr-cur');
+    c.textContent = LYR.lines[idx].text;
+    c.classList.remove('in'); void c.offsetWidth; c.classList.add('in');
+    o.querySelector('.lyr-next').textContent = nx ? nx.text : '';
+  });
+}
+
+lyrBuild();
+setInterval(lyrTick, 150);
+audio.addEventListener('seeked', lyrTick);
+fetch('lyrics/index.json?cb=' + Date.now())
+  .then(r => (r.ok ? r.json() : { ids: [] }))
+  .then(d => { LYR.ids = new Set(d.ids || []); const t = getTrack(); if (t) lyrLoad(t); })
+  .catch(() => { LYR.ids = new Set(); });

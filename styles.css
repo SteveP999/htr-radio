@@ -302,3 +302,32 @@ body{background:var(--dark);color:var(--cream);font-family:'Barlow',sans-serif;f
 
 /* ── SHARED ANIMATIONS ── */
 @keyframes pdot{0%,100%{opacity:1}50%{opacity:.35}}
+
+/* ── LYRICS OVER THE COVER ART ── */
+.lyr-over{
+  position:absolute;inset:0;border-radius:8px;overflow:hidden;pointer-events:none;
+  display:flex;flex-direction:column;justify-content:flex-end;align-items:center;text-align:center;
+  padding:0 6% 7%;opacity:0;transition:opacity .45s ease;
+  background:linear-gradient(to top,rgba(0,0,0,.9) 0%,rgba(0,0,0,.6) 36%,rgba(0,0,0,0) 72%);
+}
+.dnp-art-wrap .lyr-over{border-radius:10px;}
+.lyr-show .lyr-over{opacity:1;}
+.lyr-cur{
+  font-family:'Bebas Neue',sans-serif;font-size:clamp(1.3rem,6.4vw,1.85rem);line-height:1.04;letter-spacing:.035em;
+  color:var(--cream);text-shadow:0 2px 12px rgba(0,0,0,.95);max-width:100%;overflow-wrap:break-word;
+}
+.lyr-cur.in{animation:lyrIn .32s ease-out;}
+@keyframes lyrIn{from{opacity:0;transform:translateY(8px);}to{opacity:1;transform:none;}}
+.lyr-next{
+  font-family:'Barlow Condensed',sans-serif;font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;
+  color:rgba(242,237,227,.5);margin-top:.4rem;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+}
+.dnp-art-wrap .lyr-cur{font-size:clamp(1.6rem,2.7vw,2.7rem);}
+.dnp-art-wrap .lyr-next{font-size:.85rem;}
+.lyr-btn{
+  display:none;position:absolute;top:8px;right:8px;z-index:2;cursor:pointer;
+  font-family:'Barlow Condensed',sans-serif;font-size:.6rem;letter-spacing:.18em;text-transform:uppercase;
+  color:var(--cream);background:rgba(0,0,0,.55);border:1px solid var(--accent);border-radius:999px;padding:.3rem .65rem;
+}
+.has-lyrics .lyr-btn{display:block;}
+.lyr-btn.off{opacity:.55;border-color:rgba(255,255,255,.3);text-decoration:line-through;}
