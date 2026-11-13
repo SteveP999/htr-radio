@@ -267,23 +267,40 @@ function updateTrackUI(track) {
   const nowEl = document.getElementById(`dsg-now-${currentStationIdx}`);
   if (nowEl) nowEl.textContent = '▶ ' + (track.title || '—');
 
-  // Media Session API
+  // Media Session API (lock screen, CarPlay, Bluetooth displays)
   if ('mediaSession' in navigator) {
-    navigator.mediaSession.metadata = new MediaMetadata({
-      title:  track.title  || 'HTR Radio',
-      artist: track.artist || 'Hello Texas Records',
-      album:  track.album  || (getStation()?.name || 'HTR Radio'),
-      artwork: track.cover ? [
-        { src: track.cover, sizes: '512x512', type: 'image/png' },
-        { src: track.cover, sizes: '256x256', type: 'image/png' },
-      ] : [{ src: 'https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png', sizes:'512x512', type:'image/png' }]
-    });
+    setNowPlaying(track);
     navigator.mediaSession.setActionHandler('play',          () => { playAudio(); isPlaying = true;  updatePlayBtn(); });
     navigator.mediaSession.setActionHandler('pause',         () => { audio.pause(); isPlaying = false; updatePlayBtn(); });
     navigator.mediaSession.setActionHandler('nexttrack',     () => nextTrack());
     navigator.mediaSession.setActionHandler('previoustrack', () => prevTrack());
     navigator.mediaSession.setActionHandler('stop',          () => { audio.pause(); isPlaying = false; updatePlayBtn(); });
   }
+}
+
+// iOS / CarPlay only show artwork when the declared size matches the real image and only look at the
+// first entry, so measure the cover first and declare exactly one image at its true dimensions.
+const ART_SIZES = {};
+const ART_FALLBACK = 'https://raw.githubusercontent.com/SteveP999/hello-texas-records/main/htr-logo.png';
+function artType(src) { return /\.jpe?g(\?|$)/i.test(src) ? 'image/jpeg' : /\.webp(\?|$)/i.test(src) ? 'image/webp' : 'image/png'; }
+function setNowPlaying(track) {
+  if (!('mediaSession' in navigator)) return;
+  const src = track.cover || ART_FALLBACK;
+  const apply = () => {
+    if (getTrack() !== track) return; // song changed while the cover was loading
+    const meta = {
+      title:  track.title  || 'HTR Radio',
+      artist: track.artist || 'Hello Texas Records',
+      album:  track.album  || (getStation()?.name || 'HTR Radio'),
+    };
+    if (ART_SIZES[src]) meta.artwork = [{ src: src, sizes: ART_SIZES[src], type: artType(src) }];
+    try { navigator.mediaSession.metadata = new MediaMetadata(meta); } catch (e) {}
+  };
+  apply(); // title/artist right away (and the art too if this cover was measured before)
+  if (ART_SIZES[src]) return;
+  const img = new Image();
+  img.onload = () => { if (img.naturalWidth && img.naturalHeight) { ART_SIZES[src] = img.naturalWidth + 'x' + img.naturalHeight; apply(); } };
+  img.src = src;
 }
 
 function updateStationUI(st) {
