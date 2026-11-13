@@ -341,7 +341,7 @@ const STATION_ICONS = {
   'lone-star':'🤠','skyline-fm':'🌃','sunset-boulevard':'🌅','voltage':'⚡',
   'velvet-lounge':'🎷','spirit-radio':'✝️','neon-nights':'🪩','horizon':'🌌',
   'retro-gold':'🎸','lucas-harlow':'🎹','htr-top-20':'🏆','the-hits':'⭐',
-  'back-porch':'🪑','benders-search':'🔍','new-releases':'🆕',
+  'back-porch':'🪑','benders-search':'🔍','new-releases':'🆕','hello-christmas':'🎄',
 };
 
 // ── MOBILE STRIP ──────────────────────────────────────────────

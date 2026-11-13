@@ -1629,7 +1629,7 @@
           "artist": "Daniel Kincaid",
           "album": "Running Out of Reasons",
           "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-still-falling-for-you-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/kkjsw6yz5pplf3tmx3yjk/daniel-kincaid-still-falling-for-you-studio-mp3.mp3?rlkey=k5ybq1kclxxv9kixabf96vmhy&raw=1",
+          "audio": "https://www.dropbox.com/scl/fi/3c1oo9f6zjfxl0yraa1t4/daniel-kincaid-still-falling-for-you-mp3.mp3?rlkey=mrcc4qytm5r7v8ux8rxxgps7b&raw=1",
           "artistId": "daniel-kincaid"
         },
         {
@@ -2007,7 +2007,7 @@
           "artist": "September Skies",
           "album": "One Move at a Time",
           "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-carry-us-all-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/ebukfwu33czjwe6iz9c9i/september-skies-carry-us-all-mp3.mp3?rlkey=xsb87txnxu8kf7zspt5dd9apt&raw=1",
+          "audio": "https://www.dropbox.com/scl/fi/8a9x2brpus2kf36ceyjjm/september-skies-carry-us-all-MP3-mastered.mp3?rlkey=gwjktfonpnlfai2axx6t9j76g&raw=1",
           "artistId": "september-skies"
         },
         {
@@ -2191,6 +2191,15 @@
           "artistId": "quiet-damage"
         },
         {
+          "id": "vincent-cole-buy-the-moon-another-round",
+          "title": "Buy the Moon Another Round",
+          "artist": "Vincent Cole",
+          "album": "Another Round",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-buy-the-moon-another-round-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/x8ds24yuu3bware1uogdg/Buy-the-Moon-Another-Round-MP3-mastered.mp3?rlkey=tji79kqyjdcik1re18o7thmiy&raw=1",
+          "artistId": "vincent-cole"
+        },
+        {
           "id": "cheap-silver-i-m-a-fool",
           "title": "I'm a Fool",
           "artist": "Cheap Silver",
@@ -2216,6 +2225,24 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-minutes-at-a-time-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/s0815wt1wrehoxaiofaj9/Minutes-at-a-Time-by-September-Skies.mp3?rlkey=jbxkqi2hy65tjugnlnrqpegu6&st=afvbhbjm&raw=1",
           "artistId": "september-skies"
+        },
+        {
+          "id": "cheap-silver-my-baby-knows-my-order",
+          "title": "My Baby Knows My Order",
+          "artist": "Cheap Silver",
+          "album": "Bad Luck & Bright Lights",
+          "cover": "",
+          "audio": "https://www.dropbox.com/scl/fi/vu63yfpkh59vr24z5fx8i/cheap-silver-my-baby-knows-my-order-MP3-mastered.mp3?rlkey=cqmccauli4av1q6qq0j05mdzy&st=zj4rqghg&raw=1",
+          "artistId": "cheap-silver"
+        },
+        {
+          "id": "cheap-silver-one-more-slow-dance",
+          "title": "One More Slow Dance",
+          "artist": "Cheap Silver",
+          "album": "Bad Luck & Bright Lights",
+          "cover": "",
+          "audio": "https://www.dropbox.com/scl/fi/p3x05a19qagty4o53o3tf/cheap-silver-one-more-slow-dance-WAV-mastered.mp3?rlkey=efijin11cb17e293t7174a2cm&st=viqs8j5x&raw=1",
+          "artistId": "cheap-silver"
         },
         {
           "id": "quiet-damage-dead-weight",
@@ -3008,6 +3035,461 @@
           "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-cowboy-through-and-through-cover.png",
           "audio": "https://www.dropbox.com/scl/fi/z56vjan2o019rbk161cys/stephen-parsons-cowboy-through-and-through-MP3-mastered.mp3?rlkey=9ucwj4n7sfbmgbmm5p9xq0gtg&st=v86ipcy3&raw=1",
           "artistId": "stephen-parsons"
+        },
+        {
+          "id": "vanta-here-comes-the-pain",
+          "title": "Here Comes The Pain",
+          "artist": "Vanta",
+          "album": "Eclipse",
+          "cover": "https://raw.githubusercontent.com/SteveP999/vanta/main/images/covers/vanta-here-comes-the-pain-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/e13ruwsv4ezof9xuq6bfx/vanta-here-comes-the-MP3-mastered.mp3?rlkey=i7pegsdmjcmlo35rwjimn7d9o&raw=1",
+          "artistId": "vanta"
+        },
+        {
+          "id": "nightstrike-don-t-waste-my-time",
+          "title": "Don't Waste My Time",
+          "artist": "NightStrike",
+          "album": "High Voltage",
+          "cover": "https://raw.githubusercontent.com/SteveP999/NightStrike/main/images/covers/nightstrike-don-t-waste-my-time-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/zkqhwww1ap4rafob23z2t/nightstrike-dont-waste-my-time-MP3-mastered.mp3?rlkey=huimwman4gc479t3dnf6qwyys&raw=1",
+          "artistId": "nightstrike"
+        },
+        {
+          "id": "daniel-kincaid-i-freeze",
+          "title": "I Freeze",
+          "artist": "Daniel Kincaid",
+          "album": "Running Out of Reasons",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-i-freeze-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9yvwto17rwdgvk10owseh/daniel-kincaid-i-freeze-MP3-mastered.mp3?rlkey=n0w73rsvsqq2d0o6554353vd2&raw=1",
+          "artistId": "daniel-kincaid"
+        },
+        {
+          "id": "daniel-kincaid-i-freeze-acoustic",
+          "title": "I Freeze (Acoustic)",
+          "artist": "Daniel Kincaid",
+          "album": "Running Out of Reasons Acoustic",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-i-freeze-acoustic-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/zpqgivgood1pc2mcxmqxk/daniel-kincaid-i-freeze-acoustic-MP3-mastered.mp3?rlkey=ytnhiju7kp26bvqwa6kr6tfw8&raw=1",
+          "artistId": "daniel-kincaid"
+        },
+        {
+          "id": "harlan-rhodes-dead-man-walking",
+          "title": "Dead Man Walking",
+          "artist": "Harlan Rhodes",
+          "album": "Ashes and Rain",
+          "cover": "https://raw.githubusercontent.com/SteveP999/harlan-rhodes/main/images/covers/harlan-rhodes-dead-man-walking-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/5va8w8k746l7ykmn32eh9/harlan-rhodes-dead-man-walking-MP3-mastered.mp3?rlkey=yvzhh8966ii39lhjqjckb84t1&raw=1",
+          "artistId": "harlan-rhodes"
+        },
+        {
+          "id": "brightons-i-freeze",
+          "title": "I Freeze",
+          "artist": "Brightons",
+          "album": "The Last Good Summer",
+          "cover": "https://raw.githubusercontent.com/SteveP999/brightons/main/images/covers/brightons-i-freeze-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/myguvk6yapqrx8wbkbgyw/brightons-i-freeze-MP3-mastered.mp3?rlkey=6nb30trw3yz5y4vedjk87wt7q&raw=1",
+          "artistId": "brightons"
+        },
+        {
+          "id": "harlan-rhodes-i-freeze",
+          "title": "I Freeze",
+          "artist": "Harlan Rhodes",
+          "album": "Ashes and Rain",
+          "cover": "https://raw.githubusercontent.com/SteveP999/harlan-rhodes/main/images/covers/harlan-rhodes-i-freeze-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/bohg5p3dcen1cznlrhvzv/harlan-rhodes-i-freeze-MP3-mastered.mp3?rlkey=g3brze3ltmmcfwm31ztcqd2lq&raw=1",
+          "artistId": "harlan-rhodes"
+        },
+        {
+          "id": "the-long-weekend-i-freeze",
+          "title": "I Freeze",
+          "artist": "The Long Weekend",
+          "album": "No Particular Hurry",
+          "cover": "https://raw.githubusercontent.com/SteveP999/the-long-weekend/main/images/covers/the-long-weekend-i-freeze-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/rdzjiv1ootvy8v1qp42so/long-weekend-i-freeze-MP3-mastered.mp3?rlkey=a4sy92rbud58a65iyavn2rsqj&raw=1",
+          "artistId": "the-long-weekend"
+        },
+        {
+          "id": "sawyer-price-i-ll-see-you-there",
+          "title": "I'll See You There",
+          "artist": "Sawyer Price",
+          "album": "Unrushed",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Sawyer-Price/main/images/covers/sawyer-price-i-ll-see-you-there-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/bvt1chq1l32wrsw37tkix/sawyer-price-ill-see-you-there-MP3-mastered.mp3?rlkey=wa3p4evxq4z8lue97lyqsx2xt&st=jq1ouyi2&raw=1",
+          "artistId": "sawyer-price"
+        },
+        {
+          "id": "brent-alan-people-say-i-look-like-you",
+          "title": "People Say I Look Like You",
+          "artist": "Brent Alan",
+          "album": "One More Day",
+          "cover": "https://raw.githubusercontent.com/SteveP999/brent-alan/main/images/covers/brent-alan-people-say-i-look-like-you-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/jvy53ap4d4babk2avvvnf/brent-alan-people-say-i-look-like-you-MP3-mastered.mp3?rlkey=4mamrryeohnumr3qss5zuh633&st=4dhpb3rx&raw=1",
+          "artistId": "brent-alan"
+        },
+        {
+          "id": "darrell-clayborn-dead-man-walking",
+          "title": "Dead Man Walking",
+          "artist": "Darrell Clayborn",
+          "album": "Heartbroke Fool",
+          "cover": "https://raw.githubusercontent.com/SteveP999/darrell-clayborn/main/images/covers/darrell-clayborn-dead-man-walking-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/j5wh0m3aev7m3s4v6ljsm/darrell-clayborn-dead-man-walking-MP3-mastered.mp3?rlkey=6uz8u1eh5fa8u7cfnojn22ozk&st=tzfqem15&raw=1",
+          "artistId": "darrell-clayborn"
+        },
+        {
+          "id": "elliott-kessler-i-freeze",
+          "title": "I Freeze",
+          "artist": "Elliott Kessler",
+          "album": "What I Do From Here",
+          "cover": "https://raw.githubusercontent.com/SteveP999/elliott-kessler/main/images/covers/elliott-kessler-i-freeze-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/4267408xte2pn8dawrv0j/elliott-kessler-i-freeze-MP3-mastered.mp3?rlkey=8yr25fslyxj45w2nxu021vwmx&st=ljfdiqw5&raw=1",
+          "artistId": "elliott-kessler"
+        },
+        {
+          "id": "riven-ashton-not-my-problem",
+          "title": "Not My Problem",
+          "artist": "Riven Ashton",
+          "album": "Since You Asked",
+          "cover": "https://raw.githubusercontent.com/SteveP999/riven-ashton/main/images/covers/riven-ashton-not-my-problem-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/y03actqcdhgfkwhnzflq6/riven-ashton-not-my-problem-MP3-mastered.mp3?rlkey=vmtoi22orghqg0nqy84ghtf5r&raw=1",
+          "artistId": "riven-ashton"
+        },
+        {
+          "id": "riven-ashton-don-t-test-me",
+          "title": "Don't Test Me",
+          "artist": "Riven Ashton",
+          "album": "Since You Asked",
+          "cover": "https://raw.githubusercontent.com/SteveP999/riven-ashton/main/images/covers/riven-ashton-don-t-test-me-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/nions150to1734sbjkh4r/ashton-riven-dont-test-me-MP3-mastered.mp3?rlkey=fw70zy4g1dfpwlds8lhqv6ug2&raw=1",
+          "artistId": "riven-ashton"
+        },
+        {
+          "id": "stephen-parsons-goodbye-road",
+          "title": "Goodbye Road",
+          "artist": "Stephen Parsons",
+          "album": "Miles from Yesterday",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-goodbye-road-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/o5qhn478upb39e146tyj0/stephen-parsons-goodbye-road-MP3-mastered.mp3?rlkey=yzeqnvboa7bumdjxgpfw1og8l&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "stephen-parsons-hold-on",
+          "title": "Hold On",
+          "artist": "Stephen Parsons",
+          "album": "Miles from Yesterday",
+          "cover": "https://raw.githubusercontent.com/SteveP999/stephen-parsons/main/images/covers/stephen-parsons-hold-on-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/fd562o12izhqjv7sv5n2m/stephen-parsons-hold-on-MP3-mastered.mp3?rlkey=mukhbh1mjpm2gkgrbjxvxvpum&raw=1",
+          "artistId": "stephen-parsons"
+        },
+        {
+          "id": "hello-texas-that-s-just-the-way-i-am",
+          "title": "That's Just The Way I Am",
+          "artist": "Hello Texas",
+          "album": "Messin' Round",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-that-s-just-the-way-i-am-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/joqpakk12crzkhb1eor48/hello-texas-thats-just-the-way-i-am-MP3-mastered.mp3?rlkey=3xcd82rc8elgc0wco1s3nkako&st=i87aiyt1&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "hello-texas-i-ll-see-you-there",
+          "title": "I'll See You There",
+          "artist": "Hello Texas",
+          "album": "That Texas Sound",
+          "cover": "https://raw.githubusercontent.com/SteveP999/Hello-Texas/main/images/covers/hello-texas-i-ll-see-you-there-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/9ilpmdt0sxb2gm5gpllf4/hello-texas-ill-see-you-there-MP3-mastered.mp3?rlkey=qc6nrmacgok9fxx3men9ughlz&st=fig79uw7&raw=1",
+          "artistId": "hello-texas"
+        },
+        {
+          "id": "elliott-kessler-dead-man-walking",
+          "title": "Dead Man Walking",
+          "artist": "Elliott Kessler",
+          "album": "What I Do From Here",
+          "cover": "https://raw.githubusercontent.com/SteveP999/elliott-kessler/main/images/covers/elliott-kessler-dead-man-walking-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/2inmf1whm9ud4jmfzweaa/elliott-kessler-dead-man-walking-MP3-mastered.mp3?rlkey=xduvkbbd0rbsod7p5hhoa269o&st=96eisloa&raw=1",
+          "artistId": "elliott-kessler"
+        },
+        {
+          "id": "cheap-silver-bad-luck-bright-lights",
+          "title": "Bad Luck & Bright Lights",
+          "artist": "Cheap Silver",
+          "album": "Bad Luck & Bright Lights",
+          "cover": "https://raw.githubusercontent.com/SteveP999/cheap-silver/main/images/covers/cheap-silver-bad-luck-bright-lights-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/lo7u2sfp0hhc4basp07lr/cheap-silver-bad-luck-and-bright-lights-MP3-mastered.mp3?rlkey=bdydg6ahz508akcs11yxlzgk1&st=w74pqnfr&raw=1",
+          "artistId": "cheap-silver"
+        }
+      ]
+    },
+    {
+      "id": "hello-christmas",
+      "name": "Hello Christmas",
+      "shortName": "Christmas",
+      "tagline": "Every corner of the HTR roster, one Christmas song each.",
+      "genre": "Christmas / Holiday — All Genres",
+      "mood": "Festive, warm, a little rowdy",
+      "color": "#3FAE6B",
+      "glow": "rgba(63,174,107,0.4)",
+      "art": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-cover-1x1.png",
+      "type": "genre",
+      "tracks": [
+        {
+          "id": "hello-christmas-disco-snowman-by-night-shift",
+          "title": "Disco Snowman by Night Shift",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-disco-snowman-by-night-shift-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/n94kns8hgy9nh4x9kr0ca/disco-snowman-night-shift-MP3-mastered.mp3?rlkey=zuvnuyzabqv5ny6o2ex9agh74&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-a-texas-holiday-by-sawyer-price",
+          "title": "A Texas Holiday by Sawyer Price",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-a-texas-holiday-by-sawyer-price-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/uvo4bs08ylr5z4l8z79qb/sawyer-price-texas-holiday-MP3-mastered.mp3?rlkey=lnewm25lhnmpppd7not456tfz&st=iescfiz9&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-see-you-in-december-by-vincent-cole",
+          "title": "See You In December by Vincent Cole",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-see-you-in-december-by-vincent-cole-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/6ypbn6yk9t0i78w847oz6/CHRISTMAS-See-You-In-December-Vincent-Cole-Core-MP3-mastered.mp3?rlkey=miptm7ssmisfmlqes4ybuj2yr&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-paper-and-bows-by-the-brightons",
+          "title": "Paper and Bows by The Brightons",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-paper-and-bows-by-the-brightons-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/s0pb6h1dbvs9l1olq4j8f/brightons-paper-and-bows-MP3-mastered.mp3?rlkey=uf7ch117jurl0wiext2ct4a48&st=0d5kil9n&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-santa-s-got-soul-by-quincy-cade",
+          "title": "Santa's Got Soul by Quincy Cade",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-santa-s-got-soul-by-quincy-cade-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/j3ahjuv2eqa340hukbl5h/CHRISTMAS-Santas-Got-Soul-Quincy-Cade-MP3-mastered.mp3?rlkey=p9wm5xwjt4ii6y84bctckp26u&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-candy-cane-hearts-by-the-honey-belles",
+          "title": "Candy Cane Hearts by The Honey Belles",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-candy-cane-hearts-by-the-honey-belles-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/pf45izvt36rirbig6nyh3/honey-belles-candy-cane-hearts-MP3-mastered.mp3?rlkey=maol7emtezxxstwt0glneoo5b&st=h2f7g8y8&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-batteries-not-included-by-vanta",
+          "title": "Batteries Not Included by VANTA",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-batteries-not-included-by-vanta-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/lcfno54jcxlqnu0o8kn26/CHRISTMAS-Batteries-Not-Included-VANTA-MP3-mastered.mp3?rlkey=fz1ilmjbpd0j5i45yfalgoj0z&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-this-time-next-christmas-by-daniel-kincaid",
+          "title": "This Time Next Christmas by Daniel Kincaid",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-this-time-next-christmas-by-daniel-kincaid-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/8prb5g808fy0z9xtxc5j0/daniel-kincaid-this-time-next-christmas-MP3-mastered.mp3?rlkey=tsp2jev3d25iexszjcdtuom7j&st=nbpi1l6b&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-snow-globe-by-pulse7",
+          "title": "Snow Globe by PULSE7",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-snow-globe-by-pulse7-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/mz9yy02zfqspp2iubfier/CHRISTMAS-Snow-Globe-PULSE7-MP3-mastered.mp3?rlkey=riq4fm6c27ene1d9i7xgady9u&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-leave-a-little-christmas-for-me-by-twyla-tate",
+          "title": "Leave a Little Christmas For Me by Twyla Tate",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-leave-a-little-christmas-for-me-by-twyla-tate-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/flnd9jxx98t5sektzx2wt/CHRISTMAS-Twayla-Tate-Leave-a-Little-Christmas-For-Me-MP3-mastered.mp3?rlkey=ob2wbu9ybpzi0aj1i6dehi955&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-all-i-got-was-trouble-by-cheap-silver",
+          "title": "All I Got Was Trouble by Cheap Silver",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-all-i-got-was-trouble-by-cheap-silver-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/fbpm3zysp13yy6vs74ex7/cheap-silver-all-I-got-was-trouble-MP3-mastered.mp3?rlkey=kjzzhexszksv5cyiadbzykk35&st=m0ikjmdf&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-blitzen-s-got-the-blues",
+          "title": "Blitzen's Got the Blues by Harlan Rhodes",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-blitzen-s-got-the-blues-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/pwoj6cel83rh5gxzde59v/CHRISTMAS-Blitzen-s-Got-the-Blues-Harlan-Rhodes-MP3-mastered.mp3?rlkey=zupp1vox12o2mzdy47mlphmaj&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-twelve-nights-of-heartbreak-by-darrell-clayborn",
+          "title": "Twelve Nights of Heartbreak by Darrell Clayborn",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-twelve-nights-of-heartbreak-by-darrell-clayborn-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/00xbhoetoeiggbe6ue8jr/darrell-clayborn-twelve-nights-of-heartbreak-MP3-mastered.mp3?rlkey=io3cq51iq0001x5sgk1w1hu2l&st=ndvofujx&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-santa-tengo-un-problema-by-rio-valencia",
+          "title": "Santa, Tengo un Problema by Rio Valencia",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-santa-tengo-un-problema-by-rio-valencia-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/k56uizivzlltqhs6dix57/CHRISTMAS-Rio-Valencia-Santa-Tengo-un-Problema-MP3-mastered.mp3?rlkey=xj9d81cadq3zsi6afr51pvbzj&st=54letuqy&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-the-naughty-list-by-nightstrike",
+          "title": "The Naughty List by NightStrike",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-the-naughty-list-by-nightstrike-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/tom02runl51jfkszt8wre/nightstrike-the-naughty-list-MP3-mastered.mp3?rlkey=qz9lefbvqbn6d84rc511qzxtf&st=m8nlht0m&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-another-perfect-christmas-by-western-fires",
+          "title": "Another Perfect Christmas by Western Fires",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-another-perfect-christmas-by-western-fires-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/rx48rsj0hjm0kffzqot34/western-fires-another-perfect-christmas-MP3-mastered.mp3?rlkey=ezd1t81gpit4f1tamy2uha14v&st=igo2xzu0&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-everybody-s-here-by-skyline-theory",
+          "title": "Everybody's Here by Skyline Theory",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-everybody-s-here-by-skyline-theory-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/aquo3pe1h9m8v2vocc4uf/CHRISTMAS-Everybody-s-Here-Skyline-Theory-MP3-mastered.mp3?rlkey=1rb3fhucjv8rybwwapctvtv8d&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-single-bells-by-bailey-wade",
+          "title": "Single Bells by Bailey Wade",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-single-bells-by-bailey-wade-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/vur2qwh8r2aj8mb49heod/bailey-wade-single-bells-MP3-mastered.mp3?rlkey=wzl34go3cd24nqz5yvs23j2zx&st=7l6j1stx&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-no-silent-night-by-ivey-wilder",
+          "title": "No Silent Night by Ivey Wilder",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-no-silent-night-by-ivey-wilder-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/3z0f3371ijbcbd61ilngx/CHRISTMAS-No-Silent-Night-Ivey-Wilder-MP3-mastered.mp3?rlkey=h4bzv0gst7hnphqedk25dalqm&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-pass-it-on-by-brent-alan",
+          "title": "Pass It On by Brent Alan",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-pass-it-on-by-brent-alan-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/to0wpewh0j3p5tje8oclp/CHRISTMAS-Pass-It-On-Brent-Alan-MP3-mastered.mp3?rlkey=b92njzrp1hya60lnm9ht4kd4c&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-broken-toys-by-quiet-damage",
+          "title": "Broken Toys by Quiet Damage",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-broken-toys-by-quiet-damage-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/q592y7kpg7q834ch7rcl9/quiet-damage-broken-toys-MP3-mastered.mp3?rlkey=tjuo11q9mjxmelrciokzhmyeu&st=70x6d6ng&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-santa-don-t-start-with-me-by-riven-ashton",
+          "title": "Santa, Don't Start With Me by Riven Ashton",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-santa-don-t-start-with-me-by-riven-ashton-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/8lp1cazy15fyp8uiubzg9/riven-ashton-santa-dont-start-with-me-MP3-mastered.mp3?rlkey=ui5xgapm11ycndelhpq0vqghs&st=n9tmufb2&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-it-ain-t-christmas-till-by-hello-texas",
+          "title": "It Ain't Christmas Till... by Hello Texas",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-it-ain-t-christmas-till-by-hello-texas-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/dlqo0dehgzw62gxsizjkc/CHRISTMAS-It-Ain-t-Christmas-Till-Hello-Texas-MP3-Expanded-mastered.mp3?rlkey=90j59dlpmvnfevqmquujom2sx&st=jsuuk58b&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-my-favorite-kind-of-christmas-by-avery-ivey",
+          "title": "My Favorite Kind of Christmas by Avery Ivey",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-my-favorite-kind-of-christmas-by-avery-ivey-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/305xglfzimf4rogimy15p/CHRISTMAS-My-Favorite-Kind-of-Christmas-Avery-Ivey-MP3-mastered.mp3?rlkey=n70pdynnugxcpj74iaqi6h21e&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-christmas-eve-with-you-by-the-long-weekend",
+          "title": "Christmas Eve With You by The Long Weekend",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-christmas-eve-with-you-by-the-long-weekend-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/51nzmxeiftbcp7sc4toxz/long-weekend-christmas-eve-with-you-MP3-mastered.mp3?rlkey=xl46pelp21ir3w32u6zs0qzjz&st=fxb9qa5d&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-what-to-give-by-lori-hayes",
+          "title": "What to Give by Lori Hayes",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-what-to-give-by-lori-hayes-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/r6jodwy802chde5wj8i7q/lori-hayes-wht-to-give-MP3-mastered.mp3?rlkey=hgy9chompl5pcs9a5ya4jw6r7&st=0shb7ie3&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-still-just-a-kid-by-elliott-kessler",
+          "title": "Still Just a Kid by Elliott Kessler",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-still-just-a-kid-by-elliott-kessler-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/nrmb9tvavyfetqift5o8d/elliott-kessler-still-just-a-kid-MP3-mastered.mp3?rlkey=74pm4jab8zqpj70khqi23oxwq&st=xg1f8ilo&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-peace-to-take-along-by-taylor-martin",
+          "title": "Peace to Take Along by Taylor Martin",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-peace-to-take-along-by-taylor-martin-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/qfdjyrmp0la97clbgaszx/taylor-martin-peace-to-take-along-MP3-mastered.mp3?rlkey=gycjlia7tgw5rz8livpc2z9ry&st=b4a1wh1b&raw=1",
+          "artistId": "hello-christmas"
+        },
+        {
+          "id": "hello-christmas-heavenly-peace-by-hill-country-line",
+          "title": "Heavenly Peace by Hill Country Line",
+          "artist": "Hello Christmas",
+          "album": "Hello Christmas",
+          "cover": "https://raw.githubusercontent.com/SteveP999/hello-christmas/main/images/covers/hello-christmas-heavenly-peace-by-hill-country-line-cover.png",
+          "audio": "https://www.dropbox.com/scl/fi/r7ls8q98meg4l1fynb1pq/hill-country-line-heavenly-peace-MP3-mastered.mp3?rlkey=t0b6tef89yym0dsf7jj5b5oi5&st=dqsq49b4&raw=1",
+          "artistId": "hello-christmas"
         }
       ]
     },
@@ -6647,7 +7129,7 @@
           "artist": "September Skies",
           "album": "One Move at a Time",
           "cover": "https://raw.githubusercontent.com/SteveP999/september-skies/main/images/covers/september-skies-carry-us-all-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/ebukfwu33czjwe6iz9c9i/september-skies-carry-us-all-mp3.mp3?rlkey=xsb87txnxu8kf7zspt5dd9apt&raw=1",
+          "audio": "https://www.dropbox.com/scl/fi/8a9x2brpus2kf36ceyjjm/september-skies-carry-us-all-MP3-mastered.mp3?rlkey=gwjktfonpnlfai2axx6t9j76g&raw=1",
           "artistId": "september-skies"
         },
         {
@@ -6931,7 +7413,7 @@
           "artist": "Daniel Kincaid",
           "album": "Running Out of Reasons",
           "cover": "https://raw.githubusercontent.com/SteveP999/Daniel-Kincaid/main/images/covers/daniel-kincaid-still-falling-for-you-cover.png",
-          "audio": "https://www.dropbox.com/scl/fi/kkjsw6yz5pplf3tmx3yjk/daniel-kincaid-still-falling-for-you-studio-mp3.mp3?rlkey=k5ybq1kclxxv9kixabf96vmhy&raw=1",
+          "audio": "https://www.dropbox.com/scl/fi/3c1oo9f6zjfxl0yraa1t4/daniel-kincaid-still-falling-for-you-mp3.mp3?rlkey=mrcc4qytm5r7v8ux8rxxgps7b&raw=1",
           "artistId": "daniel-kincaid"
         },
         {
@@ -7521,7 +8003,7 @@
           "artist": "Vincent Cole",
           "album": "Another Round",
           "cover": "https://raw.githubusercontent.com/SteveP999/Vincent-Cole/main/images/covers/vincent-cole-buy-the-moon-another-round-cover.png",
-          "audio": "",
+          "audio": "https://www.dropbox.com/scl/fi/x8ds24yuu3bware1uogdg/Buy-the-Moon-Another-Round-MP3-mastered.mp3?rlkey=tji79kqyjdcik1re18o7thmiy&raw=1",
           "artistId": "vincent-cole"
         },
         {
